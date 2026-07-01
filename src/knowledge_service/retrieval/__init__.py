@@ -4,6 +4,7 @@ from .interfaces import KnowledgeQuery, RetrievalResult, RetrievalWarning, Retri
 from .retriever import KnowledgeRetrieverImpl, RetrievalMetrics
 from .validation import RetrievalValidator
 from .hierarchy import assemble_hierarchy
+from .quotes import CitationResult, search_quotes
 
 __all__ = [
     "KnowledgeRetrieverImpl",
@@ -19,4 +20,6 @@ __all__ = [
     "QueryFilter",
     "RetrievalValidator",
     "assemble_hierarchy",
+    "CitationResult",
+    "search_quotes",
 ]

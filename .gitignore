@@ -37,3 +37,35 @@ build/
 
 # Temporary
 tmp/
+runtime_evidence/
+
+state/
+
+frontend/archive/
+
+frontend/latest.html
+
+frontend/latest.md
+
+frontend/data/latest.json
+
+.env.local
+
+*.log
+
+runtime_evidence/
+
+state/
+
+frontend/archive/
+
+frontend/latest.html
+
+frontend/latest.md
+
+frontend/data/latest.json
+
+.env.local
+
+*.log
+

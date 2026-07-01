@@ -420,8 +420,21 @@ class KnowledgeRetrieverImpl:
             elif f.operator == "in":
                 if hasattr(f.value, '__iter__') and not isinstance(f.value, str):
                     result = [ko for ko in result if getattr(ko, f.field, None) in f.value]
+            elif f.operator == "contains":
+                result = [ko for ko in result if self._contains_filter_value(getattr(ko, f.field, None), f.value)]
 
         return result
+
+    def _contains_filter_value(self, current: Any, expected: Any) -> bool:
+        if current is None:
+            return False
+        if isinstance(current, str):
+            return str(expected) in current
+        if isinstance(current, dict):
+            return expected in current.values() or expected in current.keys()
+        if hasattr(current, "__iter__"):
+            return expected in current
+        return False
 
     def _apply_sorting(self, objs: List[KnowledgeObject],
                        query: KnowledgeQuery) -> List[KnowledgeObject]:

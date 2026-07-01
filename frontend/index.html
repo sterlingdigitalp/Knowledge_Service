@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Morning Intelligence</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="masthead">
+        <div>
+          <p class="kicker">Morning Intelligence</p>
+          <h1 id="brief-title">Morning Intelligence</h1>
+          <div class="meta-line" id="brief-meta">Loading brief</div>
+        </div>
+        <div class="document-controls">
+          <label class="date-picker">
+            <span class="sr-only">Brief date</span>
+            <select id="brief-date" aria-label="Brief date"></select>
+          </label>
+          <a href="#profiles" data-route="profiles" class="profiles-link">Profiles</a>
+        </div>
+      </header>
+
+      <main>
+        <section id="brief-screen" class="screen is-active" aria-labelledby="brief-title">
+          <div class="brief-actions">
+            <button type="button" class="copy-primary" data-copy-brief>Copy Entire Brief</button>
+            <span id="copy-status" role="status" aria-live="polite"></span>
+          </div>
+          <article id="brief-content" class="brief-document"></article>
+        </section>
+
+        <section id="profiles-screen" class="screen" aria-labelledby="profiles-title">
+          <article class="profiles-document">
+            <header class="profiles-head">
+              <p class="kicker">Intelligence Profiles</p>
+              <h2 id="profiles-title">Intelligence Profiles</h2>
+              <a href="#brief" data-route="brief" class="return-link">Morning Intelligence</a>
+            </header>
+            <div id="profiles-content"></div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

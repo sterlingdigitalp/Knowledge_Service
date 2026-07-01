@@ -148,6 +148,38 @@ class TestKnowledgeObjectSerialization:
         assert restored.raw_content_hash == original.raw_content_hash
         assert restored.content_hash == original.content_hash
 
+    def test_transcript_citation_roundtrip(self):
+        original = KnowledgeObject(
+            id="transcript-citation-test",
+            type=KnowledgeType.CHUNK,
+            source_id="episode-1",
+            source_url="https://www.youtube.com/watch?v=abc123",
+            source_type=SourceType.VIDEO_TRANSCRIPT,
+            markdown="Tariffs are a tax on consumers.",
+            raw_content_hash="raw-hash",
+            content_hash="content-hash",
+            citations=[Citation(
+                target_id="episode-1",
+                target_url="https://www.youtube.com/watch?v=abc123&t=12s",
+                citation_type=CitationType.SUPPORTING_EVIDENCE,
+                start_seconds=12.0,
+                end_seconds=20.0,
+                segment_id="segment-1",
+                quote="Tariffs are a tax on consumers.",
+                speaker="Bill Ackman",
+                speaker_confidence=1.0,
+                transcript_confidence=0.95,
+                surrounding_context="Host question. Tariffs are a tax on consumers.",
+            )],
+        )
+
+        restored = KnowledgeObject.from_dict(original.to_dict())
+
+        assert restored.citations[0].quote == "Tariffs are a tax on consumers."
+        assert restored.citations[0].speaker == "Bill Ackman"
+        assert restored.citations[0].start_seconds == 12.0
+        assert restored.citations[0].target_url.endswith("t=12s")
+
     def test_from_dict_preserves_unknown_fields(self):
         d = {
             "id": "test-001",

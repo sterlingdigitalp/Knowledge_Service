@@ -1,0 +1,1243 @@
+{
+  "profiles": [
+    {
+      "color": "#3b82f6",
+      "created_at": "2026-07-01T08:04:41Z",
+      "description": "AI systems, coding, datacenters, inference, agents, and enterprise AI.",
+      "enabled": true,
+      "icon": "brain",
+      "interests": [
+        "AI",
+        "Coding",
+        "Datacenters",
+        "Inference",
+        "Agents",
+        "Enterprise AI",
+        "AGI",
+        "ML systems"
+      ],
+      "metadata": {
+        "recurring_sources": [
+          {
+            "enabled": true,
+            "inclusion_rationale": "Primary product, safety, and research announcements from OpenAI.",
+            "name": "OpenAI Blog",
+            "priority": 9,
+            "source_id": "openai_blog",
+            "source_type": "company_blog",
+            "url": "https://openai.com/blog"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Model releases, safety research, and enterprise positioning from Anthropic.",
+            "name": "Anthropic News",
+            "priority": 9,
+            "source_id": "anthropic_news",
+            "source_type": "company_blog",
+            "url": "https://www.anthropic.com/news"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Annual keynotes and sessions defining AI hardware/software roadmaps.",
+            "name": "NVIDIA GTC",
+            "priority": 8,
+            "source_id": "nvidia_gtc",
+            "source_type": "conference",
+            "url": "https://www.nvidia.com/gtc/"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Flagship ML research conference; papers and invited talks set field direction.",
+            "name": "NeurIPS",
+            "priority": 8,
+            "source_id": "neurips",
+            "source_type": "conference",
+            "url": "https://neurips.cc/"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Enterprise developer conference for Copilot, Azure AI, and Windows AI integrations.",
+            "name": "Microsoft Build",
+            "priority": 8,
+            "source_id": "microsoft_build",
+            "source_type": "conference",
+            "url": "https://build.microsoft.com/"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Startup AI adoption patterns, batch trends, and operator essays from YC.",
+            "name": "Y Combinator Blog",
+            "priority": 7,
+            "source_id": "ycombinator_blog",
+            "source_type": "company_blog",
+            "url": "https://www.ycombinator.com/blog"
+          }
+        ],
+        "watch_universe_version": "v1"
+      },
+      "name": "AI",
+      "podcasts": {
+        "ignore": [],
+        "optional": [
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "optional",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "a16z AI podcast; founder and investor lens on model companies and applications.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "No Priors",
+            "polling_interval_seconds": 3600,
+            "priority": 8,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/no-priors"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "optional",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "NYT technology desk; timely synthesis of consumer and policy AI news.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "Hard Fork",
+            "polling_interval_seconds": 3600,
+            "priority": 7,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/hard-fork"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "optional",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Infrastructure and applied AI deployments across industry verticals.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "The AI Podcast (NVIDIA)",
+            "polling_interval_seconds": 7200,
+            "priority": 7,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/the-ai-podcast-nvidia"
+          }
+        ],
+        "required": [
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "required",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Highest-density long-form interviews with AI researchers, executives, and economists.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "Dwarkesh Podcast",
+            "polling_interval_seconds": 1800,
+            "priority": 10,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/dwarkesh-podcast"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "required",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Canonical long-form venue for frontier AI leaders and scientists.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "Lex Fridman Podcast",
+            "polling_interval_seconds": 3600,
+            "priority": 9,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/lex-fridman-podcast"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "required",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "AI engineering and applied research community; strong operator and researcher guest mix.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "Latent Space",
+            "polling_interval_seconds": 3600,
+            "priority": 9,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/latent-space"
+          }
+        ]
+      },
+      "profile_id": "ai",
+      "updated_at": "2026-07-01T08:04:41Z",
+      "watch_list": [
+        {
+          "aliases": [
+            "sama"
+          ],
+          "display_name": "Sam Altman",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "OpenAI CEO; primary public voice on frontier model deployment, product strategy, and industry direction."
+          },
+          "organization": "OpenAI",
+          "priority": 10,
+          "source_handles": {
+            "x": "sama"
+          }
+        },
+        {
+          "aliases": [],
+          "display_name": "Satya Nadella",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Microsoft CEO; highest-signal enterprise AI adoption narrative across Azure, Copilot, and OpenAI partnership."
+          },
+          "organization": "Microsoft",
+          "priority": 9,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Dario Amodei",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Anthropic CEO; leading voice on scaling laws, constitutional AI, and competitive frontier lab strategy."
+          },
+          "organization": "Anthropic",
+          "priority": 9,
+          "source_handles": {}
+        },
+        {
+          "aliases": [
+            "karpathy"
+          ],
+          "display_name": "Andrej Karpathy",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Practitioner-educator bridging research and production ML systems; high signal on agents, data, and training stacks."
+          },
+          "organization": null,
+          "priority": 9,
+          "source_handles": {
+            "x": "karpathy"
+          }
+        },
+        {
+          "aliases": [],
+          "display_name": "Fei-Fei Li",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Stanford HAI co-director; policy, human-centered AI, and institutional research leadership."
+          },
+          "organization": "Stanford HAI",
+          "priority": 8,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Jensen Huang",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "NVIDIA CEO; definitive source on AI compute, networking, and infrastructure buildout."
+          },
+          "organization": "NVIDIA",
+          "priority": 9,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Demis Hassabis",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "DeepMind CEO; AGI research direction, AlphaFold-era science, and Google AI integration."
+          },
+          "organization": "Google DeepMind",
+          "priority": 8,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Yann LeCun",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Meta Chief AI Scientist; open research, world models, and public debate on AI architecture."
+          },
+          "organization": "Meta",
+          "priority": 8,
+          "source_handles": {
+            "x": "ylecun"
+          }
+        },
+        {
+          "aliases": [],
+          "display_name": "Ilya Sutskever",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "SSI co-founder; foundational model research lineage and post-OpenAI superintelligence focus."
+          },
+          "organization": "Safe Superintelligence",
+          "priority": 9,
+          "source_handles": {}
+        },
+        {
+          "aliases": [
+            "3Blue1Brown"
+          ],
+          "display_name": "Grant Sanderson",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "3Blue1Brown creator; unusually clear explanations at the math\u2013ML boundary for technical audiences."
+          },
+          "organization": null,
+          "priority": 7,
+          "source_handles": {}
+        }
+      ]
+    },
+    {
+      "color": "#22c55e",
+      "created_at": "2026-07-01T08:04:41Z",
+      "description": "Markets, capital allocation, technology investing, and macro debates.",
+      "enabled": true,
+      "icon": "chart",
+      "interests": [
+        "investing",
+        "markets",
+        "AI",
+        "China",
+        "macro",
+        "venture capital",
+        "public equities"
+      ],
+      "metadata": {
+        "recurring_sources": [
+          {
+            "enabled": true,
+            "inclusion_rationale": "Institutional risk framework and cycle positioning from Oaktree.",
+            "name": "Howard Marks Memos",
+            "priority": 10,
+            "source_id": "howard_marks_memos",
+            "source_type": "newsletter",
+            "url": "https://www.oaktreecapital.com/insights/memos"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Primary Buffett/Munger capital allocation doctrine, annually updated.",
+            "name": "Berkshire Hathaway Shareholder Letters",
+            "priority": 10,
+            "source_id": "berkshire_letters",
+            "source_type": "company_letters",
+            "url": "https://www.berkshirehathaway.com/letters/letters.html"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Venture firm research on AI, fintech, and market maps.",
+            "name": "a16z Blog",
+            "priority": 8,
+            "source_id": "a16z_blog",
+            "source_type": "company_blog",
+            "url": "https://a16z.com/"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Investor letters, founder profiles, and archival business biographies.",
+            "name": "Colossus",
+            "priority": 8,
+            "source_id": "colossus",
+            "source_type": "media",
+            "url": "https://joincolossus.com/"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Independent macro and credit analysis respected by institutional investors.",
+            "name": "Grant's Interest Rate Observer",
+            "priority": 8,
+            "source_id": "grants_pub",
+            "source_type": "newsletter",
+            "url": "https://www.grantspub.com/"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Disruptive innovation models with explicit AI and automation forecasts.",
+            "name": "ARK Invest Research",
+            "priority": 7,
+            "source_id": "ark_research",
+            "source_type": "research",
+            "url": "https://ark-invest.com/articles/"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Bill Ackman's detailed activist theses and portfolio commentary.",
+            "name": "Pershing Square Holdings Letters",
+            "priority": 8,
+            "source_id": "pershing_letters",
+            "source_type": "company_letters",
+            "url": "https://www.pershingsquareholdings.com/letters"
+          }
+        ],
+        "watch_universe_version": "v1"
+      },
+      "name": "Investing",
+      "podcasts": {
+        "ignore": [],
+        "optional": [
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "optional",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Bloomberg markets desk; macro plumbing, Fed policy, and market structure.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "Odd Lots",
+            "polling_interval_seconds": 3600,
+            "priority": 8,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/odd-lots"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "optional",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Brad Gerstner and Bill Gurley on venture cycles, AI, and public tech.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "BG2 Pod",
+            "polling_interval_seconds": 3600,
+            "priority": 8,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/bg2-pod-with-brad-gerstner-and-bill-gurley"
+          }
+        ],
+        "required": [
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "required",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Weekly macro, policy, and technology investing debate among active operators.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "All-In Podcast",
+            "polling_interval_seconds": 1800,
+            "priority": 10,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/all-in-with-chamath-jason-sacks-friedberg"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "required",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Deep investor and founder interviews from Patrick O'Shaughnessy's network.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "Invest Like the Best",
+            "polling_interval_seconds": 3600,
+            "priority": 9,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/invest-like-the-best"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "required",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Canonical company deep dives for quality-of-business and moat analysis.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "Acquired",
+            "polling_interval_seconds": 3600,
+            "priority": 9,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/acquired"
+          }
+        ]
+      },
+      "profile_id": "investing",
+      "updated_at": "2026-07-01T08:04:41Z",
+      "watch_list": [
+        {
+          "aliases": [],
+          "display_name": "Bill Ackman",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Activist investor with detailed public macro and corporate governance theses."
+          },
+          "organization": "Pershing Square",
+          "priority": 9,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Warren Buffett",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Definitive long-term capital allocation framework via annual letters and Berkshire meetings."
+          },
+          "organization": "Berkshire Hathaway",
+          "priority": 10,
+          "source_handles": {}
+        },
+        {
+          "aliases": [
+            "Patrick O\u2019Shaughnessy"
+          ],
+          "display_name": "Patrick O'Shaughnessy",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Colossus founder; high-quality investor and operator interviews across public and private markets."
+          },
+          "organization": null,
+          "priority": 9,
+          "source_handles": {
+            "x": "patrick_oshag"
+          }
+        },
+        {
+          "aliases": [],
+          "display_name": "Marc Andreessen",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "a16z co-founder; technology cycle framing and venture-scale company building."
+          },
+          "organization": "a16z",
+          "priority": 9,
+          "source_handles": {
+            "x": "pmarca"
+          }
+        },
+        {
+          "aliases": [],
+          "display_name": "Chamath Palihapitiya",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "All-In co-host; macro, rates, and technology investing debates with high reach."
+          },
+          "organization": "Social Capital",
+          "priority": 8,
+          "source_handles": {
+            "x": "chamath"
+          }
+        },
+        {
+          "aliases": [],
+          "display_name": "David Einhorn",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Contrarian value investor; detailed forensic equity and macro commentary."
+          },
+          "organization": "Greenlight Capital",
+          "priority": 8,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Stanley Druckenmiller",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Legendary macro trader; regime-change and liquidity signals from rare public appearances."
+          },
+          "organization": null,
+          "priority": 9,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Howard Marks",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Credit cycle and risk memos that anchor institutional investing psychology."
+          },
+          "organization": "Oaktree Capital",
+          "priority": 9,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Cathie Wood",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Disruptive innovation research with explicit AI and genomics theses."
+          },
+          "organization": "ARK Invest",
+          "priority": 7,
+          "source_handles": {
+            "x": "CathieDWood"
+          }
+        },
+        {
+          "aliases": [
+            "sama"
+          ],
+          "display_name": "Sam Altman",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Technology investor-operator lens on AI capex, startups, and platform shifts."
+          },
+          "organization": "OpenAI",
+          "priority": 8,
+          "source_handles": {
+            "x": "sama"
+          }
+        }
+      ]
+    },
+    {
+      "color": "#f59e0b",
+      "created_at": "2026-07-01T08:04:41Z",
+      "description": "Company building, founder biographies, and operating lessons.",
+      "enabled": true,
+      "icon": "spark",
+      "interests": [
+        "founders",
+        "company building",
+        "biography",
+        "business",
+        "operations",
+        "culture"
+      ],
+      "metadata": {
+        "recurring_sources": [
+          {
+            "enabled": true,
+            "inclusion_rationale": "Startup formation patterns, batch trends, and founder advice.",
+            "name": "Y Combinator Blog",
+            "priority": 8,
+            "source_id": "ycombinator_blog",
+            "source_type": "company_blog",
+            "url": "https://www.ycombinator.com/blog"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Tactical essays on hiring, product, and early go-to-market.",
+            "name": "First Round Review",
+            "priority": 8,
+            "source_id": "first_round_review",
+            "source_type": "company_blog",
+            "url": "https://review.firstround.com/"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Builder-focused market maps and operating frameworks.",
+            "name": "a16z Blog",
+            "priority": 7,
+            "source_id": "a16z_blog",
+            "source_type": "company_blog",
+            "url": "https://a16z.com/"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Ben Thompson's aggregation theory and platform strategy analysis.",
+            "name": "Stratechery",
+            "priority": 9,
+            "source_id": "stratechery",
+            "source_type": "newsletter",
+            "url": "https://stratechery.com/"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Operator keynotes on internet economy infrastructure and scaling.",
+            "name": "Stripe Sessions",
+            "priority": 7,
+            "source_id": "stripe_sessions",
+            "source_type": "conference",
+            "url": "https://stripe.com/sessions"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "B2B SaaS operator conference for GTM and leadership lessons.",
+            "name": "SaaStr Annual",
+            "priority": 7,
+            "source_id": "saastr_annual",
+            "source_type": "conference",
+            "url": "https://www.saastrannual.com/"
+          }
+        ],
+        "watch_universe_version": "v1"
+      },
+      "name": "Founders",
+      "podcasts": {
+        "ignore": [],
+        "optional": [
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "optional",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Product and growth operators sharing playbooks for scaling teams.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "Lenny's Podcast",
+            "polling_interval_seconds": 3600,
+            "priority": 8,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/lennys-podcast"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "optional",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Reid Hoffman's venue for scaling tactics from iconic founders.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "Masters of Scale",
+            "polling_interval_seconds": 3600,
+            "priority": 7,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/masters-of-scale"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "optional",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "NPR founder narratives with early-stage struggle and pivot detail.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "How I Built This",
+            "polling_interval_seconds": 7200,
+            "priority": 7,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/how-i-built-this"
+          }
+        ],
+        "required": [
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "required",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "David Senra's biography-driven operating lessons from history's greatest builders.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "Founders",
+            "polling_interval_seconds": 86400,
+            "priority": 10,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/founders"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "required",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Operator and founder interviews with implementation detail.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "Invest Like the Best",
+            "polling_interval_seconds": 3600,
+            "priority": 8,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/invest-like-the-best"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "required",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Company creation stories with strategic and financial depth.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "Acquired",
+            "polling_interval_seconds": 3600,
+            "priority": 9,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/acquired"
+          }
+        ]
+      },
+      "profile_id": "founders",
+      "updated_at": "2026-07-01T08:04:41Z",
+      "watch_list": [
+        {
+          "aliases": [],
+          "display_name": "Steve Jobs",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Reference founder for product taste, distribution, and category creation."
+          },
+          "organization": "Apple",
+          "priority": 9,
+          "source_handles": {}
+        },
+        {
+          "aliases": [
+            "Patrick O\u2019Shaughnessy"
+          ],
+          "display_name": "Patrick O'Shaughnessy",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Investor who systematically studies great operators and capital allocators."
+          },
+          "organization": null,
+          "priority": 8,
+          "source_handles": {
+            "x": "patrick_oshag"
+          }
+        },
+        {
+          "aliases": [
+            "sama"
+          ],
+          "display_name": "Sam Altman",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "YC-era operator playbook applied to frontier AI company building."
+          },
+          "organization": "OpenAI",
+          "priority": 9,
+          "source_handles": {
+            "x": "sama"
+          }
+        },
+        {
+          "aliases": [],
+          "display_name": "Satya Nadella",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Enterprise transformation case study: cloud pivot, culture reset, AI platform."
+          },
+          "organization": "Microsoft",
+          "priority": 8,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Marc Andreessen",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Software-eats-the-world thesis and venture-scale company formation."
+          },
+          "organization": "a16z",
+          "priority": 8,
+          "source_handles": {
+            "x": "pmarca"
+          }
+        },
+        {
+          "aliases": [],
+          "display_name": "Reid Hoffman",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Blitzscaling and network-effects operator; Masters of Scale host."
+          },
+          "organization": "Greylock",
+          "priority": 8,
+          "source_handles": {
+            "x": "reidhoffman"
+          }
+        },
+        {
+          "aliases": [],
+          "display_name": "Jeff Bezos",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Customer obsession, flywheel economics, and annual shareholder letter doctrine."
+          },
+          "organization": "Amazon",
+          "priority": 9,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Brian Chesky",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Live operator updates on product, management systems, and travel platform strategy."
+          },
+          "organization": "Airbnb",
+          "priority": 8,
+          "source_handles": {
+            "x": "bchesky"
+          }
+        },
+        {
+          "aliases": [],
+          "display_name": "Soichiro Honda",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Manufacturing founder archetype studied via Founders podcast canon."
+          },
+          "organization": "Honda",
+          "priority": 7,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Elon Musk",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Multi-company operator with high-signal product and manufacturing announcements."
+          },
+          "organization": "Tesla",
+          "priority": 8,
+          "source_handles": {
+            "x": "elonmusk"
+          }
+        }
+      ]
+    },
+    {
+      "color": "#ef4444",
+      "created_at": "2026-07-01T08:04:41Z",
+      "description": "Healthspan, performance, metabolic health, and translational medicine.",
+      "enabled": true,
+      "icon": "pulse",
+      "interests": [
+        "longevity",
+        "muscle",
+        "GLP-1",
+        "metabolic",
+        "healthspan",
+        "cardiovascular",
+        "sleep",
+        "nutrition"
+      ],
+      "metadata": {
+        "recurring_sources": [
+          {
+            "enabled": true,
+            "inclusion_rationale": "Independent supplement and nutrition evidence summaries.",
+            "name": "Examine.com",
+            "priority": 9,
+            "source_id": "examine",
+            "source_type": "research",
+            "url": "https://examine.com/"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Newsletter, show notes, and clinical frameworks from Attia's practice.",
+            "name": "Peter Attia MD",
+            "priority": 9,
+            "source_id": "peter_attia_site",
+            "source_type": "company_blog",
+            "url": "https://peterattiamd.com/"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Industry news on aging therapeutics, clinics, and trials.",
+            "name": "Longevity.Technology",
+            "priority": 7,
+            "source_id": "longevity_technology",
+            "source_type": "media",
+            "url": "https://longevity.technology/"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "NIH aging research funding, trials, and public guidance.",
+            "name": "National Institute on Aging News",
+            "priority": 8,
+            "source_id": "nia_news",
+            "source_type": "research",
+            "url": "https://www.nia.nih.gov/news"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Blood biomarker interpretation for performance and healthspan.",
+            "name": "InsideTracker Blog",
+            "priority": 6,
+            "source_id": "insidetracker_blog",
+            "source_type": "company_blog",
+            "url": "https://www.insidetracker.com/blog"
+          },
+          {
+            "enabled": true,
+            "inclusion_rationale": "Large longevity medicine conference for clinical practice trends.",
+            "name": "A4M World Congress",
+            "priority": 6,
+            "source_id": "a4m",
+            "source_type": "conference",
+            "url": "https://www.a4m.com/"
+          }
+        ],
+        "watch_universe_version": "v1"
+      },
+      "name": "Longevity",
+      "podcasts": {
+        "ignore": [],
+        "optional": [
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "optional",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Evidence-based nutrition debates relevant to metabolic health.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "The Proof with Simon Hill",
+            "polling_interval_seconds": 7200,
+            "priority": 7,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/the-proof-with-simon-hill"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "optional",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Aging biology explanations and intervention updates from Sinclair.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "Lifespan with Dr. David Sinclair",
+            "polling_interval_seconds": 7200,
+            "priority": 7,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/lifespan-with-dr-david-sinclair"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "optional",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Functional medicine interviews on metabolic and policy topics.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "The Doctor's Farmacy with Mark Hyman",
+            "polling_interval_seconds": 7200,
+            "priority": 6,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/the-doctors-farmacy-with-mark-hyman"
+          }
+        ],
+        "required": [
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "required",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Primary clinical longevity venue with deep expert interviews.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "The Peter Attia Drive",
+            "polling_interval_seconds": 86400,
+            "priority": 10,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/the-peter-attia-drive"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "required",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Neuroscience-based performance and healthspan protocols.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "Huberman Lab",
+            "polling_interval_seconds": 3600,
+            "priority": 9,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/huberman-lab"
+          },
+          {
+            "discovery_mode": "podscripts",
+            "enabled": true,
+            "episode_urls": [],
+            "kind": "required",
+            "max_episodes": 3,
+            "metadata": {
+              "inclusion_rationale": "Rhonda Patrick's venue for nutrition, aging, and mechanistic studies.",
+              "role": "acquisition_route",
+              "source_type": "podcast"
+            },
+            "name": "FoundMyFitness",
+            "polling_interval_seconds": 3600,
+            "priority": 9,
+            "transcript_source": "published",
+            "url": "https://podscripts.co/podcasts/foundmyfitness"
+          }
+        ]
+      },
+      "profile_id": "longevity",
+      "updated_at": "2026-07-01T08:04:41Z",
+      "watch_list": [
+        {
+          "aliases": [],
+          "display_name": "Peter Attia",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Clinician-researcher anchor for longevity protocols and risk stratification."
+          },
+          "organization": null,
+          "priority": 10,
+          "source_handles": {
+            "x": "PeterAttiaMD"
+          }
+        },
+        {
+          "aliases": [],
+          "display_name": "Tom Dayspring",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Lipidology specialist; high-signal collaborator on cardiovascular prevention."
+          },
+          "organization": null,
+          "priority": 8,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Andrew Huberman",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Neuroscience protocols for sleep, performance, and behavioral interventions."
+          },
+          "organization": "Stanford",
+          "priority": 9,
+          "source_handles": {
+            "x": "hubermanlab"
+          }
+        },
+        {
+          "aliases": [],
+          "display_name": "Rhonda Patrick",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Translational nutrition and aging research communicator with primary literature depth."
+          },
+          "organization": "FoundMyFitness",
+          "priority": 9,
+          "source_handles": {
+            "x": "foundmyfitness"
+          }
+        },
+        {
+          "aliases": [],
+          "display_name": "David Sinclair",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Aging biology researcher; NAD+ and epigenetic reprogramming discourse."
+          },
+          "organization": "Harvard Medical School",
+          "priority": 8,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Mark Hyman",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Functional medicine lens on metabolic health and policy-access debates."
+          },
+          "organization": "Cleveland Clinic Center for Functional Medicine",
+          "priority": 7,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Valter Longo",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Fasting-mimicking diet and longevity nutrition clinical research."
+          },
+          "organization": "USC Longevity Institute",
+          "priority": 8,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Steven Austad",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Geroscience researcher on comparative aging and intervention realism."
+          },
+          "organization": "University of Alabama at Birmingham",
+          "priority": 7,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "George Church",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "Genomics pioneer; gene therapy and multiplex editing for aging targets."
+          },
+          "organization": "Harvard",
+          "priority": 8,
+          "source_handles": {}
+        },
+        {
+          "aliases": [],
+          "display_name": "Bryan Johnson",
+          "enabled": true,
+          "metadata": {
+            "inclusion_rationale": "N-of-1 longevity experimentation with open biomarker tracking."
+          },
+          "organization": "Blueprint",
+          "priority": 7,
+          "source_handles": {
+            "x": "bryan_johnson"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -68,8 +68,8 @@ class AcquisitionExecutor:
                 continue
 
             if step.provider_type == ProviderType.CRAWL and step.step_id == "crawl-1":
-                # Use URLs from search results only
-                targets = urls_to_crawl
+                # Use search-discovered URLs when available; otherwise allow direct crawl plans.
+                targets = urls_to_crawl if urls_to_crawl else [step.target]
             else:
                 targets = [step.target]
 
@@ -96,11 +96,12 @@ class AcquisitionExecutor:
                                 bundle.add_discovered_url(url)
                                 urls_to_crawl.append(url)
 
-                    if step.provider_type == ProviderType.CRAWL:
-                        # Extract document from crawl response
+                    if step.provider_type in {ProviderType.CRAWL, ProviderType.API, ProviderType.FILE_PROCESSOR}:
+                        # Extract document-like content from provider responses.
                         content = response_data.get("content", "")
+                        metadata = response_data.get("metadata", {}) or {}
                         content_type = response_data.get("content_type", "text/html")
-                        url = response_data.get("metadata", {}).get("url", target)
+                        url = metadata.get("source_url") or metadata.get("url", target)
 
                         if content:
                             doc = DocumentRecord(
@@ -111,6 +112,8 @@ class AcquisitionExecutor:
                                 raw_content=content,
                                 content_size_bytes=len(content.encode("utf-8")),
                                 acquired_at=bundle.acquisition_timestamp,
+                                metadata=metadata,
+                                source_type=metadata.get("source_type", "web_page"),
                             )
                             bundle.add_document(doc)
 

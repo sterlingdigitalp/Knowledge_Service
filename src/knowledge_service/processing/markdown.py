@@ -8,6 +8,7 @@ import re
 import hashlib
 from typing import Dict, Any
 from .context import ProcessingContext, StageResult
+from .transcript import is_transcript_document
 
 
 LIST_ITEM_RE = re.compile(r"^(\s*)[-*+]\s+(.*)", re.MULTILINE)
@@ -23,6 +24,14 @@ class MarkdownStage:
         content = context.normalized_content or context.cleaned_content
         if not content:
             context.stage_results["markdown"] = StageResult("markdown", True, confidence_impact=-0.15, warnings=["No content for markdown conversion"])
+            return context
+
+        if is_transcript_document(context.document):
+            context.markdown = content
+            context.word_count = self._count_words(content)
+            context.raw_content_hash = hashlib.sha256(context.raw_content.encode("utf-8")).hexdigest()
+            context.content_hash = hashlib.sha256(content.encode("utf-8")).hexdigest()
+            context.stage_results["markdown"] = StageResult("markdown", True, confidence_impact=0.0)
             return context
 
         preserve_code = config.get("preserve_code_formatting", True)

@@ -7,7 +7,7 @@ from typing import Dict, Any, List, Optional
 from ..acquisition.acquisition_bundle import AcquisitionBundle
 from ..knowledge_object import (
     KnowledgeObject, KnowledgeType, SourceType, AcquisitionRecord,
-    ProviderType, AcquisitionStatus, CitationType,
+    ProviderType, AcquisitionStatus, CitationType, Citation,
 )
 from .context import ProcessingContext
 from .clean import CleanStage
@@ -68,7 +68,9 @@ class Pipeline:
         if not doc:
             return kobjects
 
-        source_id = doc.provider_name if doc.provider_name else (bundle.request_id if bundle else "unknown")
+        doc_metadata = dict(getattr(doc, "metadata", {}) or {})
+        source_type = self._map_source_type(getattr(doc, "source_type", "web_page"), doc_metadata, doc.content_type)
+        source_id = self._source_id(doc, bundle, doc_metadata, source_type)
         source_url = doc.url
         acquired_at = doc.acquired_at
 
@@ -87,14 +89,19 @@ class Pipeline:
                 )
                 acquisition_records.append(ar)
 
+        doc_structured_data = self._document_structured_data(ctx, doc_metadata, source_type)
+        doc_citations = self._build_citations(ctx.citations)
+
         doc_ko = KnowledgeObject(
             type=KnowledgeType.DOCUMENT,
             source_id=source_id,
             source_url=source_url,
-            source_type=SourceType.WEB_PAGE,
+            source_type=source_type,
             acquired_at=acquired_at,
+            published_at=ctx.extracted_data.get("published_date"),
             updated_at=acquired_at,
             markdown=ctx.markdown or None,
+            structured_data=doc_structured_data,
             raw_content_hash=ctx.raw_content_hash,
             content_hash=ctx.content_hash,
             title=ctx.title,
@@ -104,28 +111,34 @@ class Pipeline:
             word_count=ctx.word_count,
             confidence=ctx.confidence,
             evidence_count=ctx.evidence_count,
+            citations=doc_citations,
             acquisition_chain=acquisition_records,
             storage_backend=self.config.get("storage_backend", "primary-store-01"),
         )
         kobjects.append(doc_ko)
 
         for chunk_data in ctx.chunks:
+            chunk_structured_data = self._chunk_structured_data(chunk_data, doc_metadata, source_type)
+            chunk_citations = self._build_citations(chunk_data.get("citations", []))
             chunk_ko = KnowledgeObject(
                 type=KnowledgeType.CHUNK,
                 source_id=source_id,
                 source_url=source_url,
-                source_type=SourceType.WEB_PAGE,
+                source_type=source_type,
                 acquired_at=acquired_at,
+                published_at=ctx.extracted_data.get("published_date"),
                 updated_at=acquired_at,
                 markdown=chunk_data["content"],
+                structured_data=chunk_structured_data,
                 raw_content_hash=ctx.raw_content_hash,
                 content_hash=chunk_data["content_hash"],
                 topics=ctx.topics,
                 word_count=chunk_data.get("word_count", 0),
-                confidence=ctx.confidence,
-                evidence_count=ctx.evidence_count,
+                confidence=chunk_data.get("confidence", ctx.confidence),
+                evidence_count=max(1, len(chunk_citations) or ctx.evidence_count),
+                citations=chunk_citations,
                 acquisition_chain=acquisition_records,
-                parent_id=chunk_data.get("parent_id"),
+                parent_id=chunk_data.get("parent_id") or doc_ko.id,
                 chunk_index=chunk_data.get("chunk_index"),
                 chunk_total=chunk_data.get("chunk_total"),
                 storage_backend=self.config.get("storage_backend", "primary-store-01"),
@@ -153,6 +166,82 @@ class Pipeline:
             "cached": AcquisitionStatus.CACHED,
         }
         return mapping.get(status, AcquisitionStatus.SUCCESS)
+
+    def _source_id(self, doc: Any, bundle: Optional[AcquisitionBundle], metadata: Dict[str, Any], source_type: SourceType) -> str:
+        if source_type == SourceType.VIDEO_TRANSCRIPT:
+            return (
+                metadata.get("transcript_id")
+                or metadata.get("episode_id")
+                or metadata.get("video_id")
+                or doc.document_id
+            )
+        return doc.provider_name if doc.provider_name else (bundle.request_id if bundle else "unknown")
+
+    def _map_source_type(self, source_type: str, metadata: Dict[str, Any], content_type: str) -> SourceType:
+        raw = metadata.get("source_type") or source_type
+        if raw == "video_transcript" or content_type in {"text/vtt", "text/srt", "application/x-subrip", "text/transcript"}:
+            return SourceType.VIDEO_TRANSCRIPT
+        try:
+            return SourceType(raw)
+        except Exception:
+            return SourceType.WEB_PAGE
+
+    def _build_citations(self, raw_citations: List[Dict[str, Any]]) -> List[Citation]:
+        citations: List[Citation] = []
+        for raw in raw_citations:
+            citation_type = raw.get("citation_type", "reference")
+            if not isinstance(citation_type, CitationType):
+                citation_type = CitationType(citation_type)
+            citations.append(Citation(
+                target_id=raw.get("target_id"),
+                target_url=raw.get("target_url"),
+                context=raw.get("context"),
+                citation_type=citation_type,
+                start_seconds=raw.get("start_seconds"),
+                end_seconds=raw.get("end_seconds"),
+                segment_id=raw.get("segment_id"),
+                quote=raw.get("quote"),
+                speaker=raw.get("speaker"),
+                speaker_confidence=raw.get("speaker_confidence"),
+                transcript_confidence=raw.get("transcript_confidence"),
+                surrounding_context=raw.get("surrounding_context"),
+                metadata=raw.get("metadata", {}),
+            ))
+        return citations
+
+    def _document_structured_data(self, ctx: ProcessingContext, metadata: Dict[str, Any], source_type: SourceType) -> Optional[Dict[str, Any]]:
+        if source_type != SourceType.VIDEO_TRANSCRIPT and not metadata and not ctx.extracted_data:
+            return None
+        structured: Dict[str, Any] = {
+            "metadata": metadata,
+            "extracted_data": ctx.extracted_data,
+        }
+        if source_type == SourceType.VIDEO_TRANSCRIPT:
+            structured.update({
+                "raw_transcript": ctx.raw_content,
+                "transcript_id": metadata.get("transcript_id") or metadata.get("episode_id") or metadata.get("video_id"),
+                "transcript_source": metadata.get("transcript_source"),
+                "acquisition_status": metadata.get("acquisition_status"),
+                "provider": metadata.get("provider"),
+                "show": metadata.get("show"),
+                "episode": metadata.get("episode"),
+                "episode_date": metadata.get("episode_date"),
+                "transcript_segments": ctx.extracted_data.get("transcript_segments", []),
+            })
+        return structured
+
+    def _chunk_structured_data(self, chunk_data: Dict[str, Any], metadata: Dict[str, Any], source_type: SourceType) -> Optional[Dict[str, Any]]:
+        if source_type != SourceType.VIDEO_TRANSCRIPT:
+            return {"heading_context": chunk_data.get("heading_context", "")} if chunk_data.get("heading_context") else None
+        keys = {
+            "transcript_chunk_id", "transcript_id", "speaker", "speaker_confidence",
+            "transcript_confidence", "timestamp_start", "timestamp_end",
+            "timestamp_start_label", "timestamp_end_label", "timestamped_source_url",
+            "surrounding_context", "segments", "segment_ids", "embedding",
+        }
+        structured = {key: chunk_data.get(key) for key in keys if key in chunk_data}
+        structured["metadata"] = metadata
+        return structured
 
     def _stage_confidence_impact(self, stage_name: str) -> float:
         impacts = {

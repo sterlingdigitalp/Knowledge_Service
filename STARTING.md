@@ -98,7 +98,7 @@ Principle 3
 
 Knowledge is standardized.
 
-Regardless of acquisition method every document becomes:
+Regardless of acquisition method, every document becomes:
 
 Document
 Metadata

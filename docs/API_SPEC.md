@@ -159,6 +159,51 @@ Retrieve knowledge objects by identifier or query.
 
 ---
 
+### Transcript Quote Retrieval
+
+Sprint 1 exposes quote retrieval in-process as `knowledge_service.retrieval.quotes.search_quotes()`. A future HTTP endpoint can wrap the same contract.
+
+**Python API:**
+
+```python
+results = search_quotes(
+    retriever,
+    query="tariffs",
+    speaker="Bill Ackman",
+    date_range=("2026-01-01T00:00:00Z", "2026-12-31T23:59:59Z"),
+    show="Capital Allocators",
+    limit=5,
+)
+```
+
+**Result schema:**
+
+```json
+{
+  "quote": "Tariffs are a tax on consumers and companies.",
+  "speaker": "Bill Ackman",
+  "speaker_confidence": 1.0,
+  "transcript_confidence": 0.95,
+  "show": "Capital Allocators",
+  "episode": "Bill Ackman on Tariffs",
+  "episode_date": "2026-06-20T00:00:00Z",
+  "timestamp_start": 12.0,
+  "timestamp_end": 20.0,
+  "timestamped_source_url": "https://www.youtube.com/watch?v=ackman-tariffs&t=12s",
+  "surrounding_context": "What did you recently say about tariffs? Tariffs are a tax on consumers and companies.",
+  "relevance_score": 0.437,
+  "confidence_metadata": {
+    "semantic_score": 0.408,
+    "recency_score": 0.96,
+    "confidence_score": 0.97
+  }
+}
+```
+
+Speaker filtering is a hard filter. Quotes must originate from stored transcript text, not summaries.
+
+---
+
 ### Knowledge Acquisition
 
 **POST /api/v1/knowledge/acquire**

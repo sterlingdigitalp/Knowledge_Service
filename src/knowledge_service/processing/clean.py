@@ -7,6 +7,7 @@ Output: cleaned content with markup removed, encoding normalized, artifacts stri
 import re
 from typing import Dict, Any
 from .context import ProcessingContext, StageResult
+from .transcript import is_transcript_document
 
 
 HTML_TAG_RE = re.compile(r"<[^>]+>")
@@ -33,6 +34,11 @@ class CleanStage:
         raw = context.raw_content
         if not raw:
             context.stage_results["clean"] = StageResult("clean", True, warnings=["Empty content"])
+            return context
+
+        if is_transcript_document(context.document):
+            context.cleaned_content = raw
+            context.stage_results["clean"] = StageResult("clean", True, confidence_impact=0.0)
             return context
 
         strip_scripts = config.get("strip_scripts", True)

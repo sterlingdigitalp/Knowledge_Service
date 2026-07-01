@@ -11,6 +11,7 @@ Contract derived from live infrastructure interrogation:
 import httpx
 import re
 from typing import Dict, Any, Optional
+from urllib.parse import urlparse
 from ..interfaces.provider import Provider, ProviderRequest, ProviderResponse, ProviderError, InitResult, HealthCheckResult, HealthStatus, ProviderType
 
 
@@ -129,6 +130,9 @@ class Crawl4AIProvider(Provider):
                 )
             
             if not response.is_success:
+                local_fallback = self._local_http_fallback(request.target, response.status_code)
+                if local_fallback is not None:
+                    return local_fallback
                 return ProviderResponse(
                     error=ProviderError(
                         code="SERVER_ERROR" if response.status_code >= 500 else "FORBIDDEN",
@@ -242,6 +246,31 @@ class Crawl4AIProvider(Provider):
                     recoverable=True
                 )
             )
+
+    def _local_http_fallback(self, target: str, upstream_status_code: int) -> Optional[ProviderResponse]:
+        parsed = urlparse(target)
+        if parsed.hostname not in {"127.0.0.1", "localhost"}:
+            return None
+
+        try:
+            response = httpx.get(target, timeout=5.0)
+        except Exception:
+            return None
+        if not response.is_success:
+            return None
+
+        content_type = response.headers.get("content-type", "text/html").split(";")[0]
+        return ProviderResponse(
+            content=response.text,
+            content_type=content_type,
+            status_code=response.status_code,
+            metadata={
+                "url": target,
+                "status_code": response.status_code,
+                "crawl4ai_status_code": upstream_status_code,
+                "cache_status": "local_http_fallback",
+            },
+        )
     
     def health(self) -> HealthCheckResult:
         """Check Crawl4AI service health via GET /health (verified endpoint)"""

@@ -30,6 +30,8 @@ class DocumentRecord:
     raw_content: str
     content_size_bytes: int
     acquired_at: str  # ISO 8601 timestamp
+    metadata: Dict[str, Any] = field(default_factory=dict)
+    source_type: str = "web_page"
 
 
 @dataclass

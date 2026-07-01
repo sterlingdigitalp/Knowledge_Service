@@ -8,6 +8,7 @@ import re
 from typing import Dict, Any, List, Optional
 from datetime import datetime
 from .context import ProcessingContext, StageResult
+from .transcript import is_transcript_document, parse_transcript, timestamped_source_url
 
 
 TITLE_RE = re.compile(r"^#\s+(.+)$", re.MULTILINE)
@@ -41,6 +42,26 @@ class ExtractStage:
         extract_authors = config.get("extract_authors", True)
 
         extracted: Dict[str, Any] = {}
+
+        if is_transcript_document(context.document):
+            metadata = dict(getattr(context.document, "metadata", {}) or {})
+            segments = parse_transcript(content, metadata)
+            context.title = metadata.get("episode") or metadata.get("title") or context.title
+            if metadata.get("authors"):
+                context.authors = list(metadata.get("authors", []))
+            if metadata.get("episode_date"):
+                context.extracted_data["published_date"] = metadata["episode_date"]
+                extracted["published_date"] = metadata["episode_date"]
+            extracted["transcript_segments"] = segments
+            extracted["transcript_segments_count"] = len(segments)
+            extracted["transcript_metadata"] = metadata
+            context.citations = self._extract_transcript_citations(segments, metadata)
+            if context.citations:
+                extracted["citations_count"] = len(context.citations)
+            context.extracted_data.update(extracted)
+            warnings = [] if segments else ["No transcript segments parsed"]
+            context.stage_results["extract"] = StageResult("extract", True, confidence_impact=0.0, warnings=warnings)
+            return context
 
         title = self._extract_title(content, context.normalized_metadata)
         if title:
@@ -132,3 +153,36 @@ class ExtractStage:
             url = m.group(0)
             citations.append({"target_url": url, "citation_type": "reference"})
         return citations[:50]
+
+    def _extract_transcript_citations(self, segments: List[Dict[str, Any]], metadata: Dict[str, Any]) -> List[Dict[str, Any]]:
+        transcript_id = metadata.get("transcript_id") or metadata.get("episode_id") or metadata.get("video_id")
+        source_url = metadata.get("source_url") or metadata.get("url")
+        transcript_confidence = metadata.get("transcript_confidence", 0.8)
+        citations: List[Dict[str, Any]] = []
+        for segment in segments[:500]:
+            start = segment.get("start_seconds")
+            end = segment.get("end_seconds")
+            text = segment.get("text")
+            citations.append({
+                "target_id": transcript_id,
+                "target_url": timestamped_source_url(source_url, start),
+                "context": text,
+                "citation_type": "supporting_evidence",
+                "start_seconds": start,
+                "end_seconds": end,
+                "segment_id": segment.get("segment_id"),
+                "quote": text,
+                "speaker": segment.get("speaker", "unknown"),
+                "speaker_confidence": segment.get("speaker_confidence", 0.0),
+                "transcript_confidence": transcript_confidence,
+                "surrounding_context": text,
+                "metadata": {
+                    "show": metadata.get("show"),
+                    "episode": metadata.get("episode"),
+                    "episode_date": metadata.get("episode_date"),
+                    "transcript_source": metadata.get("transcript_source"),
+                    "provider": metadata.get("provider"),
+                    "acquisition_status": metadata.get("acquisition_status"),
+                },
+            })
+        return citations

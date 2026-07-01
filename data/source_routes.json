@@ -1,0 +1,919 @@
+{
+  "sources": {
+    "a16z_blog": {
+      "canonical_name": "a16z Blog",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Technology investing and market maps.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "venture research articles"
+      ],
+      "url_patterns": [
+        "a16z\\.com"
+      ]
+    },
+    "a4m": {
+      "canonical_name": "A4M World Congress",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Clinical longevity medicine conference.",
+      "preferred_route": "youtube_transcript_api",
+      "reason": [
+        "longevity medicine conference sessions"
+      ],
+      "url_patterns": [
+        "a4m\\.com"
+      ]
+    },
+    "acquired": {
+      "canonical_name": "Acquired",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Company deep dives; Investing and Founders acquisition route.",
+      "name_aliases": [
+        "acquired podcast"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "company deep-dive transcripts"
+      ],
+      "url_patterns": [
+        "podcasts/acquired"
+      ]
+    },
+    "all_in": {
+      "canonical_name": "All-In Podcast",
+      "certification": {
+        "evidence": [
+          "published_transcript succeeded on podscripts All-In episodes during runtime certification"
+        ],
+        "status": "certified"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Macro and technology investing debate; Investing and Founders acquisition route.",
+      "name_aliases": [
+        "all in podcast",
+        "all-in"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts discovery URLs are complete and timestamped"
+      ],
+      "url_patterns": [
+        "all-in-with-chamath",
+        "allin\\.com"
+      ]
+    },
+    "anthropic_news": {
+      "canonical_name": "Anthropic News",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Anthropic model and safety releases.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "frontier lab news and research posts"
+      ],
+      "url_patterns": [
+        "anthropic\\.com/news"
+      ]
+    },
+    "ark_research": {
+      "canonical_name": "ARK Invest Research",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "AI and innovation equity research.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "disruptive innovation research articles"
+      ],
+      "url_patterns": [
+        "ark-invest\\.com/articles"
+      ]
+    },
+    "berkshire_letters": {
+      "canonical_name": "Berkshire Hathaway Shareholder Letters",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Buffett capital allocation doctrine.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "annual shareholder letters"
+      ],
+      "url_patterns": [
+        "berkshirehathaway\\.com/letters"
+      ]
+    },
+    "bg2_pod": {
+      "canonical_name": "BG2 Pod",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Venture and public tech cycle acquisition route.",
+      "name_aliases": [
+        "bg2 pod",
+        "bg2"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "Gerstner/Gurley venture and public tech lens"
+      ],
+      "url_patterns": [
+        "bg2-pod"
+      ]
+    },
+    "colossus": {
+      "canonical_name": "Colossus",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Investor and founder archival media.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "investor letters and founder media"
+      ],
+      "url_patterns": [
+        "joincolossus\\.com"
+      ]
+    },
+    "doctors_farmacy": {
+      "canonical_name": "The Doctor's Farmacy with Mark Hyman",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Functional medicine acquisition route for Longevity profile.",
+      "name_aliases": [
+        "doctor's farmacy",
+        "mark hyman podcast"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "functional medicine interviews"
+      ],
+      "url_patterns": [
+        "the-doctors-farmacy-with-mark-hyman"
+      ]
+    },
+    "dwarkesh": {
+      "canonical_name": "Dwarkesh Podcast",
+      "certification": {
+        "evidence": [
+          "published_transcript certified on podscripts dwarkesh episodes"
+        ],
+        "status": "certified"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Deep technical AI interviews; acquisition route for AI profile watched people.",
+      "name_aliases": [
+        "dwarkesh podcast"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts pages are complete and timestamped",
+        "consistently available"
+      ],
+      "url_patterns": [
+        "dwarkesh-podcast",
+        "dwarkesh\\.com"
+      ]
+    },
+    "examine": {
+      "canonical_name": "Examine.com",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Evidence-based nutrition reference.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "nutrition and supplement research summaries"
+      ],
+      "url_patterns": [
+        "examine\\.com"
+      ]
+    },
+    "first_round_review": {
+      "canonical_name": "First Round Review",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Early-stage operating playbooks.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "operator essays"
+      ],
+      "url_patterns": [
+        "review\\.firstround\\.com"
+      ]
+    },
+    "founders": {
+      "canonical_name": "Founders",
+      "certification": {
+        "status": "certified"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Founder biography podcast; Founders profile acquisition route.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete"
+      ],
+      "url_patterns": [
+        "podcasts/founders"
+      ]
+    },
+    "foundmyfitness": {
+      "canonical_name": "FoundMyFitness",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Rhonda Patrick nutrition and aging acquisition route.",
+      "name_aliases": [
+        "found my fitness"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "nutrition and aging research"
+      ],
+      "url_patterns": [
+        "foundmyfitness"
+      ]
+    },
+    "grants_pub": {
+      "canonical_name": "Grant's Interest Rate Observer",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Independent macro and credit analysis.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "macro newsletter archive"
+      ],
+      "url_patterns": [
+        "grantspub\\.com"
+      ]
+    },
+    "hard_fork": {
+      "canonical_name": "Hard Fork",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Consumer and policy AI news acquisition route.",
+      "name_aliases": [
+        "hard fork"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "NYT technology news synthesis"
+      ],
+      "url_patterns": [
+        "hard-fork"
+      ]
+    },
+    "how_i_built_this": {
+      "canonical_name": "How I Built This",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Founder narrative acquisition route for Founders profile.",
+      "name_aliases": [
+        "how i built this"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "NPR founder narratives"
+      ],
+      "url_patterns": [
+        "how-i-built-this"
+      ]
+    },
+    "howard_marks_memos": {
+      "canonical_name": "Howard Marks Memos",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Institutional risk and cycle commentary.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "investor memos with full text"
+      ],
+      "url_patterns": [
+        "oaktreecapital\\.com/insights/memos"
+      ]
+    },
+    "huberman_lab": {
+      "canonical_name": "Huberman Lab",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Neuroscience and performance acquisition route for Longevity profile.",
+      "name_aliases": [
+        "huberman lab"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "neuroscience protocol depth"
+      ],
+      "url_patterns": [
+        "huberman-lab"
+      ]
+    },
+    "insidetracker_blog": {
+      "canonical_name": "InsideTracker Blog",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Blood biomarker interpretation for healthspan.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "biomarker and performance articles"
+      ],
+      "url_patterns": [
+        "insidetracker\\.com/blog"
+      ]
+    },
+    "invest_like_best": {
+      "canonical_name": "Invest Like the Best",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Patrick O'Shaughnessy investor interviews; Investing and Founders acquisition route.",
+      "name_aliases": [
+        "invest like the best",
+        "iltb"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "investor and founder interview depth"
+      ],
+      "url_patterns": [
+        "invest-like-the-best"
+      ]
+    },
+    "latent_space": {
+      "canonical_name": "Latent Space",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Applied AI and engineering community podcast for AI profile.",
+      "name_aliases": [
+        "latent space podcast"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "AI engineering guest density"
+      ],
+      "url_patterns": [
+        "latent-space"
+      ]
+    },
+    "lenny_podcast": {
+      "canonical_name": "Lenny's Podcast",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Product operator acquisition route for Founders profile.",
+      "name_aliases": [
+        "lenny's podcast",
+        "lenny podcast"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "product and growth operator interviews"
+      ],
+      "url_patterns": [
+        "lennys-podcast"
+      ]
+    },
+    "lex_fridman": {
+      "canonical_name": "Lex Fridman Podcast",
+      "certification": {
+        "evidence": [
+          "official_transcript path certified on lexfridman.com transcripts"
+        ],
+        "status": "certified"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Long-form AI leader interviews; acquisition route for AI profile.",
+      "name_aliases": [
+        "lex fridman"
+      ],
+      "preferred_route": "official_transcript",
+      "reason": [
+        "official transcript highest quality",
+        "excellent speaker formatting"
+      ],
+      "url_patterns": [
+        "lexfridman\\.com",
+        "lex-fridman"
+      ]
+    },
+    "lifespan_sinclair": {
+      "canonical_name": "Lifespan with Dr. David Sinclair",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Aging biology acquisition route for Longevity profile.",
+      "name_aliases": [
+        "lifespan podcast",
+        "david sinclair podcast"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "aging biology explanations"
+      ],
+      "url_patterns": [
+        "lifespan-with-dr-david-sinclair"
+      ]
+    },
+    "longevity_technology": {
+      "canonical_name": "Longevity.Technology",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Aging therapeutics industry coverage.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "longevity industry news"
+      ],
+      "url_patterns": [
+        "longevity\\.technology"
+      ]
+    },
+    "masters_of_scale": {
+      "canonical_name": "Masters of Scale",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Scaling tactics acquisition route for Founders profile.",
+      "name_aliases": [
+        "masters of scale"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "Reid Hoffman scaling interviews"
+      ],
+      "url_patterns": [
+        "masters-of-scale"
+      ]
+    },
+    "microsoft_build": {
+      "canonical_name": "Microsoft Build",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Enterprise AI developer announcements.",
+      "preferred_route": "youtube_transcript_api",
+      "reason": [
+        "developer conference keynotes"
+      ],
+      "url_patterns": [
+        "build\\.microsoft\\.com"
+      ]
+    },
+    "neurips": {
+      "canonical_name": "NeurIPS",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Flagship ML research conference.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "conference papers and invited talks"
+      ],
+      "url_patterns": [
+        "neurips\\.cc"
+      ]
+    },
+    "nia_news": {
+      "canonical_name": "National Institute on Aging News",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Federal aging research and trials.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "NIH aging research announcements"
+      ],
+      "url_patterns": [
+        "nia\\.nih\\.gov/news"
+      ]
+    },
+    "no_priors": {
+      "canonical_name": "No Priors",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "a16z AI podcast acquisition route.",
+      "name_aliases": [
+        "no priors podcast"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "a16z AI founder/investor guests"
+      ],
+      "url_patterns": [
+        "no-priors"
+      ]
+    },
+    "nvidia_ai_podcast": {
+      "canonical_name": "The AI Podcast (NVIDIA)",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "NVIDIA applied AI and infrastructure acquisition route.",
+      "name_aliases": [
+        "nvidia ai podcast"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "infrastructure and applied AI focus"
+      ],
+      "url_patterns": [
+        "the-ai-podcast-nvidia"
+      ]
+    },
+    "nvidia_gtc": {
+      "canonical_name": "NVIDIA GTC",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "AI hardware and platform roadmap keynotes.",
+      "preferred_route": "youtube_transcript_api",
+      "reason": [
+        "keynote video transcripts"
+      ],
+      "url_patterns": [
+        "nvidia\\.com/gtc"
+      ]
+    },
+    "odd_lots": {
+      "canonical_name": "Odd Lots",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Macro and market structure acquisition route for Investing profile.",
+      "name_aliases": [
+        "odd lots"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "Bloomberg markets coverage"
+      ],
+      "url_patterns": [
+        "odd-lots"
+      ]
+    },
+    "openai_blog": {
+      "canonical_name": "OpenAI Blog",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "OpenAI product and safety announcements.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "company research and product announcements"
+      ],
+      "url_patterns": [
+        "openai\\.com/blog"
+      ]
+    },
+    "pershing_letters": {
+      "canonical_name": "Pershing Square Holdings Letters",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Bill Ackman portfolio and activist theses.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "activist investor letters"
+      ],
+      "url_patterns": [
+        "pershingsquareholdings\\.com/letters"
+      ]
+    },
+    "peter_attia": {
+      "canonical_name": "The Peter Attia Drive",
+      "certification": {
+        "status": "certified"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Primary longevity clinical podcast acquisition route.",
+      "name_aliases": [
+        "peter attia drive"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts provides full episode transcripts"
+      ],
+      "url_patterns": [
+        "the-peter-attia-drive",
+        "peterattiamd\\.com"
+      ]
+    },
+    "peter_attia_site": {
+      "canonical_name": "Peter Attia MD",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Attia clinical frameworks and newsletter.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "clinical newsletter and show notes"
+      ],
+      "url_patterns": [
+        "peterattiamd\\.com"
+      ]
+    },
+    "proof_simon_hill": {
+      "canonical_name": "The Proof with Simon Hill",
+      "certification": {
+        "evidence": [
+          "podscripts index verified HTTP 200 at configuration time"
+        ],
+        "status": "pending"
+      },
+      "fallbacks": [
+        "youtube_transcript_api",
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Nutrition evidence acquisition route for Longevity profile.",
+      "name_aliases": [
+        "the proof",
+        "simon hill"
+      ],
+      "preferred_route": "published_transcript",
+      "reason": [
+        "podscripts mirror complete",
+        "evidence-based nutrition debates"
+      ],
+      "url_patterns": [
+        "the-proof-with-simon-hill"
+      ]
+    },
+    "saastr_annual": {
+      "canonical_name": "SaaStr Annual",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "SaaS leadership and GTM conference.",
+      "preferred_route": "youtube_transcript_api",
+      "reason": [
+        "B2B SaaS conference sessions"
+      ],
+      "url_patterns": [
+        "saastrannual\\.com"
+      ]
+    },
+    "stratechery": {
+      "canonical_name": "Stratechery",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Platform strategy and aggregation theory.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "Ben Thompson strategy essays"
+      ],
+      "url_patterns": [
+        "stratechery\\.com"
+      ]
+    },
+    "stripe_sessions": {
+      "canonical_name": "Stripe Sessions",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "yt_dlp_whisper"
+      ],
+      "monitoring_reason": "Internet economy operator keynotes.",
+      "preferred_route": "youtube_transcript_api",
+      "reason": [
+        "operator conference talks"
+      ],
+      "url_patterns": [
+        "stripe\\.com/sessions"
+      ]
+    },
+    "ycombinator_blog": {
+      "canonical_name": "Y Combinator Blog",
+      "certification": {
+        "status": "pending"
+      },
+      "fallbacks": [
+        "transcript_mirror"
+      ],
+      "monitoring_reason": "Startup AI adoption and operator writing.",
+      "preferred_route": "published_transcript",
+      "reason": [
+        "startup operator essays"
+      ],
+      "url_patterns": [
+        "ycombinator\\.com/blog"
+      ]
+    }
+  }
+}

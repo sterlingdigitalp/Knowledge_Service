@@ -81,6 +81,15 @@ class Citation:
     target_url: Optional[str] = None
     context: Optional[str] = None
     citation_type: CitationType = CitationType.REFERENCE
+    start_seconds: Optional[float] = None
+    end_seconds: Optional[float] = None
+    segment_id: Optional[str] = None
+    quote: Optional[str] = None
+    speaker: Optional[str] = None
+    speaker_confidence: Optional[float] = None
+    transcript_confidence: Optional[float] = None
+    surrounding_context: Optional[str] = None
+    metadata: Dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass
@@ -191,15 +200,31 @@ class KnowledgeObject:
         d["confidence"] = self.confidence
         d["evidence_count"] = self.evidence_count
         if self.citations:
-            d["citations"] = [
-                {
+            citation_dicts = []
+            for c in self.citations:
+                citation_dict: Dict[str, Any] = {
                     "target_id": c.target_id,
                     "target_url": c.target_url,
                     "context": c.context,
                     "citation_type": c.citation_type.value,
                 }
-                for c in self.citations
-            ]
+                optional_fields = {
+                    "start_seconds": c.start_seconds,
+                    "end_seconds": c.end_seconds,
+                    "segment_id": c.segment_id,
+                    "quote": c.quote,
+                    "speaker": c.speaker,
+                    "speaker_confidence": c.speaker_confidence,
+                    "transcript_confidence": c.transcript_confidence,
+                    "surrounding_context": c.surrounding_context,
+                }
+                for key, value in optional_fields.items():
+                    if value is not None:
+                        citation_dict[key] = value
+                if c.metadata:
+                    citation_dict["metadata"] = c.metadata
+                citation_dicts.append(citation_dict)
+            d["citations"] = citation_dicts
 
         if self.acquisition_chain:
             d["acquisition_chain"] = [
@@ -268,15 +293,27 @@ class KnowledgeObject:
 
         raw_citations = d.get("citations", [])
         if raw_citations:
-            obj.citations = [
-                Citation(
+            citations = []
+            for c in raw_citations:
+                citation_type = c.get("citation_type", "reference")
+                if not isinstance(citation_type, CitationType):
+                    citation_type = CitationType(citation_type)
+                citations.append(Citation(
                     target_id=c.get("target_id"),
                     target_url=c.get("target_url"),
                     context=c.get("context"),
-                    citation_type=CitationType(c.get("citation_type", "reference")),
-                )
-                for c in raw_citations
-            ]
+                    citation_type=citation_type,
+                    start_seconds=c.get("start_seconds"),
+                    end_seconds=c.get("end_seconds"),
+                    segment_id=c.get("segment_id"),
+                    quote=c.get("quote"),
+                    speaker=c.get("speaker"),
+                    speaker_confidence=c.get("speaker_confidence"),
+                    transcript_confidence=c.get("transcript_confidence"),
+                    surrounding_context=c.get("surrounding_context"),
+                    metadata=c.get("metadata", {}),
+                ))
+            obj.citations = citations
 
         raw_chain = d.get("acquisition_chain", [])
         if raw_chain:

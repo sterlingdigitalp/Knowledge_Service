@@ -8,6 +8,7 @@ import re
 import hashlib
 from typing import Dict, Any, List
 from .context import ProcessingContext, StageResult
+from .transcript import build_transcript_chunks, is_transcript_document
 
 
 SECTION_HEADING_RE = re.compile(r"^(#{1,6})\s+(.+)$", re.MULTILINE)
@@ -20,6 +21,15 @@ class ChunkStage:
         md = context.markdown
         if not md:
             context.stage_results["chunk"] = StageResult("chunk", True, confidence_impact=0.0, warnings=["No content to chunk"])
+            return context
+
+        if is_transcript_document(context.document):
+            segments = context.extracted_data.get("transcript_segments", [])
+            metadata = dict(getattr(context.document, "metadata", {}) or {})
+            chunks = build_transcript_chunks(segments, metadata, config)
+            self._append_chunks(context, chunks, config.get("overlap_tokens", 0))
+            warnings = [] if chunks else ["No transcript chunks created"]
+            context.stage_results["chunk"] = StageResult("chunk", True, confidence_impact=0.0, warnings=warnings)
             return context
 
         strategy = config.get("strategy", "semantic")
@@ -40,27 +50,31 @@ class ChunkStage:
         else:
             chunks = self._semantic_chunk(md, overlap_tokens, min_chunk)
 
+        self._append_chunks(context, chunks, overlap_tokens)
+
+        context.stage_results["chunk"] = StageResult("chunk", True, confidence_impact=0.0)
+        return context
+
+    def _append_chunks(self, context: ProcessingContext, chunks: List[Dict[str, Any]], overlap_tokens: int) -> None:
         chunk_total = len(chunks)
         parent_id = context.knowledge_objects[0].id if context.knowledge_objects else ""
 
         for i, chunk_data in enumerate(chunks):
             chunk_hash = hashlib.sha256(chunk_data["content"].encode("utf-8")).hexdigest()
             cw = len(chunk_data["content"].split())
-            chunk_entry = {
-                "parent_id": parent_id,
+            chunk_entry = dict(chunk_data)
+            chunk_entry.update({
+                "parent_id": chunk_data.get("parent_id") or parent_id,
                 "chunk_index": i,
                 "chunk_total": chunk_total,
                 "content": chunk_data["content"],
                 "content_hash": chunk_hash,
                 "word_count": cw,
                 "heading_context": chunk_data.get("heading_context", ""),
-            }
+            })
             if i < chunk_total - 1 and overlap_tokens > 0:
                 chunk_entry["overlap_with_next"] = chunk_data.get("next_overlap", "")
             context.chunks.append(chunk_entry)
-
-        context.stage_results["chunk"] = StageResult("chunk", True, confidence_impact=0.0)
-        return context
 
     def _semantic_chunk(self, md: str, overlap_tokens: int, min_chunk: int) -> List[Dict[str, Any]]:
         sections = SECTION_HEADING_RE.split(md)

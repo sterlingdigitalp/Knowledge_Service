@@ -104,6 +104,7 @@ class PostgreSQLKnowledgeStore(KnowledgeStore):
         conn = self._get_connection()
         cursor = conn.cursor()
         try:
+            ko_data = ko.to_dict()
             # Check for duplicate by content_hash
             cursor.execute("SELECT id FROM knowledge_objects WHERE content_hash = %s", (ko.content_hash,))
             existing = cursor.fetchone()
@@ -132,8 +133,8 @@ class PostgreSQLKnowledgeStore(KnowledgeStore):
                 ko.raw_content_hash, ko.content_hash, ko.title,
                 ','.join(ko.authors) if ko.authors else None, ko.language,
                 ','.join(ko.topics) if ko.topics else None, ko.word_count, ko.confidence,
-                ko.evidence_count, json.dumps(ko.citations) if ko.citations else None,
-                json.dumps(ko.acquisition_chain) if ko.acquisition_chain else None,
+                ko.evidence_count, json.dumps(ko_data.get("citations")) if ko.citations else None,
+                json.dumps(ko_data.get("acquisition_chain")) if ko.acquisition_chain else None,
                 ko.parent_id, ko.chunk_index, ko.chunk_total, ko.overlap_with_next_id,
                 ko.related_to, [rt.value for rt in ko.relationship_types] if ko.relationship_types else None,
                 ko.storage_backend, ko.index_status.value, ko.retention_policy_id
@@ -280,49 +281,44 @@ class PostgreSQLKnowledgeStore(KnowledgeStore):
         # topics, word_count, confidence, evidence_count, citations, acquisition_chain, parent_id,
         # chunk_index, chunk_total, overlap_with_next_id, related_to, relationship_types, storage_backend,
         # index_status, retention_policy_id, created_at, updated_at_storage
-        import json
-        from ...knowledge_object import KnowledgeObject, KnowledgeType, SourceType, IndexStatus
-
-        authors = row[14].split(',') if row[14] else []
-        topics = row[16].split(',') if row[16] else []
+        authors = row[14] if isinstance(row[14], list) else (row[14].split(',') if row[14] else [])
+        topics = row[16] if isinstance(row[16], list) else (row[16].split(',') if row[16] else [])
         related_to = row[26] or []
         rel_types_strs = row[27] or []
-        from ...knowledge_object import RelationshipType
-        rel_types = [RelationshipType(rt) for rt in rel_types_strs] if rel_types_strs else []
-
-        return KnowledgeObject(
-            id=row[0],
-            version=row[1],
-            type=KnowledgeType(row[2]),
-            source_id=row[3],
-            source_url=row[4],
-            source_type=SourceType(row[5]),
-            acquired_at=str(row[6]),
-            published_at=str(row[7]) if row[7] else None,
-            updated_at=str(row[8]),
-            markdown=row[9],
-            structured_data=json.loads(row[10]) if row[10] else None,
-            raw_content_hash=row[11],
-            content_hash=row[12],
-            title=row[13],
-            authors=authors,
-            language=row[15],
-            topics=topics,
-            word_count=row[17],
-            confidence=row[18],
-            evidence_count=row[19],
-            citations=json.loads(row[20]) if row[20] else [],
-            acquisition_chain=json.loads(row[21]) if row[21] else [],
-            parent_id=row[22],
-            chunk_index=row[23],
-            chunk_total=row[24],
-            overlap_with_next_id=row[25],
-            related_to=related_to,
-            relationship_types=rel_types,
-            storage_backend=row[28],
-            index_status=IndexStatus(row[29]),
-            retention_policy_id=row[30]
-        )
+        data = {
+            "id": str(row[0]),
+            "version": row[1],
+            "type": row[2],
+            "source_id": row[3],
+            "source_url": row[4],
+            "source_type": row[5],
+            "acquired_at": str(row[6]),
+            "published_at": str(row[7]) if row[7] else None,
+            "updated_at": str(row[8]),
+            "markdown": row[9],
+            "structured_data": row[10] if isinstance(row[10], dict) else (json.loads(row[10]) if row[10] else None),
+            "raw_content_hash": row[11],
+            "content_hash": row[12],
+            "title": row[13],
+            "authors": authors,
+            "language": row[15],
+            "topics": topics,
+            "word_count": row[17],
+            "confidence": row[18],
+            "evidence_count": row[19],
+            "citations": row[20] if isinstance(row[20], list) else (json.loads(row[20]) if row[20] else []),
+            "acquisition_chain": row[21] if isinstance(row[21], list) else (json.loads(row[21]) if row[21] else []),
+            "parent_id": str(row[22]) if row[22] else None,
+            "chunk_index": row[23],
+            "chunk_total": row[24],
+            "overlap_with_next_id": str(row[25]) if row[25] else None,
+            "related_to": related_to,
+            "relationship_types": rel_types_strs,
+            "storage_backend": row[28],
+            "index_status": row[29],
+            "retention_policy_id": row[30],
+        }
+        return KnowledgeObject.from_dict(data)
 
 
 class PostgreSQLSourceStore(SourceStore):

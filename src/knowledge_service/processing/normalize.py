@@ -7,6 +7,7 @@ Output: normalized content with metadata, language detection, heading normalizat
 import re
 from typing import Dict, Any
 from .context import ProcessingContext, StageResult
+from .transcript import is_transcript_document
 
 
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+)$", re.MULTILINE)
@@ -35,6 +36,17 @@ class NormalizeStage:
         content = context.cleaned_content
         if not content:
             context.stage_results["normalize"] = StageResult("normalize", True, confidence_impact=-0.05, warnings=["No content to normalize"])
+            return context
+
+        if is_transcript_document(context.document):
+            metadata = dict(getattr(context.document, "metadata", {}) or {})
+            metadata["content_type"] = "transcript"
+            metadata["total_lines"] = len(content.split("\n"))
+            metadata["char_count"] = len(content)
+            context.language = metadata.get("language", context.language or "en")
+            context.normalized_content = content
+            context.normalized_metadata = metadata
+            context.stage_results["normalize"] = StageResult("normalize", True, confidence_impact=0.0)
             return context
 
         detect_language = config.get("detect_language", True)
