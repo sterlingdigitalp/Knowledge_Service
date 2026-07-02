@@ -15,6 +15,7 @@ _SRC_PATH = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file_
 sys.path.insert(0, _SRC_PATH)
 sys.path.insert(0, os.path.dirname(_SRC_PATH))
 
+from integration_tests.searxng_helpers import require_searxng_results
 from knowledge_service.registry.provider_registry import ProviderRegistry
 from knowledge_service.planning.planner import RuleBasedPlanner
 from knowledge_service.planning.executor import AcquisitionExecutor
@@ -129,6 +130,11 @@ class TestExecutorIntegration:
         assert bundle.request_id == "test-search"
         assert bundle.providers_queried >= 1
         assert bundle.providers_successful >= 1
+        if not bundle.discovered_urls:
+            metadata = {}
+            for execution in bundle.provider_executions:
+                metadata = execution.response_metadata or metadata
+            require_searxng_results(metadata, endpoint=SEARXNG_ENDPOINT)
         assert len(bundle.discovered_urls) > 0
 
     def test_execute_crawl_step(self, registry):

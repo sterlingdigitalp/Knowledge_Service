@@ -1,0 +1,21 @@
+# Knowledge_Service direct dependencies (pinned from .venv/bin/pip freeze).
+# Install: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+#
+# Transitive packages (certifi, httpcore, numpy, tiktoken, etc.) are resolved
+# automatically by pip. Only packages imported or invoked from src/ are listed.
+
+# Core HTTP client — providers, discovery, LLM HTTP calls
+httpx==0.28.1
+
+# Acquisition / transcript routes (src/knowledge_service/providers/transcript_provider.py)
+youtube-transcript-api==1.2.4
+yt-dlp==2026.6.9
+openai-whisper==20250625
+torch==2.12.1
+
+# Test runner
+pytest==9.1.1
+
+# --- Optional (not required for default morning intelligence) ---
+# PyYAML>=6.0          # YAML profile/route import (JSON works without it)
+# sentence-transformers  # embeddings backend "sentence_transformers" (falls back to local_neural)

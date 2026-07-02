@@ -74,4 +74,5 @@ class RuntimeScheduler:
             signal.signal(signal.SIGTERM, lambda *_args: self.request_stop())
             signal.signal(signal.SIGINT, lambda *_args: self.request_stop())
         except Exception:
+            # Signal handlers are unavailable in some embedded/thread contexts.
             pass

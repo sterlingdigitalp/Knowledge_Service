@@ -97,7 +97,7 @@ class IntelligenceCollector:
             job.status = JobStatus.COMPLETED if job.failed_count == 0 else JobStatus.PARTIAL
         except Exception as exc:
             job.status = JobStatus.FAILED
-            job.errors.append(str(exc))
+            job.errors.append(f"{type(exc).__name__}: {exc}")
         job.completed_at = now_iso()
         job.performance["total_seconds"] = round(time.perf_counter() - started, 6)
         self._save_job(job)

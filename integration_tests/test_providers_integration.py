@@ -11,6 +11,7 @@ _SRC_PATH = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file_
 sys.path.insert(0, _SRC_PATH)
 sys.path.insert(0, os.path.dirname(_SRC_PATH))
 
+from integration_tests.searxng_helpers import require_searxng_results
 from knowledge_service.providers.crawl4ai_provider import Crawl4AIProvider
 from knowledge_service.providers.searxng_search_provider import SearXNGSearchProvider
 from knowledge_service.interfaces.provider import ProviderRequest, ProviderType, HealthStatus
@@ -124,7 +125,7 @@ class TestSearXNGProviderIntegration:
         assert response.error is None, f"Expected no error, got: {response.error}"
         assert response.metadata is not None
         assert "results" in response.metadata
-        assert len(response.metadata["results"]) > 0
+        require_searxng_results(response.metadata, endpoint=SEARXNG_ENDPOINT)
 
     def test_search_results_have_expected_fields(self, searxng_provider):
         request = ProviderRequest(
@@ -132,7 +133,8 @@ class TestSearXNGProviderIntegration:
             provider_type=ProviderType.SEARCH
         )
         response = searxng_provider.execute(request)
-        result = response.metadata["results"][0]
+        results = require_searxng_results(response.metadata, endpoint=SEARXNG_ENDPOINT)
+        result = results[0]
         assert "url" in result
         assert "title" in result
         assert "content" in result

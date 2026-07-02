@@ -38,34 +38,14 @@ build/
 # Temporary
 tmp/
 runtime_evidence/
-
 state/
 
+# Generated frontend artifacts
 frontend/archive/
-
 frontend/latest.html
-
 frontend/latest.md
-
 frontend/data/latest.json
 
+# Local secrets
 .env.local
-
-*.log
-
-runtime_evidence/
-
-state/
-
-frontend/archive/
-
-frontend/latest.html
-
-frontend/latest.md
-
-frontend/data/latest.json
-
-.env.local
-
-*.log
 

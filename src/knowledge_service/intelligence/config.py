@@ -32,8 +32,9 @@ def _load_config_data(file_path: Path) -> Dict[str, Any] | List[Any]:
     text = file_path.read_text(encoding="utf-8")
     try:
         return json.loads(text)
-    except json.JSONDecodeError:
-        pass
+    except json.JSONDecodeError as exc:
+        if file_path.suffix.lower() not in {".yaml", ".yml"}:
+            raise ValueError(f"Invalid JSON in profile configuration: {file_path}") from exc
     if file_path.suffix.lower() in {".yaml", ".yml"}:
         try:
             import yaml  # type: ignore
@@ -43,7 +44,7 @@ def _load_config_data(file_path: Path) -> Dict[str, Any] | List[Any]:
         if data is None:
             return {"profiles": []}
         return data
-    raise
+    raise ValueError(f"Unable to parse profile configuration: {file_path}")
 
 
 def _write_yaml_compatible(file_path: Path, data: Dict[str, Any]) -> None:

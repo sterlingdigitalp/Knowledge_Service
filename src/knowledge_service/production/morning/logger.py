@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import sys
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
@@ -40,12 +41,24 @@ class MorningIntelligenceLogger:
         self._lines.append(json.dumps(summary, indent=2, sort_keys=True))
         self._lines.append(f"==== end {summary.get('status', 'unknown')} ====")
         text = "\n".join(self._lines) + "\n"
-        with self.log_path.open("a", encoding="utf-8") as handle:
-            handle.write(text)
+        try:
+            with self.log_path.open("a", encoding="utf-8") as handle:
+                handle.write(text)
+        except OSError as exc:
+            print(
+                f"[morning-intelligence] failed to write log {self.log_path}: {exc}",
+                file=sys.stderr,
+            )
         if append_preflight:
             concise = _concise_preflight_line(summary)
-            with self.preflight_log_path.open("a", encoding="utf-8") as handle:
-                handle.write(concise + "\n")
+            try:
+                with self.preflight_log_path.open("a", encoding="utf-8") as handle:
+                    handle.write(concise + "\n")
+            except OSError as exc:
+                print(
+                    f"[morning-intelligence] failed to write preflight log {self.preflight_log_path}: {exc}",
+                    file=sys.stderr,
+                )
 
     def read_last_summary(self) -> Optional[Dict[str, Any]]:
         if not self.log_path.exists():
@@ -59,7 +72,11 @@ class MorningIntelligenceLogger:
             payload = payload.split("==== end", 1)[0].strip()
         try:
             return json.loads(payload)
-        except json.JSONDecodeError:
+        except json.JSONDecodeError as exc:
+            print(
+                f"[morning-intelligence] unable to parse last summary from {self.log_path}: {exc}",
+                file=sys.stderr,
+            )
             return None
 
 

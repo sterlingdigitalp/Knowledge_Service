@@ -463,16 +463,19 @@ def _load_config_data(file_path: Path) -> Dict[str, Any]:
         import json
 
         return json.loads(text)
-    except json.JSONDecodeError:
-        pass
+    except json.JSONDecodeError as exc:
+        if file_path.suffix.lower() not in {".yaml", ".yml"}:
+            raise ValueError(f"Invalid JSON in route configuration: {file_path}") from exc
     if file_path.suffix.lower() in {".yaml", ".yml"}:
         try:
             import yaml  # type: ignore
-        except Exception:
-            return {}
+        except Exception as exc:
+            raise ValueError(
+                f"YAML route import requires PyYAML unless the file is JSON-compatible: {file_path}"
+            ) from exc
         data = yaml.safe_load(text)
         return data if isinstance(data, dict) else {}
-    return {}
+    raise ValueError(f"Unable to parse route configuration: {file_path}")
 
 
 def _load_default_entries(config_path: Path) -> Dict[str, SourceRouteEntry]:

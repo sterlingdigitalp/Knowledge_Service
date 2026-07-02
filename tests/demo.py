@@ -3,7 +3,7 @@
 Shows the complete processing pipeline transforming raw HTML content
 through all 7 stages into canonical Knowledge Objects.
 
-Usage: python3 -m tests.processing.demo
+Usage: PYTHONPATH=src python3 tests/demo.py
 """
 
 import os, sys

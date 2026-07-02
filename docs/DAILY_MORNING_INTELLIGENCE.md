@@ -31,7 +31,7 @@ Python module equivalent:
 ```bash
 cd /Users/sterlingdigital/Knowledge_Service
 export PYTHONPATH=src
-.venv/bin/python3 -m knowledge_service.production.morning.daily_runner run
+.venv/bin/python3 -m knowledge_service.production.morning run
 ```
 
 ## Pipeline Stages

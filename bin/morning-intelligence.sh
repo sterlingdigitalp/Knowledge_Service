@@ -1,7 +1,8 @@
 #!/bin/zsh
 set -u
 
-KNOWLEDGE_SERVICE="${KNOWLEDGE_SERVICE:-/Users/sterlingdigital/Knowledge_Service}"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+KNOWLEDGE_SERVICE="${KNOWLEDGE_SERVICE:-$(cd "$SCRIPT_DIR/.." && pwd)}"
 cd "$KNOWLEDGE_SERVICE" || exit 1
 
 if [[ -x "$KNOWLEDGE_SERVICE/.venv/bin/python3" ]]; then

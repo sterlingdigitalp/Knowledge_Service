@@ -407,3 +407,68 @@ Phase 0 establishes the layered foundation. Future phases will:
 5. Add observability and monitoring infrastructure
 
 The layer boundaries defined here remain stable through all future evolution. New capabilities extend within layers or add new layers; they do not restructure existing ones.
+
+---
+
+## Current Implementation (2026-07)
+
+This section records **factual drift** between the Phase 0 specification above and the codebase as of July 2026. The historical layered model remains the design intent; the bullets below describe what actually ships.
+
+### What is implemented
+
+| Layer / concern | Status | Location |
+|-----------------|--------|----------|
+| Planning | Implemented (rule-based search→crawl) | `planning/planner.py`, `planning/executor.py` |
+| Acquisition | Implemented | `acquisition/acquisition_bundle.py` |
+| Processing | Implemented (7 stages) | `processing/pipeline.py` |
+| Knowledge storage | Implemented — **two backends, different usage** | `storage/postgres/` (PG + in-memory); production uses `intelligence/corpus.py` + `FileStateStore` |
+| Retrieval | Implemented | `retrieval/retriever.py`, `retrieval/quotes.py` |
+| Providers | Implemented | `providers/transcript_provider.py` (production), `crawl4ai_provider.py`, `searxng_search_provider.py` (certification) |
+| Intelligence collection | Implemented (Phase 3) | `intelligence/collector.py` |
+| Analyst | Implemented (Phase 4, active path) | `analyst/pipeline.py` |
+| Production / morning brief | Implemented (Phases 5–6) | `production/`, `production/morning/` |
+
+### What is NOT implemented
+
+- **API Layer** — `docs/API_SPEC.md` defines the public HTTP contract (REST, auth, versioning). There is no `api/` package, no FastAPI/Flask server, and no request routing in the repository. External integration today is via CLI (`python -m knowledge_service.production.morning`) and static frontend artifacts under `frontend/`.
+- **Central configuration service** — `docs/CONFIGURATION.md` describes a unified YAML hierarchy. Runtime config is loaded per subsystem: JSON profiles, env vars for LLM, optional `collector_config.json` in state.
+- **PostgreSQL in production path** — `PostgreSQLKnowledgeStore` exists but the morning workflow persists knowledge objects to `state/knowledge_objects.jsonl` via `CorpusManager`, not through `KnowledgeRepository`.
+
+### Architectural extensions beyond the six layers
+
+Three operational subsystems sit above the core pipeline and constitute the product runtime:
+
+1. **Intelligence** (`intelligence/`) — profile-driven discovery, route registry, scheduled collection, file-backed corpus.
+2. **Analyst** (`analyst/`) — claim extraction, scoring, synthesis; feeds production.
+3. **Production** (`production/`) — neural embeddings, LLM brief enhancement, personalization, static publish.
+
+A **legacy Phase 4 stack** also exists under `intelligence/analyst.py`, `intelligence/briefing.py`, etc. It is used by older certification scripts and the intelligence inspector, but **not** by `production/morning/daily_runner.py`.
+
+### Production data path vs. spec layering
+
+The specification says each layer passes data only to its immediate neighbor. The morning intelligence path **short-circuits** several boundaries:
+
+```
+Profiles → IntelligenceCollector → Processing → CorpusManager (JSONL)
+         → IntelligenceAnalystPipeline → ProductionEnhancementLayer
+         → FreshnessGate → FrontendPublisher
+```
+
+Retrieval (`KnowledgeRetrieverImpl`) and the generic planner (`RuleBasedPlanner`) are used in certification and tests, not in the daily publish workflow.
+
+### Entry point
+
+Primary operator entry:
+
+```bash
+python -m knowledge_service.production.morning run --mode scheduled
+python -m knowledge_service.production.morning status
+```
+
+### Further reading (as-implemented docs)
+
+| Document | Purpose |
+|----------|---------|
+| `ARCHITECTURE_MAP.md` | Subsystem map, dependency graphs, coupling analysis |
+| `RUNTIME_TRACE.md` | Startup, config, and phase-by-phase execution trace |
+| `DATAFLOW.md` | Data artifacts from acquisition through publish |

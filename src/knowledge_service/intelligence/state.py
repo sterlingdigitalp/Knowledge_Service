@@ -26,7 +26,12 @@ class FileStateStore:
         path = self.path(name)
         if not path.exists():
             return default
-        return json.loads(path.read_text(encoding="utf-8"))
+        try:
+            return json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            raise ValueError(f"Invalid JSON in state file: {path}") from exc
+        except OSError as exc:
+            raise OSError(f"Unable to read state file: {path}") from exc
 
     def write_json(self, name: str, data: Any) -> None:
         path = self.path(name)
@@ -40,9 +45,15 @@ class FileStateStore:
         if not path.exists():
             return []
         rows: List[Dict[str, Any]] = []
-        for line in path.read_text(encoding="utf-8").splitlines():
-            if line.strip():
+        for line_number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), start=1):
+            if not line.strip():
+                continue
+            try:
                 rows.append(json.loads(line))
+            except json.JSONDecodeError as exc:
+                raise ValueError(
+                    f"Invalid JSON on line {line_number} in state file: {path}"
+                ) from exc
         return rows
 
     def write_jsonl(self, name: str, rows: List[Dict[str, Any]]) -> None:

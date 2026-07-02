@@ -118,7 +118,10 @@ class FrontendPublisher:
         latest_json = self.frontend_dir / "data" / "latest.json"
         if not latest_json.exists():
             return []
-        data = json.loads(latest_json.read_text(encoding="utf-8"))
+        try:
+            data = json.loads(latest_json.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            return []
         documents = data.get("documents") or []
         if not isinstance(documents, list):
             return []
@@ -144,9 +147,9 @@ class FrontendPublisher:
         return archive_dir
 
     def _render_latest_html(self, payload: Dict[str, Any]) -> str:
-        html = self.html_source.read_text(encoding="utf-8")
-        css = self.style_source.read_text(encoding="utf-8")
-        app = self.app_source.read_text(encoding="utf-8")
+        html = self._read_template(self.html_source, "index.html")
+        css = self._read_template(self.style_source, "styles.css")
+        app = self._read_template(self.app_source, "app.js")
         data_json = json.dumps(payload, sort_keys=True).replace("</", "<\\/")
 
         html = html.replace(
@@ -165,6 +168,13 @@ class FrontendPublisher:
             ),
         )
         return html
+
+    def _read_template(self, path: Path, label: str) -> str:
+        if not path.exists():
+            raise FileNotFoundError(
+                f"Morning Intelligence frontend template missing ({label}): {path}"
+            )
+        return path.read_text(encoding="utf-8")
 
 
 def _document_payload(

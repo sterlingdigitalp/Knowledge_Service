@@ -96,6 +96,7 @@ class MorningIntelligenceRunner:
         self.frontend_dir = Path(frontend_dir or self.service_root / "frontend")
         self.logger = logger or MorningIntelligenceLogger()
         self.freshness_gate = FreshnessGate()
+        self._last_network_check_detail = "not checked"
 
     def run(self, *, mode: str = "scheduled") -> MorningRunResult:
         started = time.perf_counter()
@@ -107,7 +108,7 @@ class MorningIntelligenceRunner:
 
         self._ensure_state_bootstrap()
         network_ok = self._check_network()
-        self.logger.section("network", {"ok": network_ok})
+        self.logger.section("network", {"ok": network_ok, "detail": self._last_network_check_detail})
 
         acquisition_summary: Dict[str, Any] = {"status": "skipped", "reason": "network_unavailable"}
         new_episode_ids: List[str] = []
@@ -223,7 +224,12 @@ class MorningIntelligenceRunner:
         summary["output_files"] = publish_result.to_dict()
         summary["llm_provider"] = load_llm_config().to_public_dict()
         self.logger.finalize(summary)
-        self._persist_run_state(summary)
+        try:
+            self._persist_run_state(summary)
+        except OSError as exc:
+            result.errors.append(f"state persistence failed: {exc}")
+            result.degraded = True
+            result.status = "degraded"
         return result
 
     def status(self) -> Dict[str, Any]:
@@ -236,19 +242,25 @@ class MorningIntelligenceRunner:
             "latest.md": (self.frontend_dir / "latest.md").exists(),
             "latest.json": latest_json.exists(),
         }
-        brief_meta = {}
+        brief_meta: Dict[str, Any] = {}
+        brief_meta_error: Optional[str] = None
         if latest_json.exists():
-            data = json.loads(latest_json.read_text(encoding="utf-8"))
-            brief_meta = {
-                "generated_at": data.get("generated_at"),
-                "empty_signal": data.get("empty_signal"),
-                "brief_items": (data.get("brief") or {}).get("total_items"),
-            }
+            try:
+                data = json.loads(latest_json.read_text(encoding="utf-8"))
+            except json.JSONDecodeError as exc:
+                brief_meta_error = f"latest.json is not valid JSON: {exc}"
+            else:
+                brief_meta = {
+                    "generated_at": data.get("generated_at"),
+                    "empty_signal": data.get("empty_signal"),
+                    "brief_items": (data.get("brief") or {}).get("total_items"),
+                }
         return {
             "service_root": str(self.service_root),
             "state_dir": str(self.state_dir),
             "artifacts": latest_exists,
             "brief": brief_meta,
+            "brief_meta_error": brief_meta_error,
             "last_run": last_summary,
             "llm": load_llm_config().to_public_dict(),
         }
@@ -275,16 +287,29 @@ class MorningIntelligenceRunner:
     def _check_network(self) -> bool:
         try:
             socket.getaddrinfo("api.x.ai", 443)
-        except OSError:
+        except OSError as exc:
+            self._last_network_check_detail = f"dns lookup failed for api.x.ai: {exc}"
             return False
         try:
             with urllib.request.urlopen("https://api.x.ai/v1", timeout=8) as response:
-                return response.status in {200, 401, 403, 404}
-        except Exception:
-            try:
-                with urllib.request.urlopen("https://podscripts.co", timeout=8):
+                if response.status in {200, 401, 403, 404}:
+                    self._last_network_check_detail = f"api.x.ai reachable (HTTP {response.status})"
                     return True
-            except Exception:
+                self._last_network_check_detail = f"api.x.ai returned unexpected HTTP {response.status}"
+                return False
+        except Exception as exc:
+            try:
+                with urllib.request.urlopen("https://podscripts.co", timeout=8) as response:
+                    self._last_network_check_detail = (
+                        f"api.x.ai unreachable ({type(exc).__name__}: {exc}); "
+                        f"fallback podscripts.co reachable (HTTP {response.status})"
+                    )
+                    return True
+            except Exception as fallback_exc:
+                self._last_network_check_detail = (
+                    f"api.x.ai unreachable ({type(exc).__name__}: {exc}); "
+                    f"fallback podscripts.co unreachable ({type(fallback_exc).__name__}: {fallback_exc})"
+                )
                 return False
 
     def _run_acquisition(self, *, mode: str) -> tuple[Dict[str, Any], List[str]]:
