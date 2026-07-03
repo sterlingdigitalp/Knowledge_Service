@@ -1,0 +1,365 @@
+{
+  "edges": [
+    {
+      "source_id": "88ce63d3bfe986c48b0a2234",
+      "target_id": "1fe8530a567ed40bc2d53d51",
+      "edge_type": "related_story",
+      "confidence": 0.6,
+      "metadata": {
+        "left_story_id": "88ce63d3bfe986c48b0a2234",
+        "right_story_id": "1fe8530a567ed40bc2d53d51",
+        "shared_entities": [
+          "Gemini",
+          "Live"
+        ],
+        "shared_sources": [
+          "Dwarkesh Podcast"
+        ],
+        "shared_events": [],
+        "confidence": 0.6
+      }
+    },
+    {
+      "source_id": "349bb9f1fcbbfb2ff30498de",
+      "target_id": "f946e825bb43cf5f8e3164e2",
+      "edge_type": "related_story",
+      "confidence": 0.5,
+      "metadata": {
+        "left_story_id": "349bb9f1fcbbfb2ff30498de",
+        "right_story_id": "f946e825bb43cf5f8e3164e2",
+        "shared_entities": [
+          "East Roman Empire"
+        ],
+        "shared_sources": [
+          "Lex Fridman Podcast"
+        ],
+        "shared_events": [],
+        "confidence": 0.5
+      }
+    },
+    {
+      "source_id": "e19a2788b357be8ef9d65583",
+      "target_id": "30ca4903920a15803b918084",
+      "edge_type": "related_story",
+      "confidence": 0.5,
+      "metadata": {
+        "left_story_id": "e19a2788b357be8ef9d65583",
+        "right_story_id": "30ca4903920a15803b918084",
+        "shared_entities": [
+          "New York Times"
+        ],
+        "shared_sources": [
+          "All-In Podcast"
+        ],
+        "shared_events": [],
+        "confidence": 0.5
+      }
+    },
+    {
+      "source_id": "88ce63d3bfe986c48b0a2234",
+      "target_id": "567590adfde920a156c54fd7",
+      "edge_type": "story_contains_event",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "88ce63d3bfe986c48b0a2234",
+      "target_id": "ce4efe1b1e4f86a71db21f6d",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.77,
+      "metadata": {}
+    },
+    {
+      "source_id": "88ce63d3bfe986c48b0a2234",
+      "target_id": "b0e796c0092872ac147f9436",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.8700000000000001,
+      "metadata": {}
+    },
+    {
+      "source_id": "88ce63d3bfe986c48b0a2234",
+      "target_id": "7d6c7680f6a169a6b55b9a18",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "88ce63d3bfe986c48b0a2234",
+      "target_id": "258317c79f6eba6c2c995d23",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.77,
+      "metadata": {}
+    },
+    {
+      "source_id": "88ce63d3bfe986c48b0a2234",
+      "target_id": "b4d20f864bb7c58c9a643059",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "1c922f0099ab04dffd75e58b",
+      "target_id": "b6438b5c9442843a171b5a48",
+      "edge_type": "story_contains_event",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "1c922f0099ab04dffd75e58b",
+      "target_id": "e786b261a089cfbaed47026d",
+      "edge_type": "story_contains_event",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "1c922f0099ab04dffd75e58b",
+      "target_id": "252f3c989f0a10189186a018",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "1c922f0099ab04dffd75e58b",
+      "target_id": "b6bde4c8c7823c37efe0b07c",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "0a834438c5d04f993f3d7de8",
+      "target_id": "a0520b8e02bd06ffabbd12c6",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.8700000000000001,
+      "metadata": {}
+    },
+    {
+      "source_id": "0a834438c5d04f993f3d7de8",
+      "target_id": "7a4e5f52368a8566aa633e41",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.8200000000000001,
+      "metadata": {}
+    },
+    {
+      "source_id": "0a834438c5d04f993f3d7de8",
+      "target_id": "932c5eab16508d7cfc7576f9",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.8700000000000001,
+      "metadata": {}
+    },
+    {
+      "source_id": "0a834438c5d04f993f3d7de8",
+      "target_id": "71e23c5cb72ffc336f0bbf92",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "0a834438c5d04f993f3d7de8",
+      "target_id": "53135e1390b352342a48b0f1",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "349bb9f1fcbbfb2ff30498de",
+      "target_id": "7eaf62e10f28fb437ee89e48",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "349bb9f1fcbbfb2ff30498de",
+      "target_id": "dd442a119fc6577ebf479212",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "349bb9f1fcbbfb2ff30498de",
+      "target_id": "1e808cf0ef3984de23f463e2",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "349bb9f1fcbbfb2ff30498de",
+      "target_id": "79cc2fba725b8f971d57d1d1",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.77,
+      "metadata": {}
+    },
+    {
+      "source_id": "1fe8530a567ed40bc2d53d51",
+      "target_id": "e8a188824986cd4149435645",
+      "edge_type": "story_contains_event",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "1fe8530a567ed40bc2d53d51",
+      "target_id": "7d6c7680f6a169a6b55b9a18",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "1fe8530a567ed40bc2d53d51",
+      "target_id": "b0e796c0092872ac147f9436",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.8700000000000001,
+      "metadata": {}
+    },
+    {
+      "source_id": "e19a2788b357be8ef9d65583",
+      "target_id": "37f1ee94f3ffd27e59550d12",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "e19a2788b357be8ef9d65583",
+      "target_id": "f489e0e5725263c61b83d8b8",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "e19a2788b357be8ef9d65583",
+      "target_id": "ea212fad1eb52e8c9a174e10",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.8700000000000001,
+      "metadata": {}
+    },
+    {
+      "source_id": "e19a2788b357be8ef9d65583",
+      "target_id": "2d0b3cb53f87b3ad1131ea42",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.77,
+      "metadata": {}
+    },
+    {
+      "source_id": "46caabd667196ab6b314a4eb",
+      "target_id": "beeb17af8b5fb30eecd561cf",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "46caabd667196ab6b314a4eb",
+      "target_id": "dcfd43177ec6f7c8c6be717d",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "46caabd667196ab6b314a4eb",
+      "target_id": "95413f10b39473e664d40659",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "504252631ada1f0f42a9c439",
+      "target_id": "000833718ba3498e2b827220",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "504252631ada1f0f42a9c439",
+      "target_id": "280acf017e3257bf2f3bf5dc",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.72,
+      "metadata": {}
+    },
+    {
+      "source_id": "f946e825bb43cf5f8e3164e2",
+      "target_id": "dd442a119fc6577ebf479212",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "f946e825bb43cf5f8e3164e2",
+      "target_id": "4266bf09a512258dcba2ac84",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.8200000000000001,
+      "metadata": {}
+    },
+    {
+      "source_id": "700827a6754ceb4c2f6b4427",
+      "target_id": "7d2e1cd7871173ff68a620c1",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    },
+    {
+      "source_id": "30ca4903920a15803b918084",
+      "target_id": "37f1ee94f3ffd27e59550d12",
+      "edge_type": "story_mentions_entity",
+      "confidence": 0.99,
+      "metadata": {}
+    }
+  ],
+  "story_links": [
+    {
+      "left_story_id": "88ce63d3bfe986c48b0a2234",
+      "right_story_id": "1fe8530a567ed40bc2d53d51",
+      "shared_entities": [
+        "Gemini",
+        "Live"
+      ],
+      "shared_sources": [
+        "Dwarkesh Podcast"
+      ],
+      "shared_events": [],
+      "confidence": 0.6
+    },
+    {
+      "left_story_id": "349bb9f1fcbbfb2ff30498de",
+      "right_story_id": "f946e825bb43cf5f8e3164e2",
+      "shared_entities": [
+        "East Roman Empire"
+      ],
+      "shared_sources": [
+        "Lex Fridman Podcast"
+      ],
+      "shared_events": [],
+      "confidence": 0.5
+    },
+    {
+      "left_story_id": "e19a2788b357be8ef9d65583",
+      "right_story_id": "30ca4903920a15803b918084",
+      "shared_entities": [
+        "New York Times"
+      ],
+      "shared_sources": [
+        "All-In Podcast"
+      ],
+      "shared_events": [],
+      "confidence": 0.5
+    }
+  ],
+  "contradictions": [],
+  "follow_ups": [
+    {
+      "entity": "Translate",
+      "primary_story": "Translate: Release",
+      "follow_up_story": "Live: Release",
+      "reason": "shared_entity_multi_story"
+    },
+    {
+      "entity": "Byzantine Empire",
+      "primary_story": "Byzantine Empire Historical Analysis",
+      "follow_up_story": "East Roman Empire and Aurelius",
+      "reason": "shared_entity_multi_story"
+    },
+    {
+      "entity": "New York Times",
+      "primary_story": "New York Times and Yeah",
+      "follow_up_story": "New York Times Developments",
+      "reason": "shared_entity_multi_story"
+    }
+  ],
+  "edge_count": 38
+}

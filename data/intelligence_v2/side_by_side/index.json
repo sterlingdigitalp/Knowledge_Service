@@ -1,0 +1,48 @@
+{
+  "comparisons": [
+    {
+      "date": "2026-07-01",
+      "generated_at": "2026-07-01T11:34:02Z",
+      "source_archive": "/Users/sterlingdigital/Knowledge_Service/frontend/archive/2026-07-01/morning.json",
+      "output_dir": "/Users/sterlingdigital/Knowledge_Service/data/intelligence_v2/side_by_side/2026-07-01",
+      "runtime1_item_count": 5,
+      "il2_item_count": 2,
+      "il2_accepted": 2,
+      "il2_rejected": 3,
+      "artifacts": [
+        "SIDE_BY_SIDE.md",
+        "comparison.json",
+        "il2_brief.json",
+        "il2_brief.md",
+        "runtime1_published_morning.html",
+        "runtime1_published_morning.json",
+        "runtime1_published_morning.md",
+        "runtime1_published_run_summary.json",
+        "runtime1_regenerated_brief.json",
+        "runtime1_regenerated_brief.md"
+      ]
+    },
+    {
+      "date": "2026-07-02",
+      "generated_at": "2026-07-02T11:35:46Z",
+      "source_archive": "/Users/sterlingdigital/Knowledge_Service/frontend/archive/2026-07-02/morning.json",
+      "output_dir": "/Users/sterlingdigital/Knowledge_Service/data/intelligence_v2/side_by_side/2026-07-02",
+      "runtime1_item_count": 5,
+      "il2_item_count": 2,
+      "il2_accepted": 2,
+      "il2_rejected": 3,
+      "artifacts": [
+        "SIDE_BY_SIDE.md",
+        "comparison.json",
+        "il2_brief.json",
+        "il2_brief.md",
+        "runtime1_published_morning.html",
+        "runtime1_published_morning.json",
+        "runtime1_published_morning.md",
+        "runtime1_published_run_summary.json",
+        "runtime1_regenerated_brief.json",
+        "runtime1_regenerated_brief.md"
+      ]
+    }
+  ]
+}

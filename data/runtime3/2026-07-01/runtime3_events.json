@@ -1,0 +1,3196 @@
+[
+  {
+    "event_id": "e8a188824986cd4149435645",
+    "event_type": "release",
+    "title": "Gemini \u2014 Release",
+    "description": "And since Google just released Gemini 3.5 Live Translate, I thought it'd be fun to put it to the test in this midroll. 3.5 live translate automatically detects more than 70 different languages and translates them in almost real time into the target language.",
+    "claim_ids": [
+      "992d9352cd5cc2d75302d2f7",
+      "39b9dd3149b44eca3cff471b"
+    ],
+    "entity_ids": [
+      "9ce2d1cfd84df3dcbc0ec6b4",
+      "ce4efe1b1e4f86a71db21f6d",
+      "7d6c7680f6a169a6b55b9a18",
+      "258317c79f6eba6c2c995d23",
+      "b4d20f864bb7c58c9a643059",
+      "5199127deb0df39b36e0d2a5"
+    ],
+    "episode_ids": [
+      "b8dfb9c55203e3176e28f2d9"
+    ],
+    "confidence": 0.99,
+    "timestamp_start": 1521.0
+  },
+  {
+    "event_id": "780b9ada9f251268823c05ed",
+    "event_type": "election",
+    "title": "Yeah \u2014 Election",
+    "description": "Yeah, that was just the LA election, Jason, just to be clear.",
+    "claim_ids": [
+      "9b3e5d5eedef284a83f18b0a",
+      "e0a1a9a41f7fddeed42e0319"
+    ],
+    "entity_ids": [
+      "f489e0e5725263c61b83d8b8",
+      "066c583785b6e19768558520"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6",
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.99,
+    "timestamp_start": 583.0
+  },
+  {
+    "event_id": "bac9d1d252d484ab7fd513f1",
+    "event_type": "election",
+    "title": "Democrats \u2014 Election",
+    "description": "But if you have one party who systematically tends to vote later, also Democrats in both the L.A. race and the governorship had more of a choice to make.",
+    "claim_ids": [
+      "b21343224a77536c64a246d3",
+      "573b5babdecbbfc64bf28f70"
+    ],
+    "entity_ids": [
+      "a65bcedac88c2440ee7f43c6"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.99,
+    "timestamp_start": 651.0
+  },
+  {
+    "event_id": "09215c920640bb649e745df5",
+    "event_type": "election",
+    "title": "New York Times \u2014 Election",
+    "description": "And like, you know, we saw, I saw before the New York mayoral race last year, people who were able to make incredibly accurate almost block by block neighborhood by neighborhood projections based on where Zorn would be good versus Cuomo, just based on knowing the city and where younger people, young",
+    "claim_ids": [
+      "8e0cc62a30181321c21ae563",
+      "ee62e0b54a3c15f13d819c6f"
+    ],
+    "entity_ids": [
+      "37f1ee94f3ffd27e59550d12",
+      "73b735f86d6e9b5577b3f641",
+      "37f1ee94f3ffd27e59550d12",
+      "f2a3385aa284ae8252d1763a",
+      "b6bde4c8c7823c37efe0b07c"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6",
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.99,
+    "timestamp_start": 2528.0
+  },
+  {
+    "event_id": "4fd0004bcfa90115594256f9",
+    "event_type": "election",
+    "title": "Democratic \u2014 Election",
+    "description": "Newsom has fallen in Democratic primary polls from around 25% to 15%.",
+    "claim_ids": [
+      "ef30ccc1e5fd1e8045d1edf2",
+      "a1cec3723d909e2ddbfc7692"
+    ],
+    "entity_ids": [
+      "b6bde4c8c7823c37efe0b07c",
+      "5414465243fecfde08c8f300",
+      "69a4dc1bb60fab943630f931",
+      "bba343dce7cbfecfbc4cf924"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6",
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.99,
+    "timestamp_start": 3323.0
+  },
+  {
+    "event_id": "1c3580e2f0a4b0d27dbabb3b",
+    "event_type": "scientific_discovery",
+    "title": "Higgs \u2014 Discovery",
+    "description": "But how does then this band-aid, the field and the Higgs boson, come into play on the experimental front, on the evidence discovery front?",
+    "claim_ids": [
+      "6a88793760ce2b3751e8b049",
+      "efbc5e8e6c924cad9ff28f4f"
+    ],
+    "entity_ids": [
+      "9e532615961e84e0a6075f66"
+    ],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.99,
+    "timestamp_start": 3047.0
+  },
+  {
+    "event_id": "7c1da0ac261b20c1d55bd80c",
+    "event_type": "scientific_discovery",
+    "title": "Fermilab \u2014 Discovery",
+    "description": "And to give you a sense of scale, the top quark, which is the heaviest particle ever discovered, discovered at Fermilab in 1995.",
+    "claim_ids": [
+      "0495bedaa4f882e4d58c95d0",
+      "cc6dd710db45953b414a4d9c"
+    ],
+    "entity_ids": [
+      "c739b51ab4b08bf20f32dd79",
+      "9e532615961e84e0a6075f66",
+      "85919d4dd4ca956374817900"
+    ],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.99,
+    "timestamp_start": 3761.0
+  },
+  {
+    "event_id": "1771381b2bd38fe924d51d22",
+    "event_type": "partnership",
+    "title": "Open Media \u2014 Partnership",
+    "description": "So David is a decoder for the format that was done by Alliance for Open Media,",
+    "claim_ids": [
+      "78882cfcf9341e280eb269bd",
+      "b5b3b0406b5d5394063c0ca8",
+      "eb470a021d8a841094e78b37"
+    ],
+    "entity_ids": [
+      "19127e036a817d4b2d93c297",
+      "2214e5c6164081e6d4fb6656",
+      "3408034899969a544fce6ea6",
+      "2c46987e115e0fcecdfa6ece",
+      "11ad1bedcbdaa681d5f4def5",
+      "d3f57a6d7f5de2d62af7fb55",
+      "2d24c3f84581c65d2640550c",
+      "a79e23bef8854371016aee47",
+      "360ab441625bd18b00d052ac",
+      "b4d20f864bb7c58c9a643059"
+    ],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.99,
+    "timestamp_start": 7899.0
+  },
+  {
+    "event_id": "7f3cd004512162f4f240a4e9",
+    "event_type": "policy",
+    "title": "You supported this open border policy that brought\u2026",
+    "description": "You supported this open border policy that brought in this wave of mass migration.",
+    "claim_ids": [
+      "a1a42bb3bb9b4c94f2abbb72"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.988,
+    "timestamp_start": 659.0
+  },
+  {
+    "event_id": "220a57dd9f8fd7ecc85c4027",
+    "event_type": "election",
+    "title": "New Yorkers \u2014 Election",
+    "description": "Mamdani would not have won the mayoral election in New York if it had just been native-born New Yorkers voting.",
+    "claim_ids": [
+      "a3a678888094ce8d7bac31e9"
+    ],
+    "entity_ids": [
+      "7a06ae8e9c331053c1fa47d4",
+      "ee86ec4aa124cebd93d774ff",
+      "b2a5669a5e84d2f7b069ffd7",
+      "37f1ee94f3ffd27e59550d12",
+      "37f1ee94f3ffd27e59550d12"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.988,
+    "timestamp_start": 659.0
+  },
+  {
+    "event_id": "987d5ab1702409c2e1fe8857",
+    "event_type": "research_paper",
+    "title": "Timothy Chow \u2014 Research",
+    "description": "And I mean, one of my favorite like openings to a paper, it's not even like a research paper, it's more like an expository one, is from this mathematician named Timothy Chow who was trying to understand a concept called forcing.",
+    "claim_ids": [
+      "46d0b28c7dd52e767cae5e1a"
+    ],
+    "entity_ids": [
+      "473896e10385e1a2341a4d03",
+      "8b8b5d408f2927b34fbda18a",
+      "0ba6b34f852b6b7d5bb309da"
+    ],
+    "episode_ids": [
+      "b8dfb9c55203e3176e28f2d9"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 1898.0
+  },
+  {
+    "event_id": "0f20c21be6da413fa773ed00",
+    "event_type": "election",
+    "title": "Dave \u2014 Election",
+    "description": "An election which, I don't want to speak for Dave, but you may have seen or. heard the podcast where he was like, hey, this is not illegal, but it doesn't feel like a real election.",
+    "claim_ids": [
+      "4833a1769854c82bbb667919"
+    ],
+    "entity_ids": [
+      "5acc24bd7d00feb6d0eb940f"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 583.0
+  },
+  {
+    "event_id": "e9d4b7cf9a957e6f65b21ac3",
+    "event_type": "election",
+    "title": "The mistake that can be made is to\u2026",
+    "description": "The mistake that can be made is to assume that each ballot comes in independently when there are systematic differences between groups and when they tend to cast their ballots.",
+    "claim_ids": [
+      "4aca91b0803b200e7fe39b60"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 651.0
+  },
+  {
+    "event_id": "7183efdfd15abea0dd07c203",
+    "event_type": "election",
+    "title": "Indian \u2014 Election",
+    "description": "I've done some consulting work on like the Indian election where you like literally have polling stations in the Himalayas and they actually stagger their elections.",
+    "claim_ids": [
+      "5485ebd0ae3cfb32e8fb7ebc"
+    ],
+    "entity_ids": [
+      "13e4a2b55718cf32319e67d0",
+      "0f211d5099998b53083b4260",
+      "62acdc0df734857adde17792"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 651.0
+  },
+  {
+    "event_id": "4a50b5f305a402de4cd7e20a",
+    "event_type": "election",
+    "title": "But once election day happens, they count their\u2026",
+    "description": "But once election day happens, they count their vote within 24 hours.",
+    "claim_ids": [
+      "4a350b932f620652da70b04e"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 651.0
+  },
+  {
+    "event_id": "8e4dccfe0426dbfa44414ed7",
+    "event_type": "election",
+    "title": "Skid Row \u2014 Election",
+    "description": "And then people bring up this idea of ballot harvesting where there were homeless people from Skid Row and the number of ballots that came from that particular region in the late mail-in was kind of concentrated for Nipia Raman, do you get a sense that that actually is a true representation of indiv",
+    "claim_ids": [
+      "e4b2ea02c1ca47d9a61b46f2"
+    ],
+    "entity_ids": [
+      "cf559f655cdede54790f5849",
+      "82b9a1db320f17ca644fca9c",
+      "2b3b8a64275799d31839a612",
+      "b62b8c716fc89e20596f3aea",
+      "8058bb59af49e5fe81ed896b",
+      "d8dbe8bc2e67ff00fb16b381"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 837.0
+  },
+  {
+    "event_id": "b8602210238652aed5d634a3",
+    "event_type": "election",
+    "title": "By the way, also things like rank choice\u2026",
+    "description": "By the way, also things like rank choice voting, which I again, as an election wonk, I support giving voters more choice.",
+    "claim_ids": [
+      "6f7b9c932a1c1b8e2c21fe78"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 1058.0
+  },
+  {
+    "event_id": "1ef960284d1f09785a9f2143",
+    "event_type": "election",
+    "title": "So even if you extrapolated them 10x or\u2026",
+    "description": "So even if you extrapolated them 10x or 20x, pick your multiple, it would never swing a major election.",
+    "claim_ids": [
+      "2aabc0a4d2011a71242de5d8"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 1135.0
+  },
+  {
+    "event_id": "51844c054c8d000a18fbcee9",
+    "event_type": "election",
+    "title": "In fact, the number of elections that have\u2026",
+    "description": "In fact, the number of elections that have been swung, based on what they told me, is like the most local smallest election, where there's tens of thousands of votes or thousands of votes.",
+    "claim_ids": [
+      "244a85b47ed869f45d580bd9"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 1135.0
+  },
+  {
+    "event_id": "1f49422b8bba8ea39eff03cf",
+    "event_type": "election",
+    "title": "Partisanship \u2014 Election",
+    "description": "Partisanship is the gravity that dictates every election in the U.S., right?",
+    "claim_ids": [
+      "fbd86cc71e439b6f5790c3a4"
+    ],
+    "entity_ids": [
+      "21fd74cb7af5bcfc4b924f97"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 1280.0
+  },
+  {
+    "event_id": "c8443d5a37e52e3933d8a635",
+    "event_type": "election",
+    "title": "You know, the one election that did win\u2026",
+    "description": "You know, the one election that did win was during a once in a century pandemic that, although I had my critiques of liberal handling of COVID, was kind of objectively handled.",
+    "claim_ids": [
+      "fcfc8dd942f6d126a1b5144c"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 1406.0
+  },
+  {
+    "event_id": "0b3853199181d010f9decd12",
+    "event_type": "election",
+    "title": "Obama \u2014 Election",
+    "description": "The establishment doesn't seem to have an understanding of the fact that like almost every election now, Obama in 2012 was, I guess, the exception.",
+    "claim_ids": [
+      "735cd9db00d4df2ed829e3dd"
+    ],
+    "entity_ids": [
+      "5ab9bc01f862fda4eefbf7d6"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 1789.0
+  },
+  {
+    "event_id": "c0a0d7e7a299d9bf8842a655",
+    "event_type": "election",
+    "title": "Clinton \u2014 Election",
+    "description": "Again, I grew up in like, I guess the first election I was old enough to vote and was Clinton in 96.",
+    "claim_ids": [
+      "ad4b4a2f4d8641a374f02011"
+    ],
+    "entity_ids": [
+      "40a82094b1007e581a45e6d0"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 2528.0
+  },
+  {
+    "event_id": "5179caa4478c8755eb1ab406",
+    "event_type": "release",
+    "title": "The rollout here requires interacting with the real\u2026",
+    "description": "The rollout here requires interacting with the real world, and you can't recreate it from just within the data center.",
+    "claim_ids": [
+      "aeef4ba5385c23fb733a3346"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "57f26f4b243ae8fee149e7e1"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 286.0
+  },
+  {
+    "event_id": "8d51dda1cf53b17d72b3d5a1",
+    "event_type": "launch",
+    "title": "Johnson \u2014 Launch",
+    "description": "What is the RL environment to make an AI that is as good at politics as Lyndon Johnson, or as good at building a space launch business as Elon Musk?",
+    "claim_ids": [
+      "feab1e5f11f82ebb2397226a"
+    ],
+    "entity_ids": [
+      "c644c4c5bf623d52bc4c09ea",
+      "601bee33a5d508da96f13aa6",
+      "fb8aca27320742647dc670f1",
+      "2cc0a6a5bd0ff8ef8f981179",
+      "695250c87e7fc3aa400b022a",
+      "b76b1326e98af4482ef6d0ae"
+    ],
+    "episode_ids": [
+      "57f26f4b243ae8fee149e7e1"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 337.0
+  },
+  {
+    "event_id": "55f2052f85a18cb2a6ae20b3",
+    "event_type": "policy",
+    "title": "On Policy Self \u2014 Policy",
+    "description": "A lot of people are talking about this technique called On Policy Self-Distillation recently.",
+    "claim_ids": [
+      "8cf2ab08f505563d9a91af30"
+    ],
+    "entity_ids": [
+      "57218f4b1f86c2865bd037a9",
+      "2aca1c8aa7d70648f3ca6014",
+      "e4a7b2ff4b9e7a6c325b86ca",
+      "6c6c4f9fc4ed7ec0cc97893b"
+    ],
+    "episode_ids": [
+      "57f26f4b243ae8fee149e7e1"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 752.0
+  },
+  {
+    "event_id": "896cde353cbb6036e4777673",
+    "event_type": "policy",
+    "title": "There's a constant in a workings of policy\u2026",
+    "description": "There's a constant in a workings of policy development inside government.",
+    "claim_ids": [
+      "59a71b37ba4faf3e22d06d47"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 2767.0
+  },
+  {
+    "event_id": "fefee7081e731c2952c40040",
+    "event_type": "policy",
+    "title": "and did this kind of cheering or not\u2026",
+    "description": "and did this kind of cheering or not cheering based on policy and whether the emperor is popular or not.",
+    "claim_ids": [
+      "753667e628f9851e0461b1a0"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 2870.0
+  },
+  {
+    "event_id": "807818c0472129fd6a73f883",
+    "event_type": "policy",
+    "title": "But it gives you a sense of how\u2026",
+    "description": "But it gives you a sense of how emperors like literally can backtrack when they see that the people are against something in a matter of policy, right, like tax policy.",
+    "claim_ids": [
+      "c6dd3a6fe052eb0e79b6f162"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 3010.0
+  },
+  {
+    "event_id": "c829fe0a12ff35f7f1722db7",
+    "event_type": "acquisition",
+    "title": "Orealus \u2014 Acquisition",
+    "description": "And so when you acquired citizenship from that edict, you became un-Orealus, right?",
+    "claim_ids": [
+      "714b29ea7469d7b259db48c4"
+    ],
+    "entity_ids": [
+      "77793660891d16493c2ff20d"
+    ],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 3772.0
+  },
+  {
+    "event_id": "a558ccdefd603aeffd9f1d79",
+    "event_type": "election",
+    "title": "Islamic \u2014 Election",
+    "description": "So the Muslim armies, they conquer this empire and then they have to sort of govern it. they think according to whatever Islamic principles a Quran doesn't say anything about running an empire so that creates a completely different society right where like Islam is is really a primary",
+    "claim_ids": [
+      "142e437ff30f154623f575f7"
+    ],
+    "entity_ids": [
+      "bcad92e6d250eb9fb73b2d60",
+      "032e8e757838d3a4bd08e92a",
+      "aeece8b29d6c447e09bee9a3",
+      "5ecba9e949f26a17edfd1918",
+      "7767852ab630546e667ef874"
+    ],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 5739.0
+  },
+  {
+    "event_id": "34b1760ec6fd232783105914",
+    "event_type": "policy",
+    "title": "Land \u2014 Policy",
+    "description": "Land is given to the church by the emperors or in wills so that they can engage in this kind of social policy.",
+    "claim_ids": [
+      "6132d37507e42dab9e4d9748"
+    ],
+    "entity_ids": [
+      "d8a002e8d80c850f44d766ca"
+    ],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 6340.0
+  },
+  {
+    "event_id": "109245d17fad503a6997d3f7",
+    "event_type": "election",
+    "title": "Cicero \u2014 Election",
+    "description": "Like even Cicero could imagine the Roman race publica governed by a king or by a Senate or by a democracy.",
+    "claim_ids": [
+      "046fe11cd641eae663affefe"
+    ],
+    "entity_ids": [
+      "42bcd912988ed01896621f10",
+      "dd442a119fc6577ebf479212",
+      "c6ecf7cfe968cf90462a951c"
+    ],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 8922.0
+  },
+  {
+    "event_id": "1d303cb02237cdd8ae674666",
+    "event_type": "policy",
+    "title": "He's not the worst of the worst, but\u2026",
+    "description": "He's not the worst of the worst, but he made a very, very bad call when it came to church policy tore the church apart.",
+    "claim_ids": [
+      "5bab0a0b208a5bd2e4ba2c89"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 9472.0
+  },
+  {
+    "event_id": "75c679def73087d81ce3cfb4",
+    "event_type": "policy",
+    "title": "Persian Shah \u2014 Policy",
+    "description": "And the Persian Shah at this time, Custro II, has basically decided on a policy of conquest, not just raiding.",
+    "claim_ids": [
+      "2ff95f75cec4e6f92d39cfe0"
+    ],
+    "entity_ids": [
+      "381af9b62fa1fc7d0773b2a5",
+      "35f857ac87789f3e6064c290",
+      "751039cc6beae2f5962dea41",
+      "71c97b06620dd5effef76166"
+    ],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 10501.0
+  },
+  {
+    "event_id": "6e4c81a4511a8bef03bcd7b6",
+    "event_type": "policy",
+    "title": "Constantinople \u2014 Policy",
+    "description": "No, that's not what Christian churches used to be like, at least not in Constantinople. but his dynasty basically tried to limit or remove images from churches, and ultimately that policy failed.",
+    "claim_ids": [
+      "03d5c14874d8c5ef7717d027"
+    ],
+    "entity_ids": [
+      "685e5406f2dc7b00617f1cb5",
+      "7d2e1cd7871173ff68a620c1"
+    ],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 11453.0
+  },
+  {
+    "event_id": "2686a2601e5da0839489888e",
+    "event_type": "policy",
+    "title": "And not only that, when emperors changed their\u2026",
+    "description": "And not only that, when emperors changed their policy, almost everyone felt. into line.",
+    "claim_ids": [
+      "6def3459d2f92933c1a8f90f"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 11574.0
+  },
+  {
+    "event_id": "2c7b72d483521089fa0e1812",
+    "event_type": "policy",
+    "title": "U.S. foreign policy sometimes has quite a large\u2026",
+    "description": "U.S. foreign policy sometimes has quite a large gap between the rhetoric and the, in modern times, the rhetoric and the action.",
+    "claim_ids": [
+      "cd368513ddab962acfceee9b"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 13348.0
+  },
+  {
+    "event_id": "35a120fd5a582f010ba23ec6",
+    "event_type": "policy",
+    "title": "And it doesn't quite for some of the\u2026",
+    "description": "And it doesn't quite for some of the foreign policy engagements in the world.",
+    "claim_ids": [
+      "6620e622faa8eddf78a0af50"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 13348.0
+  },
+  {
+    "event_id": "ae1da22306e237ac6ca33859",
+    "event_type": "policy",
+    "title": "But you're exactly right. you know, we want\u2026",
+    "description": "But you're exactly right. you know, we want democracy, we want leaders whom we can eject every four or five years, which includes sometimes their, you know, teams of experts and policy designers and whatever, and that comes at a cost too.",
+    "claim_ids": [
+      "2368fbdfdeeb24cb858ce4de"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 13611.0
+  },
+  {
+    "event_id": "bd935ab2e031a631b8f15a57",
+    "event_type": "launch",
+    "title": "Open Media \u2014 Launch",
+    "description": "And when this format was launched, many people said, especially even from the Alliance for Open Media, which is Google, Netflix, Amazon, Mozilla,",
+    "claim_ids": [
+      "b5b3b0406b5d5394063c0ca8"
+    ],
+    "entity_ids": [
+      "19127e036a817d4b2d93c297",
+      "2d24c3f84581c65d2640550c",
+      "2214e5c6164081e6d4fb6656",
+      "3408034899969a544fce6ea6",
+      "a79e23bef8854371016aee47",
+      "2c46987e115e0fcecdfa6ece",
+      "360ab441625bd18b00d052ac",
+      "b4d20f864bb7c58c9a643059"
+    ],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 7927.0
+  },
+  {
+    "event_id": "8ff7e997926f2e454ef2031f",
+    "event_type": "acquisition",
+    "title": "YouTube \u2014 Acquisition",
+    "description": "like Google Video, which was something they did before they acquired YouTube, was actually using the VLC plugin so that you could run VLC inside the web browser using the Activix plugin.",
+    "claim_ids": [
+      "c6a42b8315779c7f1cf39854"
+    ],
+    "entity_ids": [
+      "86836c11193828c69f937575",
+      "186947a2d626bfdaab5de634",
+      "b4d20f864bb7c58c9a643059",
+      "5f2b9c90d3a37fa96ee66fa4",
+      "b4d20f864bb7c58c9a643059"
+    ],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 11740.0
+  },
+  {
+    "event_id": "683fb37e47a24debffff4550",
+    "event_type": "launch",
+    "title": "And when you crash, you launch something on\u2026",
+    "description": "And when you crash, you launch something on the machine of the person.",
+    "claim_ids": [
+      "e5c1b593041b1a9fb0813e5a"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 12170.0
+  },
+  {
+    "event_id": "d1bec6b2ef7cee70aee2e440",
+    "event_type": "election",
+    "title": "And it's amazing appeal and it's winning at\u2026",
+    "description": "And it's amazing appeal and it's winning at the election box.",
+    "claim_ids": [
+      "62f7aa27b21257d340f86fbf"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 405.0
+  },
+  {
+    "event_id": "6fa439330817afa958f0ae54",
+    "event_type": "policy",
+    "title": "America \u2014 Policy",
+    "description": "It was also the fact that they have cracked the melting pot and the policy we had for many years in America of assimilating migrants, right, immigrants.",
+    "claim_ids": [
+      "31617711457c5e6122c76dcd"
+    ],
+    "entity_ids": [
+      "77465bc69bbee17902a6ef45",
+      "700db29361dda727644c2198"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 735.0
+  },
+  {
+    "event_id": "7223d7570bdc973bf1e891df",
+    "event_type": "election",
+    "title": "Spencer Pratt \u2014 Election",
+    "description": "I mean, that race for mayor in L.A. where was it Rahman somehow beat Spencer Pratt, thanks to ballot harvesting after voting day?",
+    "claim_ids": [
+      "7a2ed83af7452af9a4d3a6ab"
+    ],
+    "entity_ids": [
+      "f11a2585357fd93f6778d4a4",
+      "ed31bc855ff01958ee95522c",
+      "80bfb03466950c4226e11aaa",
+      "c7185f9c689ca21d3ef8a06c"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 1863.0
+  },
+  {
+    "event_id": "792e1b5d9b14ce5bf97f080a",
+    "event_type": "election",
+    "title": "Or I should say votes that were found\u2026",
+    "description": "Or I should say votes that were found and counted after election day.",
+    "claim_ids": [
+      "15090d58ed756957637c78d9"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 1863.0
+  },
+  {
+    "event_id": "9f3da3a0edfb151fd35c2f2f",
+    "event_type": "product_announcement",
+    "title": "They announced that they have these SEAs, these\u2026",
+    "description": "They announced that they have these SEAs, these supply chain agreements that have a floor and a ceiling for prices with increasingly large group of large customers.",
+    "claim_ids": [
+      "095ebc51c0a5510cf9f750f0"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 3863.0
+  },
+  {
+    "event_id": "16614ddfa3aa1b71b02a0be3",
+    "event_type": "product_announcement",
+    "title": "Apple \u2014 Product",
+    "description": "Apple had huge news today where they announced massive price increases.",
+    "claim_ids": [
+      "f32fdeb1c462b9c97f6d1fc4"
+    ],
+    "entity_ids": [
+      "c84ec6e5b905ba82df35ec42"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 4060.0
+  },
+  {
+    "event_id": "48bbd874a43f1bfc9794cee7",
+    "event_type": "launch",
+    "title": "But if you can get the cost of\u2026",
+    "description": "But if you can get the cost of launch significantly below that $25 billion, then the math starts to really math.",
+    "claim_ids": [
+      "ee3134f7e3b11d86e620808f"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.964,
+    "timestamp_start": 4326.0
+  },
+  {
+    "event_id": "589285d4f8c1bc59d7db23a8",
+    "event_type": "launch",
+    "title": "We've seen SpaceX, like, monitoring the launches with\u2026",
+    "description": "We've seen SpaceX, like, monitoring the launches with VLC.",
+    "claim_ids": [
+      "14bcbb0efe15fd92f786b5f7"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.959,
+    "timestamp_start": 15594.0
+  },
+  {
+    "event_id": "f14fd3d8d38c581b00fb48d1",
+    "event_type": "hiring",
+    "title": "Constantinople \u2014 Hiring",
+    "description": "They're appointed patriarch of Constantinople sometimes.",
+    "claim_ids": [
+      "688b1960d9f093a31c376ca9"
+    ],
+    "entity_ids": [
+      "685e5406f2dc7b00617f1cb5"
+    ],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.954,
+    "timestamp_start": 8528.0
+  },
+  {
+    "event_id": "a113a93b7475d1db043d7b7b",
+    "event_type": "interview",
+    "title": "I mean, I did this interview with them\u2026",
+    "description": "I mean, I did this interview with them this year that partly was interesting because they don't usually have anything outward facing.",
+    "claim_ids": [
+      "47268b0f2febba644c96d58f"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b8dfb9c55203e3176e28f2d9"
+    ],
+    "confidence": 0.932,
+    "timestamp_start": 4489.0
+  },
+  {
+    "event_id": "1c825bb7bf90b5700ec68e2c",
+    "event_type": "election",
+    "title": "Almost \u2014 Election",
+    "description": "Almost every election now is a change election.",
+    "claim_ids": [
+      "63bca5208e2c4c2c3be36c13"
+    ],
+    "entity_ids": [
+      "9d448ff7cc51eb0bdd81529d"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.931,
+    "timestamp_start": 1789.0
+  },
+  {
+    "event_id": "936beefd376ff655e8660dee",
+    "event_type": "scientific_discovery",
+    "title": "It had yet to be discovered that, like,\u2026",
+    "description": "It had yet to be discovered that, like, actually there's a tighter connection.",
+    "claim_ids": [
+      "4fd33f487e48d36982c3b501"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b8dfb9c55203e3176e28f2d9"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 1037.0
+  },
+  {
+    "event_id": "a6aeb42f7ffded0eeb6e8aed",
+    "event_type": "scientific_discovery",
+    "title": "new discovery or prove or disprove something, just\u2026",
+    "description": "new discovery or prove or disprove something, just as it's cross the threshold.",
+    "claim_ids": [
+      "c4ad7ebd974e6d4136ddaebf"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b8dfb9c55203e3176e28f2d9"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 2299.0
+  },
+  {
+    "event_id": "6a2bc15fec04a4327c1a3977",
+    "event_type": "release",
+    "title": "They release the chain of thought, or at\u2026",
+    "description": "They release the chain of thought, or at least a rewrite of the chain of thought.",
+    "claim_ids": [
+      "697068cd0864f0e9834fc4bf"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b8dfb9c55203e3176e28f2d9"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 3390.0
+  },
+  {
+    "event_id": "ac923e5e5b6e3dae68737476",
+    "event_type": "release",
+    "title": "And like maybe one of those islands actually\u2026",
+    "description": "And like maybe one of those islands actually turns out to be something you can retroactively put motivation on to say this is the kind of structure that's trying to get at in the same way that you could imagine looking at the axioms for a group not knowing that it's about symmetry, but retroactively",
+    "claim_ids": [
+      "a955f9ed4759c1ebe2a91c24"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b8dfb9c55203e3176e28f2d9"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 3732.0
+  },
+  {
+    "event_id": "e786b261a089cfbaed47026d",
+    "event_type": "debate",
+    "title": "Democratic \u2014 Debate",
+    "description": "I guess it was in 2025, how like you can debate whether it's a good idea or not, but like, that traced with a Democratic margin in presidential years very strongly, even though for many years Democrats had been the party against gerrymandering.",
+    "claim_ids": [
+      "215c46c1c3f780ccf64ba9e4"
+    ],
+    "entity_ids": [
+      "b6bde4c8c7823c37efe0b07c",
+      "a65bcedac88c2440ee7f43c6"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 768.0
+  },
+  {
+    "event_id": "f6fcc38461600160c74f0738",
+    "event_type": "election",
+    "title": "This is one of the theories is that\u2026",
+    "description": "This is one of the theories is that there's ballots that are getting filled out en masse in these ballot harvesting efforts",
+    "claim_ids": [
+      "1b19ae0ec1ccb9efbb95a730"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 867.0
+  },
+  {
+    "event_id": "727e8fff72f82d86237b0f7c",
+    "event_type": "election",
+    "title": "Trump \u2014 Election",
+    "description": "It's in midterms, as opposed to high turnout races, like when Trump's been on the ballot.",
+    "claim_ids": [
+      "b6800f31967498660332c188"
+    ],
+    "entity_ids": [
+      "beeb17af8b5fb30eecd561cf"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 952.0
+  },
+  {
+    "event_id": "92775eb442a29de4f8207fef",
+    "event_type": "election",
+    "title": "Again, you know, the notion that someone can\u2026",
+    "description": "Again, you know, the notion that someone can vote without physically being like the ward of their ballot, understand why that bothers people.",
+    "claim_ids": [
+      "a26d61231e4317bf104475e5"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 1201.0
+  },
+  {
+    "event_id": "6ee2ecdac1530cff92fba61d",
+    "event_type": "election",
+    "title": "If voter ID laws don't change and mail-in-ballot\u2026",
+    "description": "If voter ID laws don't change and mail-in-ballot laws don't change and the system doesn't change,",
+    "claim_ids": [
+      "5af385abc152176f37bf411e"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 1250.0
+  },
+  {
+    "event_id": "28518b6a1f4e0c4b5db001b4",
+    "event_type": "election",
+    "title": "Biden \u2014 Election",
+    "description": "They're the ones who thought that Joe Biden was railroaded out of the 2024 race, for example.",
+    "claim_ids": [
+      "f500792ea06e39692f5dd730"
+    ],
+    "entity_ids": [
+      "2d572b5529e829efe2e9b128",
+      "6a866e835bfd384697cba8e5",
+      "7df8912b838c1c41c1b8ae3f"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 1714.0
+  },
+  {
+    "event_id": "95fe7961953f59f723d69788",
+    "event_type": "hiring",
+    "title": "Nate Silver \u2014 Hiring",
+    "description": "This isn't your wheelhouse, Nate, but if you were hired to give a playbook to either party for 2028, what would be in that playbook?",
+    "claim_ids": [
+      "de7e8fc6b1052a99984f7d4b"
+    ],
+    "entity_ids": [
+      "b1dec011dd428eda536844d0"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 2043.0
+  },
+  {
+    "event_id": "efedcecb973f8104c8d9d25b",
+    "event_type": "interview",
+    "title": "All-In Podcast \u2014 Interview",
+    "description": "And, yeah, we'll see you all next time on the All-in interview show.",
+    "claim_ids": [
+      "fc02de6f0658f909da809017"
+    ],
+    "entity_ids": [
+      "6946048705993ed5d137ebb0"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 3606.0
+  },
+  {
+    "event_id": "a2cf89146d66fc80ba6c0432",
+    "event_type": "release",
+    "title": "The outer loop verification here may take months\u2026",
+    "description": "The outer loop verification here may take months or even years of real-world actions to elicit, and you can't re-observe it by perturbing the model's actions slightly in thousands of parallel rollout. to isolate exactly what the model did that actually worked.",
+    "claim_ids": [
+      "45251c865f82adecd095aca2"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "57f26f4b243ae8fee149e7e1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 307.0
+  },
+  {
+    "event_id": "f7438c94ef247e5f580ec967",
+    "event_type": "release",
+    "title": "Efficient Zero \u2014 Release",
+    "description": "A couple of years after DeepMind released Alpha Zero, a group of researchers trained a model called Efficient Zero.",
+    "claim_ids": [
+      "f2cc059592e6be873bbd0436"
+    ],
+    "entity_ids": [
+      "3a1112f6f882de47d59448c4",
+      "cfc833138e75d69d94d272fb",
+      "c33e0cbffcfa078ccc67eead",
+      "14c102bdf195c91c50f6b6c0",
+      "d8159852e9f0d2e83a27aaf9",
+      "0a002574a229c23c83557952"
+    ],
+    "episode_ids": [
+      "57f26f4b243ae8fee149e7e1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 935.0
+  },
+  {
+    "event_id": "93dacf8787fc29b7d120ebeb",
+    "event_type": "release",
+    "title": "By this point, the main way that AIs\u2026",
+    "description": "By this point, the main way that AIs get better is not from the training they have received before they are released to the public.",
+    "claim_ids": [
+      "ce191382b97eebb81d31fee0"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "57f26f4b243ae8fee149e7e1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 1139.0
+  },
+  {
+    "event_id": "79d98f9e02c23b5d7edb20ad",
+    "event_type": "release",
+    "title": "This was an iteration of a blog post\u2026",
+    "description": "This was an iteration of a blog post that I also released on my website at dwarcahash.com.",
+    "claim_ids": [
+      "29753bb62f5af03ce2291764"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "57f26f4b243ae8fee149e7e1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 1178.0
+  },
+  {
+    "event_id": "2c83d09464cb17754b48460a",
+    "event_type": "release",
+    "title": "Go there if you want to read all\u2026",
+    "description": "Go there if you want to read all the footnotes or if you want to sign up so you can find out when I release the next blog post.",
+    "claim_ids": [
+      "5f1d1951bab856498929ea3b"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "57f26f4b243ae8fee149e7e1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 1178.0
+  },
+  {
+    "event_id": "08da98c045f0f29045881481",
+    "event_type": "debate",
+    "title": "And, you know, we can debate the dates\u2026",
+    "description": "And, you know, we can debate the dates of when that transition takes place.",
+    "claim_ids": [
+      "c89ccbd0410ee439bc621a8f"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 731.0
+  },
+  {
+    "event_id": "b85d64b1b0683f2f3171a87c",
+    "event_type": "election",
+    "title": "And that has to do, you know, with\u2026",
+    "description": "And that has to do, you know, with race and colonialism and all kinds of",
+    "claim_ids": [
+      "97630c49f5e7c1e732d1a783"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 3588.0
+  },
+  {
+    "event_id": "42de37a1ccc900cc94008036",
+    "event_type": "release",
+    "title": "There are a number of other professions that\u2026",
+    "description": "There are a number of other professions that were kind of guildlike in nature, like, for example, shipping, where there were considerable assets involved in order to secure contracts for insurance purposes for the ships and so forth.",
+    "claim_ids": [
+      "095dc917213e76416a68e239"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 4664.0
+  },
+  {
+    "event_id": "55996f831b00e3a14f2ffdf0",
+    "event_type": "debate",
+    "title": "Here it says, but historians debate both its\u2026",
+    "description": "Here it says, but historians debate both its nature and its sincerity.",
+    "claim_ids": [
+      "606c32c90a27fd0b46cff9c4"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 5984.0
+  },
+  {
+    "event_id": "fc917cbb424dc30f6dfb1696",
+    "event_type": "policy",
+    "title": "regulation of the empire, the courts, judges, courts\u2026",
+    "description": "regulation of the empire, the courts, judges, courts of appeal, or also issuing laws, keeping records, all of this.",
+    "claim_ids": [
+      "d145374c3c4237da9edf3569"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 8095.0
+  },
+  {
+    "event_id": "ee0be654e27ef2b53f59bbd1",
+    "event_type": "election",
+    "title": "Latin \u2014 Election",
+    "description": "In Latin, a race publica is the common affairs, the common interest of a people who are constituted as a political community, regardless of the type of regime that they have.",
+    "claim_ids": [
+      "e33bc9bea1f211066bd9166b"
+    ],
+    "entity_ids": [
+      "c4dd1337609268e8281e9ac1",
+      "ad80189ca1dc59229d0d9639"
+    ],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 8892.0
+  },
+  {
+    "event_id": "a57caae77298ed6e1bdb87ec",
+    "event_type": "election",
+    "title": "So sometimes empire is used synonymously with superpower,\u2026",
+    "description": "So sometimes empire is used synonymously with superpower, meaning it's one of the primary nations in the world.",
+    "claim_ids": [
+      "abd956c456893355dd6da828"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 9066.0
+  },
+  {
+    "event_id": "e0322c90ad1cbb25abcfe16d",
+    "event_type": "funding",
+    "title": "And then they have to start raising all\u2026",
+    "description": "And then they have to start raising all of these armies to deal with all of these problems.",
+    "claim_ids": [
+      "b1193957f5705a4497d7e2b3"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 12077.0
+  },
+  {
+    "event_id": "8ab46fbb83c1bd73d016e900",
+    "event_type": "acquisition",
+    "title": "that showing that high energy, these two forces\u2026",
+    "description": "that showing that high energy, these two forces were merged into a single electro-week force.",
+    "claim_ids": [
+      "25d4dec4e46e3e85afc02048"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 2609.0
+  },
+  {
+    "event_id": "d6019f5de8f9ac78064ced00",
+    "event_type": "scientific_discovery",
+    "title": "And that was the accelerator at which the\u2026",
+    "description": "And that was the accelerator at which the top quark was discovered in 95.",
+    "claim_ids": [
+      "d664d415ea8c495afe34c256"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 3167.0
+  },
+  {
+    "event_id": "992bc7c2bf3b99e8d13b2671",
+    "event_type": "scientific_discovery",
+    "title": "Berkeley Bevatron \u2014 Discovery",
+    "description": "The anti-matter proton was discovered in 1955 at the Berkeley Bevatron.",
+    "claim_ids": [
+      "f914ec65e6867b81d7340d67"
+    ],
+    "entity_ids": [
+      "1ebdd735d01f388ff6e19710",
+      "2652cdcb19aa8a27f47372dd",
+      "ea8af18a01781d0073ae81d9"
+    ],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 3371.0
+  },
+  {
+    "event_id": "0a7fe5d0a40d0a3e4d60f2df",
+    "event_type": "scientific_discovery",
+    "title": "There were two discovery papers, and the one\u2026",
+    "description": "There were two discovery papers, and the one on which I was a, a co-author, we had worked for a good chunk of between six months and a year of collecting collisions, and there were a lot of collisions.",
+    "claim_ids": [
+      "63277d51d76fd50b62f524d4"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 3761.0
+  },
+  {
+    "event_id": "ca230b0fd3a939a5609f15c3",
+    "event_type": "scientific_discovery",
+    "title": "The standard model does not answer all questions,\u2026",
+    "description": "The standard model does not answer all questions, which is why we have unanswered questions in physics, but it was a punctuation point, end of about 50 years of discovery and searching, where we finally were able to say the standard model, while incomplete, it's mostly right as far as it goes.",
+    "claim_ids": [
+      "d308cdd086f8b2113757a06e"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 4783.0
+  },
+  {
+    "event_id": "c8f9c4f5922f169fb9bebfc2",
+    "event_type": "debate",
+    "title": "So that's another option is to simply look\u2026",
+    "description": "So that's another option is to simply look at many measurements that are very precise and find ones where the outcome and the prediction with established theory disagree.",
+    "claim_ids": [
+      "57884539dc74562953f7c449"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 6014.0
+  },
+  {
+    "event_id": "55485875ad6f473414d3c957",
+    "event_type": "debate",
+    "title": "And then once you get out to the\u2026",
+    "description": "And then once you get out to the very end where both the theory and the data have some imprecision, they then disagree.",
+    "claim_ids": [
+      "af15cf3e52fadd060e5dda02"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 7016.0
+  },
+  {
+    "event_id": "c33c62ef1f3681babdd726ba",
+    "event_type": "scientific_discovery",
+    "title": "Netemeyer \u2014 Discovery",
+    "description": "It was discovered in 1932. by Carl Anderson and his student, Seth Netemeyer, they saw an antimatter electron.",
+    "claim_ids": [
+      "3ea418749cd7bf7466358336"
+    ],
+    "entity_ids": [
+      "649bb7be52e64882f7f0ad8a",
+      "e7519ab59daeb8b0f91cc115",
+      "5a1db2159abf8b2dfa68bad9",
+      "00d510c1164df7a1e0a44b1a",
+      "e28f41736e83bbc99f2afa6b",
+      "4ed5472bfce3ba241f64c8a7"
+    ],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 7105.0
+  },
+  {
+    "event_id": "d73c79ae422c0bcfdaeb9250",
+    "event_type": "release",
+    "title": "antimatter hydrogen, put it in a bottle, and\u2026",
+    "description": "antimatter hydrogen, put it in a bottle, and released it and watched which way it would go.",
+    "claim_ids": [
+      "d460624686a3a3f36fcefb5c"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 7272.0
+  },
+  {
+    "event_id": "2fd6570142854df374f94e2c",
+    "event_type": "release",
+    "title": "Nagasaki \u2014 Release",
+    "description": "If you combine one gram of antimatter and one gram. of matter together, the energy release is equivalent to the combined Hiroshima and Nagasaki",
+    "claim_ids": [
+      "cd63ffec1f4ec40c5a3ba7b4"
+    ],
+    "entity_ids": [
+      "38837e2f0751af711a09f9a9",
+      "5372fa05aa1a4ae975fc2246",
+      "52045c42189c6c5d6896de42"
+    ],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 7514.0
+  },
+  {
+    "event_id": "e54920fa3c2f2cf1d0c2d342",
+    "event_type": "scientific_discovery",
+    "title": "Edwin \u2014 Discovery",
+    "description": "But then a few years later, Edwin Hubble discovered that the universe was indeed expanding.",
+    "claim_ids": [
+      "f6c30e4491b63ca4614e4d7b"
+    ],
+    "entity_ids": [
+      "24fc5db9593bf6988761bfa1",
+      "4e1ea0993d180657c018beea",
+      "e77ea66ca49d0fcb635cd5ff"
+    ],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 8431.0
+  },
+  {
+    "event_id": "373d3010a6f86cf08237fec5",
+    "event_type": "scientific_discovery",
+    "title": "Newtonian \u2014 Discovery",
+    "description": "And the reason is that astronomical measurements do not agree with predictions by Newtonian or relativity theory. galaxies spin too fast, clusters of galaxies move too quickly, and the distortion of very distant galaxies due to the gravitational field of nearer galaxies disagrees with the prediction",
+    "claim_ids": [
+      "de75e4aaea65dda433659d62"
+    ],
+    "entity_ids": [
+      "3ef59328321eef5362a1387c"
+    ],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 9370.0
+  },
+  {
+    "event_id": "52d0ff86a7457c1b27de37dc",
+    "event_type": "scientific_discovery",
+    "title": "So, galaxies are observed to spin more quickly\u2026",
+    "description": "So, galaxies are observed to spin more quickly than they should if we add up the gravity we see.",
+    "claim_ids": [
+      "c7456c85e1f2250209d387c7"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 9415.0
+  },
+  {
+    "event_id": "a68b99697778ff66c9e75dd9",
+    "event_type": "scientific_discovery",
+    "title": "And that's the thing that you could, they're\u2026",
+    "description": "And that's the thing that you could, they're legitimately, you can see a discovery of.",
+    "claim_ids": [
+      "4f745120fe046531de4b9886"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 10133.0
+  },
+  {
+    "event_id": "370cf72140f723b1a27948ff",
+    "event_type": "scientific_discovery",
+    "title": "Different vendors of GPU might have different capabilities,\u2026",
+    "description": "Different vendors of GPU might have different capabilities, So those need to be detected.",
+    "claim_ids": [
+      "946fc22c45e2d3621265cc6b"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 1092.0
+  },
+  {
+    "event_id": "7d98effaa5462df60a856531",
+    "event_type": "release",
+    "title": "Is that you work all together in terms\u2026",
+    "description": "Is that you work all together in terms of the same goal and then it creates one software, which is one release.",
+    "claim_ids": [
+      "f6ba9e435e13d1a1b8bcf5b8"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 3158.0
+  },
+  {
+    "event_id": "6f7ca0a0e28ebfe98791c485",
+    "event_type": "acquisition",
+    "title": "Paris \u2014 Acquisition",
+    "description": "And so they bought a piece of land south of Paris, very near Paris.",
+    "claim_ids": [
+      "48977ff4a1b3d142ae947854"
+    ],
+    "entity_ids": [
+      "56a67bbf3d67898004312739"
+    ],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 3785.0
+  },
+  {
+    "event_id": "53faaf5841dac3595c37949f",
+    "event_type": "scientific_discovery",
+    "title": "The problem here is a disproportion of means\u2026",
+    "description": "The problem here is a disproportion of means on discovery compared to patching it, right?",
+    "claim_ids": [
+      "2a3751d2259a92f412b32d81"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 4934.0
+  },
+  {
+    "event_id": "402138623232d5a2eb777212",
+    "event_type": "funding",
+    "title": "Sweeney \u2014 Funding",
+    "description": "And for example, like, Team Sweeney, Carmack, and a few others, like very high level people have raised also the awareness on our X accounts, and that helped a lot also.",
+    "claim_ids": [
+      "b9a00765b785b68b75a3a392"
+    ],
+    "entity_ids": [
+      "cae3617a8fb1f4614b3c1ea7",
+      "0736b47f9887106aafcc55bd",
+      "749b6c42ca86c1d38b2e15f5",
+      "6e49d733f765712960293227"
+    ],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 5286.0
+  },
+  {
+    "event_id": "d96ffcddff00414386e0629b",
+    "event_type": "interview",
+    "title": "It's like, it's kind of like, you know,\u2026",
+    "description": "It's like, it's kind of like, you know, I've been reading, a lot and I interview archaeologists.",
+    "claim_ids": [
+      "57dd15f579365eb795898951"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 6892.0
+  },
+  {
+    "event_id": "813486af24499feb1d08e606",
+    "event_type": "hiring",
+    "title": "And J.B. and I have started companies around\u2026",
+    "description": "And J.B. and I have started companies around that, in many cases hiring developers from the open source community",
+    "claim_ids": [
+      "674c1750881a7f23fd3e2df6"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 7593.0
+  },
+  {
+    "event_id": "06b8b179b0ec0c203a3c8aa4",
+    "event_type": "debate",
+    "title": "Yes \u2014 Debate",
+    "description": "Yes, so in open source projects, sometimes you disagree, right?",
+    "claim_ids": [
+      "5e703ac2b42c313e45cf92be"
+    ],
+    "entity_ids": [
+      "2c034bde4da696930ab6416b"
+    ],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 9601.0
+  },
+  {
+    "event_id": "441c88bad1bf2473e390be22",
+    "event_type": "product_announcement",
+    "title": "And also, like, when I want to do\u2026",
+    "description": "And also, like, when I want to do a new feature today in VLC, I fork, I do my thing on my own, and then I merge back to the community.",
+    "claim_ids": [
+      "cf97a29f3154e4d1fe384e44"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 9634.0
+  },
+  {
+    "event_id": "138de4034c6b6a3c4b9a7b30",
+    "event_type": "acquisition",
+    "title": "And after a few years, well, the community\u2026",
+    "description": "And after a few years, well, the community merged back and people moved on.",
+    "claim_ids": [
+      "94c20f27a0040d9e28170ee8"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 9634.0
+  },
+  {
+    "event_id": "9239957bf24c85220fb2ac1a",
+    "event_type": "release",
+    "title": "Okay \u2014 Release",
+    "description": "Okay, there's this legendary story that you pointed me to, that it was discovered via WikiLeaks release of all seven documents the CIA was using a modified version of VLC to basically try and trick people, what, to steal their data?",
+    "claim_ids": [
+      "4f4f01c1a50c0120aa638be3"
+    ],
+    "entity_ids": [
+      "5dc75be9b3c2bf2ff1abfd74",
+      "2a06eaedd345e665b7918cdb"
+    ],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 11777.0
+  },
+  {
+    "event_id": "0d7045ea0c0e74fb624c3cef",
+    "event_type": "scientific_discovery",
+    "title": "Okay \u2014 Discovery",
+    "description": "Okay, there's this legendary story that you pointed me to, that it was discovered via WikiLeaks release of all seven documents the CIA was using a modified version of VLC to basically try and trick people, what, to steal their data?",
+    "claim_ids": [
+      "4f4f01c1a50c0120aa638be3"
+    ],
+    "entity_ids": [
+      "5dc75be9b3c2bf2ff1abfd74",
+      "2a06eaedd345e665b7918cdb"
+    ],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 11777.0
+  },
+  {
+    "event_id": "c4a6ff76ca049da79bd09ba2",
+    "event_type": "partnership",
+    "title": "Open Media Alliance \u2014 Partnership",
+    "description": "And so that's why we have the Open Media Alliance, Alliance for Open Media Media, where we are part of, that is that created a.",
+    "claim_ids": [
+      "eaa8dc112fb80a42dd1954d3"
+    ],
+    "entity_ids": [
+      "e1a117259959f20ad98fb809",
+      "77d75c08bf90489173775eb4",
+      "2214e5c6164081e6d4fb6656",
+      "3408034899969a544fce6ea6",
+      "2c46987e115e0fcecdfa6ece"
+    ],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 13925.0
+  },
+  {
+    "event_id": "f09524c041e73df0fdfb0cb6",
+    "event_type": "election",
+    "title": "And instead, we've gotten caught up in dumerism\u2026",
+    "description": "And instead, we've gotten caught up in dumerism and jobs being lost and, you know, water being consumed all of which are lies, all of which are complete fabrications and misinformation, and these have been created in order to specifically help one small set of actors inside the AI race, and it's bee",
+    "claim_ids": [
+      "697a9ffddcb66dc87b3c8dd6"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 358.0
+  },
+  {
+    "event_id": "ac280086e23d05390cb566f0",
+    "event_type": "election",
+    "title": "Jason \u2014 Election",
+    "description": "So, Jason, like you said, I mean, let's take this one race here.",
+    "claim_ids": [
+      "18dbd2456c4c45b5807c482c"
+    ],
+    "entity_ids": [
+      "066c583785b6e19768558520"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 515.0
+  },
+  {
+    "event_id": "f3b5c6adc858f0d4dd6aebd0",
+    "event_type": "election",
+    "title": "Caucus \u2014 Election",
+    "description": "He is the chair of the Congressional Hispanic Caucus, and he was defeated by an unemployed, 32-year-old Ph.D. candidate.",
+    "claim_ids": [
+      "86d8d06a741a40b8640d35c4"
+    ],
+    "entity_ids": [
+      "2e3e35d0637d3438085f6f8c",
+      "3949856de4a51b706258469d",
+      "0fb9234c6eb60fa06d7c9bac",
+      "bd5deb3fd7c543ba3c751eda"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 515.0
+  },
+  {
+    "event_id": "11fd7c80b033c2c4a3acb6d6",
+    "event_type": "debate",
+    "title": "And, you know, you can agree or disagree\u2026",
+    "description": "And, you know, you can agree or disagree with their methods.",
+    "claim_ids": [
+      "9f80c29152ff5cbf75e428f0"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 1071.0
+  },
+  {
+    "event_id": "ae9b62db4a5ecc7ff6ef003a",
+    "event_type": "speech",
+    "title": "And if there's a way to do that\u2026",
+    "description": "And if there's a way to do that while preserving anonymity and free speech, I'm all for it.",
+    "claim_ids": [
+      "8ec793014001ae700d3b1978"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 1674.0
+  },
+  {
+    "event_id": "04a308d33525cfc326732dac",
+    "event_type": "election",
+    "title": "So this was really as close as you\u2026",
+    "description": "So this was really as close as you can get to, a straight up vote on that one issue in this primary and lander won pretty handily.",
+    "claim_ids": [
+      "53c35a1820028f36c79f4e45"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 2075.0
+  },
+  {
+    "event_id": "14874bbdd466996daa8ad06a",
+    "event_type": "speech",
+    "title": "Mondami \u2014 Speech",
+    "description": "And then Mondami gave this speech that somebody wrote for him about the Knicks.",
+    "claim_ids": [
+      "d2b07b44232712e2842ddba7"
+    ],
+    "entity_ids": [
+      "6d870ec0402ab90a0575b728",
+      "0fddf618859e6f12e7835049"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 2619.0
+  },
+  {
+    "event_id": "e754debf5267e0986c7e7d7b",
+    "event_type": "speech",
+    "title": "Nix \u2014 Speech",
+    "description": "He was making Knicks references, and it was the most get out of your seat, standing ovation cheer, you know, speech I've ever heard about the Nix.",
+    "claim_ids": [
+      "8d5bda4c5551a74103c2e5e3"
+    ],
+    "entity_ids": [
+      "a0520b8e02bd06ffabbd12c6",
+      "0fddf618859e6f12e7835049"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 2677.0
+  },
+  {
+    "event_id": "81643b7cd80f759435b70275",
+    "event_type": "election",
+    "title": "Our whole AI strategy from the get-go was\u2026",
+    "description": "Our whole AI strategy from the get-go was about winning this AI race, defining it as a race, as being globally competitive.",
+    "claim_ids": [
+      "cd307a472e6ad089b12732a7"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 3278.0
+  },
+  {
+    "event_id": "523433300e92a9b5533a018a",
+    "event_type": "partnership",
+    "title": "Intel \u2014 Partnership",
+    "description": "And, you know, he's starting with some advantages with the Intel partnership.",
+    "claim_ids": [
+      "f744426a8967f2606ac1cba6"
+    ],
+    "entity_ids": [
+      "3bbcb39745332c92fe987a85"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 4206.0
+  },
+  {
+    "event_id": "b62c7006f2ef935019d29552",
+    "event_type": "release",
+    "title": "In that second class, what some very smart\u2026",
+    "description": "In that second class, what some very smart people are doing are like, wow, well, here's a shipping container that you can just drop on a concrete pad somewhere, plug in the power and let it rip.",
+    "claim_ids": [
+      "ee7ea42ae3fae8813cfa0ee6"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 4671.0
+  },
+  {
+    "event_id": "1c10afb7199fb3cce325cb73",
+    "event_type": "release",
+    "title": "The 18-wheeler, you know, shipping container, whatever it\u2026",
+    "description": "The 18-wheeler, you know, shipping container, whatever it is.",
+    "claim_ids": [
+      "5f4d8ea28c42c8badd19d225"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 5014.0
+  },
+  {
+    "event_id": "2d3519b07a134de8bfed774b",
+    "event_type": "release",
+    "title": "So you can lift H-100s, A-100s out of\u2026",
+    "description": "So you can lift H-100s, A-100s out of some old data center, put them in one of these megapods, a rack in a shipping container, put a grok or a cerebus in front of it,",
+    "claim_ids": [
+      "2ecc0967bf39f197adb5d04d"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 5068.0
+  },
+  {
+    "event_id": "3c6036e0ddbe7d4ebdcb2468",
+    "event_type": "speech",
+    "title": "China \u2014 Speech",
+    "description": "I don't have any investments or anything in the distributed compute space, but at the intersection of competing against China, having a vibrant American open-source community, having a bunch of distributed models for purposes of free speech and otherwise that Travis mentioned earlier, I do think thi",
+    "claim_ids": [
+      "e60d33b2f38643049c0fb0a8"
+    ],
+    "entity_ids": [
+      "3ca1eb2aa703e7063aac5a48",
+      "000833718ba3498e2b827220",
+      "46b3bad21fb2f2bb3210c3fb"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 5125.0
+  },
+  {
+    "event_id": "82f139c796d49c5807891468",
+    "event_type": "release",
+    "title": "So fast shipping, having a great selection, being\u2026",
+    "description": "So fast shipping, having a great selection, being competitively priced.",
+    "claim_ids": [
+      "af723734efe78d783aec8139"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 200.0
+  },
+  {
+    "event_id": "f2f64c728bb2f2afb9268b7b",
+    "event_type": "debate",
+    "title": "Tell \u2014 Debate",
+    "description": "Tell me if you disagree that there's real value in a organization that's not being realized its potential.",
+    "claim_ids": [
+      "5ea9e0b4037528c2413ddc10"
+    ],
+    "entity_ids": [
+      "63d86856a3b5dc3a6bc49337"
+    ],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 947.0
+  },
+  {
+    "event_id": "75810dff4b5ee7c2c6e099b7",
+    "event_type": "hiring",
+    "title": "Amazon \u2014 Hiring",
+    "description": "But I ended up hiring a bunch of e-commerce people from Chewy and Amazon.",
+    "claim_ids": [
+      "5834b813cd401d47ede83a4f"
+    ],
+    "entity_ids": [
+      "360ab441625bd18b00d052ac",
+      "360ab441625bd18b00d052ac",
+      "1faa859972bc93c13057992b"
+    ],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 1185.0
+  },
+  {
+    "event_id": "0ec26d12cad28e826cad2adf",
+    "event_type": "interview",
+    "title": "Koch Industries \u2014 Interview",
+    "description": "You know, I interviewed this guy, Charles Koch, a few. weeks ago from Koch Industries, he's got a whole set of principles that he tries to apply to running a business.",
+    "claim_ids": [
+      "674121971600e77bce72a3e0"
+    ],
+    "entity_ids": [
+      "807bbbcb903033168bd6d565",
+      "c93026ff6e14bcd8c9277669",
+      "773dbbad8655d01e00d809ac",
+      "71ef2158b711e685e5eb1547",
+      "7a5e4f592310b5e28538845d"
+    ],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 1473.0
+  },
+  {
+    "event_id": "a2b3a3d3e10792560f2e3d5b",
+    "event_type": "acquisition",
+    "title": "Amazon \u2014 Acquisition",
+    "description": "But going head to head against Amazon is it's not the most attractive business. eBay is notorious for having bought and then sold a number of big businesses.",
+    "claim_ids": [
+      "56e7497a3e635ef3e83fd5c2"
+    ],
+    "entity_ids": [
+      "360ab441625bd18b00d052ac"
+    ],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 2259.0
+  },
+  {
+    "event_id": "f85f41125a37ff977dd56a1d",
+    "event_type": "acquisition",
+    "title": "Skype \u2014 Acquisition",
+    "description": "And they bought Skype for $2.6 billion in 2005 and then sold 70% of it for $2 billion in 2009. and then they got lucky with Microsoft overpaying in 2011, and they made another $2 billion on it.",
+    "claim_ids": [
+      "8a2f0535255f8e2bde7e2f32"
+    ],
+    "entity_ids": [
+      "344699541b71fe77925793fe",
+      "33d248e77cdee2ba53a45ffc"
+    ],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 2259.0
+  },
+  {
+    "event_id": "29640ea1bf4c84b3e2a1ec07",
+    "event_type": "acquisition",
+    "title": "Stubhub \u2014 Acquisition",
+    "description": "Yeah, the other example, obviously Stubhub, which they bought and then sold to the founder, Eric, at Viagogo for four billion years later, but also didn't really transition well.",
+    "claim_ids": [
+      "187bb01e3c66d7e9d9c2616d"
+    ],
+    "entity_ids": [
+      "7a028956bdb66452e4d8f0af",
+      "a8eb182869fc1653e91aa8ec",
+      "f489e0e5725263c61b83d8b8",
+      "aba54b81a5dccd3fd2b86b5f"
+    ],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 2366.0
+  },
+  {
+    "event_id": "43cc0423aaaa405e077362d6",
+    "event_type": "debate",
+    "title": "Or do you think they fundamentally would disagree\u2026",
+    "description": "Or do you think they fundamentally would disagree with that strategy, those points that you're making?",
+    "claim_ids": [
+      "9f9acae4e53ce092147dc63c"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 2560.0
+  },
+  {
+    "event_id": "e4a3881cb8c913de7101047e",
+    "event_type": "acquisition",
+    "title": "And by the way, has not bought a\u2026",
+    "description": "And by the way, has not bought a single share of stock in the open market with his own money and has been selling tens of millions of dollars.",
+    "claim_ids": [
+      "8268422f925318d838ff628d"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 3340.0
+  },
+  {
+    "event_id": "5ad976768aef23383b8d527a",
+    "event_type": "hiring",
+    "title": "If I'm their bankers, I get hired to\u2026",
+    "description": "If I'm their bankers, I get hired to run a process and maximize shareholder value.",
+    "claim_ids": [
+      "d1b372df94bb3acb27cc1ca0"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 3611.0
+  },
+  {
+    "event_id": "e5d9c000fffd4a6c19dc7acd",
+    "event_type": "legal_action",
+    "title": "And then, you know, obviously when it comes\u2026",
+    "description": "And then, you know, obviously when it comes to their large competitors, there's antitrust issues in terms of them being able to do a deal of this size as well.",
+    "claim_ids": [
+      "80ae1e2a703894b3585a115a"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.92,
+    "timestamp_start": 3665.0
+  },
+  {
+    "event_id": "d15b605533ddfa1a5fff1fd6",
+    "event_type": "speech",
+    "title": "It's the free speech platform of all free\u2026",
+    "description": "It's the free speech platform of all free speech platforms.",
+    "claim_ids": [
+      "314534b38f5ade10f22d8b0e"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.917,
+    "timestamp_start": 2750.0
+  },
+  {
+    "event_id": "8c5a511ef3c70773befbc408",
+    "event_type": "scientific_discovery",
+    "title": "July \u2014 Discovery",
+    "description": "So take me to July 4th, 2012, the discovery of Higgs boson.",
+    "claim_ids": [
+      "1ac3d3c8db93ab7b8dd40380"
+    ],
+    "entity_ids": [
+      "4f8debde5c3b0987e1569a0d",
+      "9e532615961e84e0a6075f66"
+    ],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.917,
+    "timestamp_start": 4205.0
+  },
+  {
+    "event_id": "8da50bf440e1be80ed931910",
+    "event_type": "acquisition",
+    "title": "PayPal \u2014 Acquisition",
+    "description": "They bought PayPal and then later spun it out and divested.",
+    "claim_ids": [
+      "582c4096f7c6e36769372a55"
+    ],
+    "entity_ids": [
+      "e56db1df1c8703580adf03b6"
+    ],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.917,
+    "timestamp_start": 2259.0
+  },
+  {
+    "event_id": "531044664a2486cd16c99b53",
+    "event_type": "scientific_discovery",
+    "title": "And the year later, the antimatter neutron was\u2026",
+    "description": "And the year later, the antimatter neutron was discovered.",
+    "claim_ids": [
+      "8f4e5c7e3f7109ace167fc98"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.915,
+    "timestamp_start": 7147.0
+  },
+  {
+    "event_id": "53c2077695d3a429059705f5",
+    "event_type": "election",
+    "title": "Or helping a candidate win an election?",
+    "description": "Or helping a candidate win an election?",
+    "claim_ids": [
+      "6bf8d3662e84a9b5d83235df"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "57f26f4b243ae8fee149e7e1"
+    ],
+    "confidence": 0.911,
+    "timestamp_start": 286.0
+  },
+  {
+    "event_id": "7e603f9906e6c823bf73da35",
+    "event_type": "launch",
+    "title": "Broadcom \u2014 Launch",
+    "description": "Open AI, which launched their jalapeno chip this week and announced it being built by, I believe, Broadcom.",
+    "claim_ids": [
+      "846fe1f840b6747af1a5fc90"
+    ],
+    "entity_ids": [
+      "1ec3029f4642ecba812200a5",
+      "2c46987e115e0fcecdfa6ece"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.908,
+    "timestamp_start": 3139.0
+  },
+  {
+    "event_id": "99300e901663dd7304b31b1a",
+    "event_type": "product_announcement",
+    "title": "Broadcom \u2014 Product",
+    "description": "Open AI, which launched their jalapeno chip this week and announced it being built by, I believe, Broadcom.",
+    "claim_ids": [
+      "846fe1f840b6747af1a5fc90"
+    ],
+    "entity_ids": [
+      "1ec3029f4642ecba812200a5",
+      "2c46987e115e0fcecdfa6ece"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.908,
+    "timestamp_start": 3139.0
+  },
+  {
+    "event_id": "90a9f2ca4a22764762656c0c",
+    "event_type": "release",
+    "title": "They can release GOM 5.2 or better whenever\u2026",
+    "description": "They can release GOM 5.2 or better whenever they want.",
+    "claim_ids": [
+      "6ba7499e73a1549d4db0a3bb"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.905,
+    "timestamp_start": 3115.0
+  },
+  {
+    "event_id": "501dfc8fc5715da2d24ba7d5",
+    "event_type": "election",
+    "title": "But if you're going to have five different\u2026",
+    "description": "But if you're going to have five different ways to vote, and I say this is someone with experience, like actually trying to build election night models and being on national TV on election nights, these blue shifts or red shifts are somewhat predictable and are going to be inevitable consequence of ",
+    "claim_ids": [
+      "ed79832c8fb97289ea2326bf"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.904,
+    "timestamp_start": 1037.0
+  },
+  {
+    "event_id": "2bf6c7a4be907e858d7f2693",
+    "event_type": "election",
+    "title": "John \u2014 Election",
+    "description": "I think he was benefiting from some degree of name recognition, whereas now Democrats see a candidate like John Ossoff in Georgia. another good-looking young guy, but actually has a credential, which is who will never have, of having won an election in a purple state.",
+    "claim_ids": [
+      "eb409c9dd97890693c411f36"
+    ],
+    "entity_ids": [
+      "ee6a1f85632bb564df9a26dd",
+      "56d01d12cd18e65627192388",
+      "5ee58719ac2840cb5eff41b6",
+      "a65bcedac88c2440ee7f43c6",
+      "5a79eb89752ad87ca963d85f"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.904,
+    "timestamp_start": 3323.0
+  },
+  {
+    "event_id": "50ea0a647c171d19de49ee98",
+    "event_type": "election",
+    "title": "We will have you back on when we\u2026",
+    "description": "We will have you back on when we do our live election coverage, for sure, if you're available.",
+    "claim_ids": [
+      "80a35ee20643186233262ba0"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.904,
+    "timestamp_start": 3558.0
+  },
+  {
+    "event_id": "f22f0983a0e2a815d06f2711",
+    "event_type": "election",
+    "title": "I mean, that will be a test of\u2026",
+    "description": "I mean, that will be a test of the DSA because they are highly organized and they have learned how to take advantage of all these rules, these ballot harvesting rules and all these types of things.",
+    "claim_ids": [
+      "2e95e26e3c561ec117e7446c"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.904,
+    "timestamp_start": 1863.0
+  },
+  {
+    "event_id": "1ec97c91983246e1a5589329",
+    "event_type": "debate",
+    "title": "And there's a debate about the impact of\u2026",
+    "description": "And there's a debate about the impact of this plague.",
+    "claim_ids": [
+      "024c22914d79c83b66639ade"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.902,
+    "timestamp_start": 10314.0
+  },
+  {
+    "event_id": "18db0baa572fbd4669615a75",
+    "event_type": "release",
+    "title": "This is like we had to write a\u2026",
+    "description": "This is like we had to write a press release on that.",
+    "claim_ids": [
+      "d3146bcbdd26fd3e65f43ba1"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.902,
+    "timestamp_start": 11806.0
+  },
+  {
+    "event_id": "89bba5aee710783ab32a4550",
+    "event_type": "release",
+    "title": "They could see the whole world and this\u2026",
+    "description": "They could see the whole world and this was released.",
+    "claim_ids": [
+      "439c921b0c793bbf60e65e1f"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.902,
+    "timestamp_start": 15561.0
+  },
+  {
+    "event_id": "34c5a12034af7ebce9d0207f",
+    "event_type": "scientific_discovery",
+    "title": "Dario \u2014 Discovery",
+    "description": "Because when I interviewed Dario about two, three years ago, I asked this question about why haven't they able to use their vast knowledge to connect ideas together and come up with a new discovery that way.",
+    "claim_ids": [
+      "205c9623f70edca6fb316e84"
+    ],
+    "entity_ids": [
+      "5531b8397e7f7cbb49e51c53"
+    ],
+    "episode_ids": [
+      "b8dfb9c55203e3176e28f2d9"
+    ],
+    "confidence": 0.9,
+    "timestamp_start": 435.0
+  },
+  {
+    "event_id": "c75f6b290f60f72abafed833",
+    "event_type": "interview",
+    "title": "Dario \u2014 Interview",
+    "description": "Because when I interviewed Dario about two, three years ago, I asked this question about why haven't they able to use their vast knowledge to connect ideas together and come up with a new discovery that way.",
+    "claim_ids": [
+      "205c9623f70edca6fb316e84"
+    ],
+    "entity_ids": [
+      "5531b8397e7f7cbb49e51c53"
+    ],
+    "episode_ids": [
+      "b8dfb9c55203e3176e28f2d9"
+    ],
+    "confidence": 0.9,
+    "timestamp_start": 435.0
+  },
+  {
+    "event_id": "c75253d5c3f3d4619157055b",
+    "event_type": "release",
+    "title": "And because it's deterministic, you can solve the\u2026",
+    "description": "And because it's deterministic, you can solve the credit assignment problem because you know that whatever caused this rollout to succeed and this one to fail, that did. is the thing that worked.",
+    "claim_ids": [
+      "a7d99531e49e621391a76189"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b8dfb9c55203e3176e28f2d9"
+    ],
+    "confidence": 0.9,
+    "timestamp_start": 3328.0
+  },
+  {
+    "event_id": "49af2605cb37056d4399f08f",
+    "event_type": "election",
+    "title": "And in fact, the emperors are, they're conducting\u2026",
+    "description": "And in fact, the emperors are, they're conducting opinion polls in a sense because they appear in public.",
+    "claim_ids": [
+      "eabc459e3f14a7a284604309"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.9,
+    "timestamp_start": 2806.0
+  },
+  {
+    "event_id": "f91d7b8c5abc86ff84a28fc7",
+    "event_type": "debate",
+    "title": "Constantinople \u2014 Debate",
+    "description": "It comes and it goes, and it's kind of endemic to large parts of the world. 541 is when it starts to break out in the empire in Constantinople and other cities and it spreads. there's been a lot of debate about this recently because now we've actually isolated the pathogen.",
+    "claim_ids": [
+      "2b0878d4d49e4883f3014270"
+    ],
+    "entity_ids": [
+      "685e5406f2dc7b00617f1cb5",
+      "d861ef1529a75668a85eb6a8"
+    ],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.9,
+    "timestamp_start": 10263.0
+  },
+  {
+    "event_id": "70a2935239730f89318789ba",
+    "event_type": "election",
+    "title": "As I understand, And one of the primary\u2026",
+    "description": "As I understand, And one of the primary flaws of string theory outside of the testable experiments that we're talking about is because it lies on these unobserved extra dimensions.",
+    "claim_ids": [
+      "9a77f4ee01cd00f8bf51287b"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.9,
+    "timestamp_start": 6014.0
+  },
+  {
+    "event_id": "d802e5afb1448b24abafdcb3",
+    "event_type": "scientific_discovery",
+    "title": "So these need to be probe, they need\u2026",
+    "description": "So these need to be probe, they need to be detected.",
+    "claim_ids": [
+      "15675b0afe6dedff73ab7a6f"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.9,
+    "timestamp_start": 1065.0
+  },
+  {
+    "event_id": "44a11b56ad82364a1f70160e",
+    "event_type": "acquisition",
+    "title": "Cerebus \u2014 Acquisition",
+    "description": "By the way, just because Cerebus has blown up and bought through deal price.",
+    "claim_ids": [
+      "09209110d815090dfeebb210"
+    ],
+    "entity_ids": [
+      "73a425aebffa1430cf4f1dd2"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.9,
+    "timestamp_start": 5207.0
+  },
+  {
+    "event_id": "fc35d99180fda22a93c7dbd0",
+    "event_type": "release",
+    "title": "The queen of kin women just have one\u2026",
+    "description": "The queen of kin women just have one big huge orgy because they're all just like this sexual tension, but they just need to release them out.",
+    "claim_ids": [
+      "7a502701b68619bfa1d97a1e"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.9,
+    "timestamp_start": 6056.0
+  },
+  {
+    "event_id": "727104127b6a4ed1ff1943fd",
+    "event_type": "hiring",
+    "title": "And it was easy to be passionate about\u2026",
+    "description": "And it was easy to be passionate about the category because I'm a pet owner and everyone we hired were pet owners.",
+    "claim_ids": [
+      "b50d28f489bf160698624e10"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.9,
+    "timestamp_start": 200.0
+  },
+  {
+    "event_id": "eae089a592b1a1512abab486",
+    "event_type": "election",
+    "title": "Primary \u2014 Election",
+    "description": "Primary, for example, she is a lot of time to wait.",
+    "claim_ids": [
+      "4efeb40914162715797ed507"
+    ],
+    "entity_ids": [
+      "0de8fbde15ffd69f0b3596f7"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.898,
+    "timestamp_start": 3362.0
+  },
+  {
+    "event_id": "1c96f102efcea9f5e28d6ec9",
+    "event_type": "debate",
+    "title": "I have colleagues who do that, and I\u2026",
+    "description": "I have colleagues who do that, and I would disagree",
+    "claim_ids": [
+      "eab4b8296b9fdd823243bdaa"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.898,
+    "timestamp_start": 6841.0
+  },
+  {
+    "event_id": "cfdd2f7ef4c91cfc0fa37523",
+    "event_type": "release",
+    "title": "GLM-5 \u2014 Release",
+    "description": "Let's start with a GLM 5.2 released by ChinaZ.A.I.",
+    "claim_ids": [
+      "ed36a8dd2961e3b7d4f9be1c"
+    ],
+    "entity_ids": [
+      "fc68311be6cecf3422afbdd8",
+      "408bdb348eaf67b0f61535bf"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.895,
+    "timestamp_start": 2708.0
+  },
+  {
+    "event_id": "14c1eea093bbcc276972dc00",
+    "event_type": "release",
+    "title": "getting competitive prices with shipping carriers.",
+    "description": "getting competitive prices with shipping carriers.",
+    "claim_ids": [
+      "feb918be228696fdcd948868"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.895,
+    "timestamp_start": 307.0
+  },
+  {
+    "event_id": "c7362a78cfd1925090a37c12",
+    "event_type": "election",
+    "title": "We do not have months to give away\u2026",
+    "description": "We do not have months to give away in this race.",
+    "claim_ids": [
+      "ce7c62e0864e18ecb0e41d39"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.89,
+    "timestamp_start": 3374.0
+  },
+  {
+    "event_id": "2faae4d310928741158a3c62",
+    "event_type": "scientific_discovery",
+    "title": "This has been done, been observed. no question.",
+    "description": "This has been done, been observed. no question.",
+    "claim_ids": [
+      "bf61964387c8dd92d87db8b6"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.888,
+    "timestamp_start": 7169.0
+  },
+  {
+    "event_id": "a234c704b5a1d531a8006f38",
+    "event_type": "election",
+    "title": "American \u2014 Election",
+    "description": "Look, the American election system is very decentralized, which, you know, as kind of like an old school liberal in some ways, who I'm kind of against centralized power, I think, is quite",
+    "claim_ids": [
+      "a6d22bbb34e4b94853d2bf4e"
+    ],
+    "entity_ids": [
+      "000833718ba3498e2b827220"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.884,
+    "timestamp_start": 1135.0
+  },
+  {
+    "event_id": "92652974fdf2e013c7efdba8",
+    "event_type": "election",
+    "title": "And string theory basically failed the race.",
+    "description": "And string theory basically failed the race.",
+    "claim_ids": [
+      "7f666ef0284a7d94668cf1ab"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.88,
+    "timestamp_start": 6374.0
+  },
+  {
+    "event_id": "ee14f323c5639badd940815b",
+    "event_type": "debate",
+    "title": "This is one of those things where we\u2026",
+    "description": "This is one of those things where we talked about a while ago, where I said that, you know, you can think about things up, this theoretical stuff and try to come up with a measurement, or you can make measurements and see where they disagree with predictions and lead that in a direction.",
+    "claim_ids": [
+      "00ffc6d78e3e6d8b7842fdc1"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.88,
+    "timestamp_start": 8338.0
+  },
+  {
+    "event_id": "5ec62886f8beb3f446e2e57c",
+    "event_type": "policy",
+    "title": "Dutch \u2014 Policy",
+    "description": "And then we just did the Dutch auction. and we said we want to clear one and a half bill.",
+    "claim_ids": [
+      "90f39cb14311242282416ed7"
+    ],
+    "entity_ids": [
+      "ce0d42038d1aa54f8d6c29af"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.88,
+    "timestamp_start": 5907.0
+  },
+  {
+    "event_id": "dd3808f7c1c940d54ff4ed83",
+    "event_type": "release",
+    "title": "Land \u2014 Release",
+    "description": "Video Land wrote a press release saying the",
+    "claim_ids": [
+      "966388ea345378aec7307cdb"
+    ],
+    "entity_ids": [
+      "d8a002e8d80c850f44d766ca",
+      "5f2b9c90d3a37fa96ee66fa4",
+      "aa87a13fa0617142cb62a49c"
+    ],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.878,
+    "timestamp_start": 11806.0
+  },
+  {
+    "event_id": "7d9f25a6266c27b2679f95a2",
+    "event_type": "funding",
+    "title": "Xbox \u2014 Funding",
+    "description": "Microsoft raised the price of the Xbox.",
+    "claim_ids": [
+      "11bc0950a63edf409d99b7d5"
+    ],
+    "entity_ids": [
+      "ccdead2bc9100076372653c8",
+      "33d248e77cdee2ba53a45ffc"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.868,
+    "timestamp_start": 4140.0
+  },
+  {
+    "event_id": "cdbd73d585ef27c1b59cdde3",
+    "event_type": "speech",
+    "title": "You know, he can give a great speech.",
+    "description": "You know, he can give a great speech.",
+    "claim_ids": [
+      "51d938e1ba5013d48a1c3b7c"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.863,
+    "timestamp_start": 1319.0
+  },
+  {
+    "event_id": "c7db18e8aab18954ed6d6886",
+    "event_type": "speech",
+    "title": "That speech was like almost perfect.",
+    "description": "That speech was like almost perfect.",
+    "claim_ids": [
+      "466cbd278d6f85b2d966f444"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.86,
+    "timestamp_start": 1596.0
+  },
+  {
+    "event_id": "1b4b6382533f84413e6026c3",
+    "event_type": "election",
+    "title": "Tala Rico \u2014 Election",
+    "description": "But look, the GOP will be able to, in these red states, a candidate like Tala Rico, who is also probably in roughly a toss-up race, and Pakistan is a far less than ideal Republican nominee, like partisanship is still a powerful force.",
+    "claim_ids": [
+      "4e4979f681f07a4fcc88e603"
+    ],
+    "entity_ids": [
+      "b84e79a3e1d436df33aef3b5",
+      "77e829b40349c7544da14d83",
+      "07d3d4c1b96105ecd6ce4d6a",
+      "bb2ace5a205cdb81c8297577",
+      "505ef3bfcc03125e9da1b5bd"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.86,
+    "timestamp_start": 3077.0
+  },
+  {
+    "event_id": "5a6390ef98638d76d3004d41",
+    "event_type": "scientific_discovery",
+    "title": "The most naive version of SFT for this\u2026",
+    "description": "The most naive version of SFT for this application that you can imagine is, is just to train the base model to predict all the tokens that are observed during the session.",
+    "claim_ids": [
+      "26c5bfca600bca5063e16ca8"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "57f26f4b243ae8fee149e7e1"
+    ],
+    "confidence": 0.86,
+    "timestamp_start": 820.0
+  },
+  {
+    "event_id": "88345783a435b8c9be16a7f4",
+    "event_type": "election",
+    "title": "Fermilab \u2014 Election",
+    "description": "There are some other experiments trying to measure it right now, so there's a big race between the Fermilab group and another group in Japan to see who gets there first and make this measurement, and we will find out.",
+    "claim_ids": [
+      "a1283e8de868ce0de2054bf1"
+    ],
+    "entity_ids": [
+      "c739b51ab4b08bf20f32dd79",
+      "6647b35be13eff65d666449f"
+    ],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.86,
+    "timestamp_start": 8232.0
+  },
+  {
+    "event_id": "faa4f753c6bb48c6f5c91b98",
+    "event_type": "scientific_discovery",
+    "title": "tele-observed by an AI model which is just\u2026",
+    "description": "tele-observed by an AI model which is just going to say, well, everything is good.",
+    "claim_ids": [
+      "cf10219096393e62352e8e9d"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.86,
+    "timestamp_start": 13307.0
+  },
+  {
+    "event_id": "b42c865c24b1115ed86862ae",
+    "event_type": "election",
+    "title": "regardless of how many DSA candidates actually get\u2026",
+    "description": "regardless of how many DSA candidates actually get elected, the rest of the party is now responding to this, and they're going to bend, they're going to blow in this direction, because they don't want to get challenged in a primary.",
+    "claim_ids": [
+      "35ecd470ef8ff7776067adc1"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.86,
+    "timestamp_start": 1984.0
+  },
+  {
+    "event_id": "762603ffcd0f1d2b2743178a",
+    "event_type": "election",
+    "title": "So you've got to think now that every,\u2026",
+    "description": "So you've got to think now that every, congressional race in a pretty blue district, those members are now going to have to take into account that they could get primaried.",
+    "claim_ids": [
+      "0efaed2985f8806891a4f458"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.86,
+    "timestamp_start": 1984.0
+  },
+  {
+    "event_id": "e6ae4062f7c430a2b5787ce0",
+    "event_type": "scientific_discovery",
+    "title": "And so this was discovered in 1948.",
+    "description": "And so this was discovered in 1948.",
+    "claim_ids": [
+      "e49bd6477f5f95a199b752eb"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "65f79b6a24d542b106d305a8"
+    ],
+    "confidence": 0.858,
+    "timestamp_start": 6923.0
+  },
+  {
+    "event_id": "b93dfd0f6219816780c059e2",
+    "event_type": "election",
+    "title": "Albania \u2014 Election",
+    "description": "or people walk around and they say, hey, fill out this ballot for this person and here's a free lunch or I don't know what's going on but like there's all these videos I don't know if they're true or not I think there is propaganda around this I also think that like mail and voting provides some ver",
+    "claim_ids": [
+      "a7cd3897a0567d83c2ef29ae"
+    ],
+    "entity_ids": [
+      "91f49516e3b71b28f40acc3f"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.84,
+    "timestamp_start": 883.0
+  },
+  {
+    "event_id": "1507cf0d0243dc0e3bc44c65",
+    "event_type": "election",
+    "title": "Palin \u2014 Election",
+    "description": "We may see this in Michigan as well where, yeah, I mean, look, for many years in the Republican primary, the notion was that the establishment always won out, that you'd have like the Rick Santorums or Sarah Palin's or Herman Keynes or whatever else is who would get. 40% of the vote, but the same co",
+    "claim_ids": [
+      "46d618d39f24d0d31b0e26df"
+    ],
+    "entity_ids": [
+      "5dc79fc880dbb29b39b681e1",
+      "e8145fb3827b27c9525c3bc9",
+      "3fbcd2b348668bf332b8b474",
+      "35aae65be0ff9726b561b544",
+      "11c17e65f2191d3635862922",
+      "07d3d4c1b96105ecd6ce4d6a",
+      "0b465a2c8ee3f643f999f708",
+      "701c5dd7c8f3d112ab2bee47",
+      "d1177c19068db461f1d0143b",
+      "9e884faadd23ae04c84746ab",
+      "15eb2a4d6f332ad9eb088c3e"
+    ],
+    "episode_ids": [
+      "5239d85ef7f8e3f1fd6b12c6"
+    ],
+    "confidence": 0.84,
+    "timestamp_start": 3449.0
+  },
+  {
+    "event_id": "885ff784fc6cd336d14a27ff",
+    "event_type": "debate",
+    "title": "It's like it seems like a very subtle\u2026",
+    "description": "It's like it seems like a very subtle debate, like almost academic.",
+    "claim_ids": [
+      "f949dd2bdc7341116d9ea246"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.84,
+    "timestamp_start": 6702.0
+  },
+  {
+    "event_id": "c6df1465f6061c44d5bf9ed1",
+    "event_type": "hiring",
+    "title": "Rivers of Blood \u2014 Hiring",
+    "description": "And so I set for myself the task of explaining in this book, Streams of Gold Rivers of Blood, a very particular period that was marked by a sudden, turn, to conquest again after a long period of more or less defensive war. 9.55, there's a new military leadership is appointed, and the Romans go conqu",
+    "claim_ids": [
+      "df8b18008df775b9c4d907d0"
+    ],
+    "entity_ids": [
+      "18067a2e266ade7fc0a22b0a",
+      "feab2010c0f589cbdb926e09",
+      "0f7a9bfc8514b98e085c83a6",
+      "4768dd187653cb4bbb995d86",
+      "94ce4b68f4e94144939c31fd",
+      "e4eb08466d7a5bafd44801c1"
+    ],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.84,
+    "timestamp_start": 11715.0
+  },
+  {
+    "event_id": "acb95e706844b3dace7595ec",
+    "event_type": "funding",
+    "title": "Alex \u2014 Funding",
+    "description": "And I think, I posted, you know, the kids are all right, whereas there's, you know, there's, you know, there's a, I'm not saying all security people do this, but there is a portion of the security community, as Alex said, that, likes to hype themselves up by creating drama, they would have happily r",
+    "claim_ids": [
+      "9d3ee0580bb0222a98a13956"
+    ],
+    "entity_ids": [
+      "ce3b428ea7eb6797b7082be0"
+    ],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.84,
+    "timestamp_start": 5452.0
+  },
+  {
+    "event_id": "3b721c1191d621ad4c541ba2",
+    "event_type": "acquisition",
+    "title": "Libbyv \u2014 Acquisition",
+    "description": "Yeah, so to me, it's like the fork was like heated drama, but most of the development from Libbyv was merged back into FFMPEC, right?",
+    "claim_ids": [
+      "b19e7adccffa6c51acdb8121"
+    ],
+    "entity_ids": [
+      "28f2c83b498f434841e546e0",
+      "f489e0e5725263c61b83d8b8"
+    ],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.84,
+    "timestamp_start": 9775.0
+  },
+  {
+    "event_id": "7bbfc4672b474ac925263a02",
+    "event_type": "release",
+    "title": "At that time, like VLC, we were close\u2026",
+    "description": "At that time, like VLC, we were close to the number 1.0 release.",
+    "claim_ids": [
+      "951587e62bc7a4246e6692ab"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.84,
+    "timestamp_start": 10196.0
+  },
+  {
+    "event_id": "0efb8f468654081ee254aade",
+    "event_type": "speech",
+    "title": "But I think if it were not for\u2026",
+    "description": "But I think if it were not for free speech and X, like I think we'd be living in a very different world today that would be a lot worse.",
+    "claim_ids": [
+      "cf1abe05909e294a41f6d901"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.84,
+    "timestamp_start": 1707.0
+  },
+  {
+    "event_id": "368e08c5c7fa258d2bf8da59",
+    "event_type": "speech",
+    "title": "I think the saving grace and the importance\u2026",
+    "description": "I think the saving grace and the importance of preserving free speech is that the DSA's policies, and I would say in particular, super progressive democratic policies, are measurably bad.",
+    "claim_ids": [
+      "2e2d15df2e69abcf03353de9"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.84,
+    "timestamp_start": 1707.0
+  },
+  {
+    "event_id": "a2aed992f35db70333152a04",
+    "event_type": "acquisition",
+    "title": "We're offering them 50% cash, 50% stock at\u2026",
+    "description": "We're offering them 50% cash, 50% stock at a premium to where we bought it.",
+    "claim_ids": [
+      "a40443558cd7477e6ef7012c"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "3d3a13f27c6aa37471d59ec1"
+    ],
+    "confidence": 0.84,
+    "timestamp_start": 3143.0
+  },
+  {
+    "event_id": "7352edf3c7d416fa1fcc0e24",
+    "event_type": "acquisition",
+    "title": "And almost half the employees at SpaceX bought\u2026",
+    "description": "And almost half the employees at SpaceX bought on the IPO.",
+    "claim_ids": [
+      "394861d9f1a5366f52a558df"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.835,
+    "timestamp_start": 5386.0
+  },
+  {
+    "event_id": "5c0bf307a8cd9d9b90fcab42",
+    "event_type": "speech",
+    "title": "Knicks \u2014 Speech",
+    "description": "And yet, because he just gave a speech about the Knicks, you love him now.",
+    "claim_ids": [
+      "8fc9db4a9272a69141aedde2"
+    ],
+    "entity_ids": [
+      "0fddf618859e6f12e7835049"
+    ],
+    "episode_ids": [
+      "4b5c35ef6667188f169b8ce7"
+    ],
+    "confidence": 0.82,
+    "timestamp_start": 2647.0
+  },
+  {
+    "event_id": "bacb8c20ea1168183c353c47",
+    "event_type": "speech",
+    "title": "And the expectation is that that petition will\u2026",
+    "description": "And the expectation is that that petition will be read, addressed, and answered.",
+    "claim_ids": [
+      "84411e77cf1a35f6c93198fb"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "8f0a5547c1385ed092ac1991"
+    ],
+    "confidence": 0.78,
+    "timestamp_start": 2007.0
+  },
+  {
+    "event_id": "7f6d036257674d26b8664cd3",
+    "event_type": "release",
+    "title": "And in this release of VLC, you have\u2026",
+    "description": "And in this release of VLC, you have modules that are going to call your drivers, right?",
+    "claim_ids": [
+      "661a3bc75d9ba073a119c6c5"
+    ],
+    "entity_ids": [],
+    "episode_ids": [
+      "b272abd0d1d4a75e4597b7ff"
+    ],
+    "confidence": 0.78,
+    "timestamp_start": 12079.0
+  }
+]

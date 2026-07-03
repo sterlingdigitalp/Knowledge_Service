@@ -1,0 +1,143 @@
+{
+  "dates": [
+    "2026-07-02"
+  ],
+  "output_root": "/Users/sterlingdigital/Knowledge_Service/data/runtime3",
+  "metrics": {
+    "dates": [
+      "2026-07-02"
+    ],
+    "per_day": [
+      {
+        "runtime3_story_count": 15,
+        "runtime1_item_count": 5,
+        "il2_item_count": 2,
+        "runtime3_fragment_titles": 0,
+        "runtime1_fragment_titles": 4,
+        "il2_fragment_titles": 0,
+        "runtime3_sponsor_residue": 0,
+        "runtime3_avg_confidence": 0.99,
+        "runtime3_avg_claims_per_story": 7.33,
+        "runtime3_entity_count": 2323,
+        "runtime3_event_count": 232,
+        "runtime3_claim_count": 9932,
+        "runtime3_filtered_non_news_segments": 184,
+        "story_recovery_vs_il2": 13,
+        "fragment_reduction_vs_runtime1": 4,
+        "editorial_usefulness_score": 1.0,
+        "date": "2026-07-02"
+      }
+    ],
+    "aggregate": {
+      "runtime3_story_count": 15.0,
+      "runtime3_fragment_titles": 0.0,
+      "runtime1_fragment_titles": 4.0,
+      "il2_fragment_titles": 0.0,
+      "editorial_usefulness_score": 1.0,
+      "runtime3_filtered_non_news_segments": 184.0,
+      "total_stories": 15
+    }
+  },
+  "reports": [
+    {
+      "date": "2026-07-02",
+      "runtime1_titles": [
+        "Visit Mercury",
+        "If you want to help me out and help me figure out where next",
+        "Agents Better",
+        "Welcome",
+        "East Roman Empire Western"
+      ],
+      "il2_titles": [
+        "Workplace Knowledge Consolidation",
+        "Byzantine Empire Historical Analysis"
+      ],
+      "runtime3_titles": [
+        "Byzantine Empire Historical Analysis",
+        "Whitney and Kevin Ruse",
+        "Roper and Hillary",
+        "Feeney and Liu",
+        "Arts and and Theater",
+        "Byzantine Empire Historical Analysis",
+        "Chris Schott and Jake",
+        "Republican: Election",
+        "Open Media: Launch",
+        "Paula and Paula Schumann"
+      ],
+      "runtime1_count": 5,
+      "il2_count": 2,
+      "runtime3_count": 10,
+      "runtime3_metrics": {
+        "runtime3_story_count": 15,
+        "runtime1_item_count": 5,
+        "il2_item_count": 2,
+        "runtime3_fragment_titles": 0,
+        "runtime1_fragment_titles": 4,
+        "il2_fragment_titles": 0,
+        "runtime3_sponsor_residue": 0,
+        "runtime3_avg_confidence": 0.99,
+        "runtime3_avg_claims_per_story": 7.33,
+        "runtime3_entity_count": 2323,
+        "runtime3_event_count": 232,
+        "runtime3_claim_count": 9932,
+        "runtime3_filtered_non_news_segments": 184,
+        "story_recovery_vs_il2": 13,
+        "fragment_reduction_vs_runtime1": 4,
+        "editorial_usefulness_score": 1.0,
+        "date": "2026-07-02"
+      },
+      "per_item_comparison": [
+        {
+          "item_id": "80addad09e28a1518e132934",
+          "runtime1_title": "Visit Mercury",
+          "il2_title": "(filtered out)",
+          "il2_accepted": false,
+          "il2_rejection_reason": "Sponsor CTA detected in evidence",
+          "runtime1_fragment": true,
+          "il2_fragment": false
+        },
+        {
+          "item_id": "15f3ae53a124677484f5136e",
+          "runtime1_title": "If you want to help me out and help me figure out where next",
+          "il2_title": "(filtered out)",
+          "il2_accepted": false,
+          "il2_rejection_reason": "Could not resolve a publishable title from evidence",
+          "runtime1_fragment": true,
+          "il2_fragment": false
+        },
+        {
+          "item_id": "0b5a7767d71465dcc740f1a4",
+          "runtime1_title": "Agents Better",
+          "il2_title": "Workplace Knowledge Consolidation",
+          "il2_accepted": true,
+          "il2_rejection_reason": null,
+          "runtime1_fragment": true,
+          "il2_fragment": false
+        },
+        {
+          "item_id": "b4e474ba87c9c8d6d5a43228",
+          "runtime1_title": "Welcome",
+          "il2_title": "(filtered out)",
+          "il2_accepted": false,
+          "il2_rejection_reason": "Could not resolve a publishable title from evidence",
+          "runtime1_fragment": true,
+          "il2_fragment": false
+        },
+        {
+          "item_id": "832054cabdb769314154f7ea",
+          "runtime1_title": "East Roman Empire Western",
+          "il2_title": "Byzantine Empire Historical Analysis",
+          "il2_accepted": true,
+          "il2_rejection_reason": null,
+          "runtime1_fragment": false,
+          "il2_fragment": false
+        }
+      ],
+      "improvements": {
+        "more_stories_than_il2": true,
+        "fewer_fragments_than_runtime1": true,
+        "editorial_usefulness": 1.0
+      }
+    }
+  ]
+}

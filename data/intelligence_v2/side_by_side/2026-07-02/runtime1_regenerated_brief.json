@@ -1,0 +1,590 @@
+{
+  "brief": {
+    "brief_id": "c1f1d614afa15efa35fde800",
+    "generated_at": "2026-07-03T00:35:59Z",
+    "reading_time_seconds": 60,
+    "total_items": 5,
+    "items": [
+      {
+        "entry_id": "ca2f08cde090ae802d3ed1e8",
+        "intelligence_item_id": "80addad09e28a1518e132934",
+        "profile_id": "ai",
+        "profile_name": "AI",
+        "title": "Visit Mercury",
+        "what_changed": "Visit Mercury: 1 independent source (across the monitored corpus) discussed this development across 2 related claims. Key signal: If you want to learn more, go to mercury.com.",
+        "why_you_care": "Importance very high (0.88): novelty=1.00, relevance=0.65, corroboration=1.00, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 4 additional independent source(s).",
+        "why_surfaced": "Matched: Visit Mercury",
+        "evidence_summary": "Evidence: multiple speakers (Dwarkesh Podcast)",
+        "star_rating": 5,
+        "importance_band": "very_high",
+        "corroborated_by": 4,
+        "explainability": {
+          "matched": "Visit Mercury",
+          "novelty": "new",
+          "novelty_score": 1.0,
+          "importance": "very_high",
+          "importance_score": 0.864,
+          "corroborated_by": 4,
+          "confidence": 0.99,
+          "claim_count": 2,
+          "historical_context": [],
+          "evidence_type": "timestamped_transcript_citations"
+        }
+      },
+      {
+        "entry_id": "e633a82c5284ab8858957ccc",
+        "intelligence_item_id": "15f3ae53a124677484f5136e",
+        "profile_id": "ai",
+        "profile_name": "AI",
+        "title": "If you want to help me out and help me figure out where next",
+        "what_changed": "If you want to help me out and help me figure out where next: 2 independent sources (across the monitored corpus) discussed this development across 2 related claims. Key signal: If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now",
+        "why_you_care": "Importance very high (0.82): novelty=1.00, relevance=0.30, corroboration=0.95, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 6 additional independent source(s).",
+        "why_surfaced": "Matched: If you want to help me out and help me figure out where next",
+        "evidence_summary": "Evidence: multiple speakers (Hard Fork, Lex Fridman Podcast)",
+        "star_rating": 4,
+        "importance_band": "very_high",
+        "corroborated_by": 6,
+        "explainability": {
+          "matched": "If you want to help me out and help me figure out where next",
+          "novelty": "new",
+          "novelty_score": 1.0,
+          "importance": "very_high",
+          "importance_score": 0.816,
+          "corroborated_by": 6,
+          "confidence": 0.99,
+          "claim_count": 2,
+          "historical_context": [],
+          "evidence_type": "timestamped_transcript_citations"
+        }
+      },
+      {
+        "entry_id": "152ae7e750c9e6c350843661",
+        "intelligence_item_id": "0b5a7767d71465dcc740f1a4",
+        "profile_id": "ai",
+        "profile_name": "AI",
+        "title": "Agents Better",
+        "what_changed": "Agents Better: 1 independent source (across the monitored corpus) discussed this development across 5 related claims. Key signal: Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job.",
+        "why_you_care": "Importance very high (0.89): novelty=0.72, relevance=0.95, corroboration=0.95, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 3 additional independent source(s).",
+        "why_surfaced": "Matched: better, getting, look, agents, code, Like, This, Rather. Evolution: new \u2014 'Agents Better' is a newly emerging theme with 5 supporting claims.",
+        "evidence_summary": "Evidence: multiple speakers (Dwarkesh Podcast)",
+        "star_rating": 4,
+        "importance_band": "very_high",
+        "corroborated_by": 3,
+        "explainability": {
+          "matched": "Agents Better",
+          "novelty": "refinement",
+          "novelty_score": 0.832,
+          "importance": "very_high",
+          "importance_score": 0.804,
+          "corroborated_by": 3,
+          "confidence": 0.931,
+          "claim_count": 5,
+          "historical_context": [],
+          "evidence_type": "timestamped_transcript_citations"
+        }
+      },
+      {
+        "entry_id": "70517b157f34138e14261c29",
+        "intelligence_item_id": "b4e474ba87c9c8d6d5a43228",
+        "profile_id": "investing",
+        "profile_name": "Investing",
+        "title": "Welcome",
+        "what_changed": "Welcome: 2 independent sources (across the monitored corpus) discussed this development across 2 related claims. Key signal: Welcome back to the number one podcast in the world, the All In Podcast, episode 278.",
+        "why_you_care": "Importance very high (0.90): novelty=1.00, relevance=0.59, corroboration=1.00, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 5 additional independent source(s).",
+        "why_surfaced": "Matched: Welcome",
+        "evidence_summary": "Evidence: multiple speakers (All-In Podcast, The Peter Attia Drive)",
+        "star_rating": 4,
+        "importance_band": "very_high",
+        "corroborated_by": 5,
+        "explainability": {
+          "matched": "Welcome",
+          "novelty": "new",
+          "novelty_score": 1.0,
+          "importance": "very_high",
+          "importance_score": 0.799,
+          "corroborated_by": 5,
+          "confidence": 0.99,
+          "claim_count": 2,
+          "historical_context": [],
+          "evidence_type": "timestamped_transcript_citations"
+        }
+      },
+      {
+        "entry_id": "5782530e1e64c766af6845ff",
+        "intelligence_item_id": "832054cabdb769314154f7ea",
+        "profile_id": "ai",
+        "profile_name": "AI",
+        "title": "East Roman Empire Western",
+        "what_changed": "East Roman Empire Western: 1 independent source (across the monitored corpus) discussed this development across 4 related claims. Key signal: And we'll talk about because those ideals become even more concretized and explicit, I think, through the East Roman Empire, because one of the things you talk...",
+        "why_you_care": "Importance very high (0.88): novelty=1.00, relevance=0.65, corroboration=0.75, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 9 additional independent source(s).",
+        "why_surfaced": "Matched: western, empire, roman, talk, east, East Roman Empire, This, Constantine. Evolution: new \u2014 'East Roman Empire Western' is a newly emerging theme with 4 supporting claims.",
+        "evidence_summary": "Evidence: multiple speakers (Lex Fridman Podcast)",
+        "star_rating": 4,
+        "importance_band": "very_high",
+        "corroborated_by": 9,
+        "explainability": {
+          "matched": "East Roman Empire Western",
+          "novelty": "new",
+          "novelty_score": 0.806,
+          "importance": "very_high",
+          "importance_score": 0.797,
+          "corroborated_by": 9,
+          "confidence": 0.99,
+          "claim_count": 4,
+          "historical_context": [],
+          "evidence_type": "timestamped_transcript_citations"
+        }
+      }
+    ],
+    "compression_ratio": 1.8,
+    "claims_synthesized": 9,
+    "quality_score": 0.0,
+    "version": "3.0",
+    "pipeline_run_id": "11f82cb3ab53778be15d6216",
+    "narrative_flow": [
+      "Lead: Visit Mercury",
+      "Supporting: If you want to help me out and help me figure out where next, Agents Better, Welcome",
+      "Also watch: East Roman Empire Western"
+    ],
+    "brief_polish_applied": false
+  },
+  "items": [
+    {
+      "item_id": "80addad09e28a1518e132934",
+      "title": "Visit Mercury",
+      "executive_summary": "Visit Mercury: 1 independent source (across the monitored corpus) discussed this development across 2 related claims. Key signal: If you want to learn more, go to mercury.com.",
+      "why_surfaced": "Matched: Visit Mercury",
+      "why_it_matters": "Importance very high (0.88): novelty=1.00, relevance=0.65, corroboration=1.00, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 4 additional independent source(s).",
+      "novelty_score": 1.0,
+      "novelty_classification": "new",
+      "importance_score": 0.864,
+      "importance_band": "very_high",
+      "confidence": 0.99,
+      "corroboration_count": 4,
+      "contradiction_count": 0,
+      "theme_id": "49cc7f26eaa339fd84cd3300",
+      "theme_label": "Visit Mercury",
+      "profile_ids": [
+        "ai"
+      ],
+      "profile_names": [
+        "AI"
+      ],
+      "supporting_claim_ids": [
+        "e983b076d6bf2a48ac6e80ce",
+        "3db891a9f688d6d4cec8737d"
+      ],
+      "supporting_evidence": [
+        {
+          "claim_id": "e983b076d6bf2a48ac6e80ce",
+          "excerpt": "If you want to learn more, go to mercury.com.",
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:11:30"
+        },
+        {
+          "claim_id": "3db891a9f688d6d4cec8737d",
+          "excerpt": "Visit Mercury.com slash Command to learn more.",
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:08:25"
+        }
+      ],
+      "timestamped_citations": [
+        {
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:11:30",
+          "url": "https://podscripts.co/podcasts/dwarkesh-podcast/the-next-big-breakthrough-will-be-ais-learning-on-the-job#t=690"
+        },
+        {
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:08:25",
+          "url": "https://podscripts.co/podcasts/dwarkesh-podcast/the-data-black-hole-at-the-center-of-ai#t=505"
+        }
+      ],
+      "speakers": [],
+      "sources": [
+        "Dwarkesh Podcast"
+      ],
+      "contradictions": [],
+      "historical_developments": [],
+      "theme_evolution": null,
+      "cluster_id": "4cd2587aa415fd9a9b2859b7",
+      "star_rating": 5,
+      "claim_count": 2,
+      "created_at": "2026-07-02T11:35:43Z"
+    },
+    {
+      "item_id": "15f3ae53a124677484f5136e",
+      "title": "If you want to help me out and help me figure out where next",
+      "executive_summary": "If you want to help me out and help me figure out where next: 2 independent sources (across the monitored corpus) discussed this development across 2 related claims. Key signal: If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now",
+      "why_surfaced": "Matched: If you want to help me out and help me figure out where next",
+      "why_it_matters": "Importance very high (0.82): novelty=1.00, relevance=0.30, corroboration=0.95, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 6 additional independent source(s).",
+      "novelty_score": 1.0,
+      "novelty_classification": "new",
+      "importance_score": 0.816,
+      "importance_band": "very_high",
+      "confidence": 0.99,
+      "corroboration_count": 6,
+      "contradiction_count": 0,
+      "theme_id": "edf930aa6386d2854ef17a4e",
+      "theme_label": "If you want to help me out and help me figure out where next",
+      "profile_ids": [
+        "ai"
+      ],
+      "profile_names": [
+        "AI"
+      ],
+      "supporting_claim_ids": [
+        "016eb3d640cdff03faf5d398",
+        "7150b42d691173ee97fd2202"
+      ],
+      "supporting_evidence": [
+        {
+          "claim_id": "016eb3d640cdff03faf5d398",
+          "excerpt": "If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now",
+          "source": "Lex Fridman Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:01:14"
+        },
+        {
+          "claim_id": "7150b42d691173ee97fd2202",
+          "excerpt": "In those moments where she struggles to recall a word, she now has something next to her that can help.",
+          "source": "Hard Fork",
+          "speaker": "unknown",
+          "timestamp_label": "00:16:00"
+        }
+      ],
+      "timestamped_citations": [
+        {
+          "source": "Lex Fridman Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:01:14",
+          "url": "https://podscripts.co/podcasts/lex-fridman-podcast/497-biggest-mysteries-in-physics-antimatter-dark-energy-toe-don-lincoln#t=74"
+        },
+        {
+          "source": "Hard Fork",
+          "speaker": "unknown",
+          "timestamp_label": "00:16:00",
+          "url": "https://podscripts.co/podcasts/hard-fork/the-daily-and-the-opinions-how-ai-is-changing-loneliness-and-taste#t=960"
+        }
+      ],
+      "speakers": [],
+      "sources": [
+        "Hard Fork",
+        "Lex Fridman Podcast"
+      ],
+      "contradictions": [],
+      "historical_developments": [],
+      "theme_evolution": null,
+      "cluster_id": "7d46a25097f5096210250b90",
+      "star_rating": 4,
+      "claim_count": 2,
+      "created_at": "2026-07-02T11:35:43Z"
+    },
+    {
+      "item_id": "0b5a7767d71465dcc740f1a4",
+      "title": "Agents Better",
+      "executive_summary": "Agents Better: 1 independent source (across the monitored corpus) discussed this development across 5 related claims. Key signal: Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job.",
+      "why_surfaced": "Matched: better, getting, look, agents, code, Like, This, Rather. Evolution: new \u2014 'Agents Better' is a newly emerging theme with 5 supporting claims.",
+      "why_it_matters": "Importance very high (0.89): novelty=0.72, relevance=0.95, corroboration=0.95, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 3 additional independent source(s).",
+      "novelty_score": 0.832,
+      "novelty_classification": "refinement",
+      "importance_score": 0.804,
+      "importance_band": "very_high",
+      "confidence": 0.931,
+      "corroboration_count": 3,
+      "contradiction_count": 0,
+      "theme_id": "18fa3185e58e7c6874859f0c",
+      "theme_label": "Agents Better",
+      "profile_ids": [
+        "ai",
+        "investing"
+      ],
+      "profile_names": [
+        "AI",
+        "Investing"
+      ],
+      "supporting_claim_ids": [
+        "4b2001423bc1ffbed5e597b0",
+        "50a94c35ea09327660ac98bb",
+        "80a63d0a291ae06adf080ad6",
+        "68797bc83d5394d66b67e2bf",
+        "a999b810dc83bd036577f481"
+      ],
+      "supporting_evidence": [
+        {
+          "claim_id": "4b2001423bc1ffbed5e597b0",
+          "excerpt": "Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job.",
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:14:14"
+        },
+        {
+          "claim_id": "50a94c35ea09327660ac98bb",
+          "excerpt": "Like if you look at coding agents, they're getting better and better at like writing clean code and refactoring code and stuff like that.",
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "01:02:55"
+        },
+        {
+          "claim_id": "80a63d0a291ae06adf080ad6",
+          "excerpt": "This is better than RLVR for two reasons.",
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:13:05"
+        },
+        {
+          "claim_id": "68797bc83d5394d66b67e2bf",
+          "excerpt": "But if you just look at, why are they getting better at being autonomous agents?",
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:44:28"
+        },
+        {
+          "claim_id": "a999b810dc83bd036577f481",
+          "excerpt": "And once it does so, the AI starts getting better domains that are adjacent to what it was explicitly trained to beforehand with RLVR training.",
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:18:20"
+        }
+      ],
+      "timestamped_citations": [
+        {
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:14:14",
+          "url": "https://podscripts.co/podcasts/dwarkesh-podcast/the-next-big-breakthrough-will-be-ais-learning-on-the-job#t=854"
+        },
+        {
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "01:02:55",
+          "url": "https://podscripts.co/podcasts/dwarkesh-podcast/grant-sanderson-ai-and-the-future-of-math#t=3775"
+        },
+        {
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:13:05",
+          "url": "https://podscripts.co/podcasts/dwarkesh-podcast/the-next-big-breakthrough-will-be-ais-learning-on-the-job#t=785"
+        },
+        {
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:44:28",
+          "url": "https://podscripts.co/podcasts/dwarkesh-podcast/grant-sanderson-ai-and-the-future-of-math#t=2668"
+        },
+        {
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:18:20",
+          "url": "https://podscripts.co/podcasts/dwarkesh-podcast/the-next-big-breakthrough-will-be-ais-learning-on-the-job#t=1100"
+        }
+      ],
+      "speakers": [],
+      "sources": [
+        "Dwarkesh Podcast"
+      ],
+      "contradictions": [],
+      "historical_developments": [],
+      "theme_evolution": {
+        "theme_id": "18fa3185e58e7c6874859f0c",
+        "label": "Agents Better",
+        "state": "new",
+        "explanation": "'Agents Better' is a newly emerging theme with 5 supporting claims.",
+        "prior_theme_id": null,
+        "similarity_to_prior": null,
+        "claim_count_delta": 0,
+        "source_count_delta": 0,
+        "recorded_at": "2026-07-02T11:35:39Z"
+      },
+      "cluster_id": "83f501a694a21e4a4165849f",
+      "star_rating": 4,
+      "claim_count": 5,
+      "created_at": "2026-07-02T11:35:43Z"
+    },
+    {
+      "item_id": "b4e474ba87c9c8d6d5a43228",
+      "title": "Welcome",
+      "executive_summary": "Welcome: 2 independent sources (across the monitored corpus) discussed this development across 2 related claims. Key signal: Welcome back to the number one podcast in the world, the All In Podcast, episode 278.",
+      "why_surfaced": "Matched: Welcome",
+      "why_it_matters": "Importance very high (0.90): novelty=1.00, relevance=0.59, corroboration=1.00, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 5 additional independent source(s).",
+      "novelty_score": 1.0,
+      "novelty_classification": "new",
+      "importance_score": 0.799,
+      "importance_band": "very_high",
+      "confidence": 0.99,
+      "corroboration_count": 5,
+      "contradiction_count": 0,
+      "theme_id": "ec1eb067e13da3248ac51905",
+      "theme_label": "Welcome",
+      "profile_ids": [
+        "investing",
+        "ai",
+        "longevity"
+      ],
+      "profile_names": [
+        "Investing",
+        "AI",
+        "Longevity"
+      ],
+      "supporting_claim_ids": [
+        "bf39aea557753b3d12447749",
+        "edd4815ea75051715e5f2d1c"
+      ],
+      "supporting_evidence": [
+        {
+          "claim_id": "bf39aea557753b3d12447749",
+          "excerpt": "Welcome back to the number one podcast in the world, the All In Podcast, episode 278.",
+          "source": "All-In Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:00:00"
+        },
+        {
+          "claim_id": "edd4815ea75051715e5f2d1c",
+          "excerpt": "Fourth, access to our private podcast feed that provides you with access to every episode, including AMA's Sons the Spiel you're listening to now, and in your regular podcast feed.",
+          "source": "The Peter Attia Drive",
+          "speaker": "unknown",
+          "timestamp_label": "00:07:41"
+        }
+      ],
+      "timestamped_citations": [
+        {
+          "source": "All-In Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:00:00",
+          "url": "https://podscripts.co/podcasts/all-in-with-chamath-jason-sacks-friedberg/socialists-sweep-nyc-china-catches-up-in-coding-ai-memory-crunch-microns-blowout-quarter#t=0"
+        },
+        {
+          "source": "The Peter Attia Drive",
+          "speaker": "unknown",
+          "timestamp_label": "00:07:41",
+          "url": "https://podscripts.co/podcasts/the-peter-attia-drive/398-ama-86-glp-1-ras-and-muscle-loss-new-data-better-questions-and-how-to-preserve-muscle-during-weight-loss#t=461"
+        }
+      ],
+      "speakers": [],
+      "sources": [
+        "All-In Podcast",
+        "The Peter Attia Drive"
+      ],
+      "contradictions": [],
+      "historical_developments": [],
+      "theme_evolution": null,
+      "cluster_id": "1ae68b4a0e5dcf8497ce8847",
+      "star_rating": 4,
+      "claim_count": 2,
+      "created_at": "2026-07-02T11:35:43Z"
+    },
+    {
+      "item_id": "832054cabdb769314154f7ea",
+      "title": "East Roman Empire Western",
+      "executive_summary": "East Roman Empire Western: 1 independent source (across the monitored corpus) discussed this development across 4 related claims. Key signal: And we'll talk about because those ideals become even more concretized and explicit, I think, through the East Roman Empire, because one of the things you talk...",
+      "why_surfaced": "Matched: western, empire, roman, talk, east, East Roman Empire, This, Constantine. Evolution: new \u2014 'East Roman Empire Western' is a newly emerging theme with 4 supporting claims.",
+      "why_it_matters": "Importance very high (0.88): novelty=1.00, relevance=0.65, corroboration=0.75, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 9 additional independent source(s).",
+      "novelty_score": 0.806,
+      "novelty_classification": "new",
+      "importance_score": 0.797,
+      "importance_band": "very_high",
+      "confidence": 0.99,
+      "corroboration_count": 9,
+      "contradiction_count": 0,
+      "theme_id": "a0ffd257fcc5a42a3026e378",
+      "theme_label": "East Roman Empire Western",
+      "profile_ids": [
+        "ai",
+        "investing"
+      ],
+      "profile_names": [
+        "AI",
+        "Investing"
+      ],
+      "supporting_claim_ids": [
+        "a14b3a80a8fb509edc098251",
+        "61f07bb361b15b5833c94b4e",
+        "0a5ecadd08376474aff65857",
+        "f66eb48f162ea24326de266a"
+      ],
+      "supporting_evidence": [
+        {
+          "claim_id": "a14b3a80a8fb509edc098251",
+          "excerpt": "And we'll talk about because those ideals become even more concretized and explicit, I think, through the East Roman Empire, because one of the things you talk about",
+          "source": "Lex Fridman Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:23:13"
+        },
+        {
+          "claim_id": "61f07bb361b15b5833c94b4e",
+          "excerpt": "And the East Roman Empire is, there's a signal there that's fascinating.",
+          "source": "Lex Fridman Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "02:36:56"
+        },
+        {
+          "claim_id": "0a5ecadd08376474aff65857",
+          "excerpt": "And in 476 AD, the last Western Emperor is deposed mark in the end of the Western Roman Empire.",
+          "source": "Lex Fridman Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "02:03:11"
+        },
+        {
+          "claim_id": "f66eb48f162ea24326de266a",
+          "excerpt": "This perception of the way, and we'll talk about this, the persona that's presented by the state. 312 AD, Constantine defeats McSentius at the Milvia Bridge to become the sole ruler of the western hal",
+          "source": "Lex Fridman Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:15:38"
+        }
+      ],
+      "timestamped_citations": [
+        {
+          "source": "Lex Fridman Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:23:13",
+          "url": "https://podscripts.co/podcasts/lex-fridman-podcast/498-anthony-kaldellis-roman-empire-byzantine-empire-rise-fall-of-empires#t=1393"
+        },
+        {
+          "source": "Lex Fridman Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "02:36:56",
+          "url": "https://podscripts.co/podcasts/lex-fridman-podcast/498-anthony-kaldellis-roman-empire-byzantine-empire-rise-fall-of-empires#t=9416"
+        },
+        {
+          "source": "Lex Fridman Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "02:03:11",
+          "url": "https://podscripts.co/podcasts/lex-fridman-podcast/498-anthony-kaldellis-roman-empire-byzantine-empire-rise-fall-of-empires#t=7391"
+        },
+        {
+          "source": "Lex Fridman Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:15:38",
+          "url": "https://podscripts.co/podcasts/lex-fridman-podcast/498-anthony-kaldellis-roman-empire-byzantine-empire-rise-fall-of-empires#t=938"
+        }
+      ],
+      "speakers": [],
+      "sources": [
+        "Lex Fridman Podcast"
+      ],
+      "contradictions": [],
+      "historical_developments": [],
+      "theme_evolution": {
+        "theme_id": "a0ffd257fcc5a42a3026e378",
+        "label": "East Roman Empire Western",
+        "state": "new",
+        "explanation": "'East Roman Empire Western' is a newly emerging theme with 4 supporting claims.",
+        "prior_theme_id": null,
+        "similarity_to_prior": null,
+        "claim_count_delta": 0,
+        "source_count_delta": 0,
+        "recorded_at": "2026-07-02T11:35:40Z"
+      },
+      "cluster_id": null,
+      "star_rating": 4,
+      "claim_count": 4,
+      "created_at": "2026-07-02T11:35:43Z"
+    }
+  ],
+  "generated_at": "2026-07-03T00:35:59Z",
+  "empty_signal": false
+}

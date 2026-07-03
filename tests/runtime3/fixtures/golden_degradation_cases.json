@@ -1,0 +1,41 @@
+[
+  {
+    "case_id": "visit_mercury_sponsor",
+    "transcript_excerpt": "If you want to learn more, go to mercury.com.",
+    "segment_type": "sponsor",
+    "should_produce_claim": false
+  },
+  {
+    "case_id": "figure_where_meta",
+    "transcript_excerpt": "If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now",
+    "segment_type": "meta_request",
+    "should_produce_claim": false
+  },
+  {
+    "case_id": "welcome_intro",
+    "transcript_excerpt": "Welcome to the All-In Podcast. Follow us on Instagram and TikTok for more content.",
+    "segment_type": "intro",
+    "should_produce_claim": false
+  },
+  {
+    "case_id": "enterprise_ai_substance",
+    "transcript_excerpt": "Coding agents are getting better at consolidating workplace knowledge and RLVR is improving multi-step reasoning for enterprise software teams.",
+    "segment_type": "discussion",
+    "should_produce_claim": true,
+    "expected_headline": true
+  },
+  {
+    "case_id": "byzantine_history",
+    "transcript_excerpt": "Constantine shaped the East Roman Empire and the Byzantine legacy after Rome fell in 476 AD.",
+    "segment_type": "discussion",
+    "should_produce_claim": true,
+    "expected_headline": true
+  },
+  {
+    "case_id": "dark_matter_science",
+    "transcript_excerpt": "Physicists detected new evidence of dark matter using underground observatory instruments.",
+    "segment_type": "news",
+    "should_produce_claim": true,
+    "expected_headline": true
+  }
+]

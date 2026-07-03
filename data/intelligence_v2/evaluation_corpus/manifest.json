@@ -1,0 +1,201 @@
+{
+  "version": "1.0",
+  "sample_count": 5,
+  "sources": [
+    "knowledge_service_frontend"
+  ],
+  "samples": [
+    {
+      "sample_id": "ks-000-visit_mercury",
+      "source": "knowledge_service_frontend",
+      "captured_at": "2026-07-02T11:35:46Z",
+      "title": "Visit Mercury",
+      "summary": "1 independent source (multiple monitored voices) are converging on Visit Mercury. The core signal: If you want to learn more, go to mercury.com. Why it matters: Independent corroboration (4 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+      "evidence_excerpt": "1 independent source (multiple monitored voices) are converging on Visit Mercury. The core signal: If you want to learn more, go to mercury.com. Why it matters: Independent corroboration (4 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not st",
+      "quality_label": "bad",
+      "failure_modes": [
+        "fm_sponsor_cta",
+        "fm_speech_fragment"
+      ],
+      "metadata": {
+        "corroborated_by": 4,
+        "entry_id": "ca2f08cde090ae802d3ed1e8",
+        "evidence_summary": "Evidence: multiple speakers (Dwarkesh Podcast)",
+        "explainability": {
+          "claim_count": 2,
+          "confidence": 0.99,
+          "corroborated_by": 4,
+          "evidence_type": "timestamped_transcript_citations",
+          "historical_context": [],
+          "importance": "very_high",
+          "importance_score": 0.864,
+          "matched": "Visit Mercury",
+          "novelty": "new",
+          "novelty_score": 1.0
+        },
+        "importance_band": "very_high",
+        "intelligence_item_id": "80addad09e28a1518e132934",
+        "profile_id": "ai",
+        "profile_name": "AI",
+        "star_rating": 5,
+        "title": "Visit Mercury",
+        "what_changed": "1 independent source (multiple monitored voices) are converging on Visit Mercury. The core signal: If you want to learn more, go to mercury.com. Why it matters: Independent corroboration (4 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+        "why_surfaced": "Matched: Visit Mercury. Matched: Visit Mercury",
+        "why_you_care": "Importance very high (0.88): novelty=1.00, relevance=0.65, corroboration=1.00, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 4 additional independent source(s)."
+      }
+    },
+    {
+      "sample_id": "ks-001-figure_where",
+      "source": "knowledge_service_frontend",
+      "captured_at": "2026-07-02T11:35:46Z",
+      "title": "Figure Where",
+      "summary": "2 independent sources (multiple monitored voices) are converging on Figure Where. The core signal: If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now Why it matters: Independent corroboration (6 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+      "evidence_excerpt": "2 independent sources (multiple monitored voices) are converging on Figure Where. The core signal: If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now Why it matters: Independent corroboration (6 sourc",
+      "quality_label": "bad",
+      "failure_modes": [
+        "fm_speech_fragment"
+      ],
+      "metadata": {
+        "corroborated_by": 6,
+        "entry_id": "e633a82c5284ab8858957ccc",
+        "evidence_summary": "Evidence: multiple speakers (Hard Fork, Lex Fridman Podcast)",
+        "explainability": {
+          "claim_count": 2,
+          "confidence": 0.99,
+          "corroborated_by": 6,
+          "evidence_type": "timestamped_transcript_citations",
+          "historical_context": [],
+          "importance": "very_high",
+          "importance_score": 0.816,
+          "matched": "If you want to help me out and help me figure out where next",
+          "novelty": "new",
+          "novelty_score": 1.0
+        },
+        "importance_band": "very_high",
+        "intelligence_item_id": "15f3ae53a124677484f5136e",
+        "profile_id": "ai",
+        "profile_name": "AI",
+        "star_rating": 4,
+        "title": "Figure Where",
+        "what_changed": "2 independent sources (multiple monitored voices) are converging on Figure Where. The core signal: If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now Why it matters: Independent corroboration (6 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+        "why_surfaced": "Matched: Figure Where. Matched: If you want to help me out and help me figure out where next",
+        "why_you_care": "Importance very high (0.82): novelty=1.00, relevance=0.30, corroboration=0.95, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 6 additional independent source(s)."
+      }
+    },
+    {
+      "sample_id": "ks-002-enterprise_ai_agents",
+      "source": "knowledge_service_frontend",
+      "captured_at": "2026-07-02T11:35:46Z",
+      "title": "Enterprise AI Agents",
+      "summary": "1 independent source (multiple monitored voices) are converging on Enterprise AI Agents. The core signal: Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job. Why it matters: Independent corroboration (3 sources) raises confidence this is a real shift, not noise. Why now: 'Agents Better' is a newly emerging theme with 5 supporting claims. What to watch next: Watch for a third independent source to confirm consensus formation.",
+      "evidence_excerpt": "1 independent source (multiple monitored voices) are converging on Enterprise AI Agents. The core signal: Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job. Why it matters: Independent corroboration (3 sources) ",
+      "quality_label": "bad",
+      "failure_modes": [
+        "fm_pattern_overmatch"
+      ],
+      "metadata": {
+        "corroborated_by": 3,
+        "entry_id": "152ae7e750c9e6c350843661",
+        "evidence_summary": "Evidence: multiple speakers (Dwarkesh Podcast)",
+        "explainability": {
+          "claim_count": 5,
+          "confidence": 0.931,
+          "corroborated_by": 3,
+          "evidence_type": "timestamped_transcript_citations",
+          "historical_context": [],
+          "importance": "very_high",
+          "importance_score": 0.804,
+          "matched": "Agents Better",
+          "novelty": "refinement",
+          "novelty_score": 0.832
+        },
+        "importance_band": "very_high",
+        "intelligence_item_id": "0b5a7767d71465dcc740f1a4",
+        "profile_id": "ai",
+        "profile_name": "AI",
+        "star_rating": 4,
+        "title": "Enterprise AI Agents",
+        "what_changed": "1 independent source (multiple monitored voices) are converging on Enterprise AI Agents. The core signal: Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job. Why it matters: Independent corroboration (3 sources) raises confidence this is a real shift, not noise. Why now: 'Agents Better' is a newly emerging theme with 5 supporting claims. What to watch next: Watch for a third independent source to confirm consensus formation.",
+        "why_surfaced": "Matched: Enterprise AI Agents. Matched: better, getting, look, agents, code, Like, This, Rather. Evolution: new \u2014 'Agents Better' is a newly emerging theme with 5 supporting claims.",
+        "why_you_care": "Importance very high (0.89): novelty=0.72, relevance=0.95, corroboration=0.95, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 3 additional independent source(s)."
+      }
+    },
+    {
+      "sample_id": "ks-003-welcome_developments",
+      "source": "knowledge_service_frontend",
+      "captured_at": "2026-07-02T11:35:46Z",
+      "title": "Welcome Developments",
+      "summary": "2 independent sources (multiple monitored voices) are converging on Welcome Developments. The core signal: Welcome back to the number one podcast in the world, the All In Podcast, episode 278. Why it matters: Independent corroboration (5 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+      "evidence_excerpt": "2 independent sources (multiple monitored voices) are converging on Welcome Developments. The core signal: Welcome back to the number one podcast in the world, the All In Podcast, episode 278. Why it matters: Independent corroboration (5 sources) raises confidence this is a real shift, not noise. Wh",
+      "quality_label": "bad",
+      "failure_modes": [
+        "fm_speech_fragment",
+        "fm_intro_filler",
+        "fm_developments_suffix",
+        "fm_generic_topic"
+      ],
+      "metadata": {
+        "corroborated_by": 5,
+        "entry_id": "70517b157f34138e14261c29",
+        "evidence_summary": "Evidence: multiple speakers (All-In Podcast, The Peter Attia Drive)",
+        "explainability": {
+          "claim_count": 2,
+          "confidence": 0.99,
+          "corroborated_by": 5,
+          "evidence_type": "timestamped_transcript_citations",
+          "historical_context": [],
+          "importance": "very_high",
+          "importance_score": 0.799,
+          "matched": "Welcome",
+          "novelty": "new",
+          "novelty_score": 1.0
+        },
+        "importance_band": "very_high",
+        "intelligence_item_id": "b4e474ba87c9c8d6d5a43228",
+        "profile_id": "investing",
+        "profile_name": "Investing",
+        "star_rating": 4,
+        "title": "Welcome Developments",
+        "what_changed": "2 independent sources (multiple monitored voices) are converging on Welcome Developments. The core signal: Welcome back to the number one podcast in the world, the All In Podcast, episode 278. Why it matters: Independent corroboration (5 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+        "why_surfaced": "Matched: Welcome Developments. Matched: Welcome",
+        "why_you_care": "Importance very high (0.90): novelty=1.00, relevance=0.59, corroboration=1.00, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 5 additional independent source(s)."
+      }
+    },
+    {
+      "sample_id": "ks-004-roman_empire",
+      "source": "knowledge_service_frontend",
+      "captured_at": "2026-07-02T11:35:46Z",
+      "title": "Roman Empire",
+      "summary": "1 independent source (multiple monitored voices) are converging on Roman Empire. The core signal: And we'll talk about because those ideals become even more concretized and explicit, I think, through the East Roman Empire, because one of the things you talk about Why it matters: Independent corroboration (9 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+      "evidence_excerpt": "1 independent source (multiple monitored voices) are converging on Roman Empire. The core signal: And we'll talk about because those ideals become even more concretized and explicit, I think, through the East Roman Empire, because one of the things you talk about Why it matters: Independent corrobor",
+      "quality_label": "good",
+      "failure_modes": [],
+      "metadata": {
+        "corroborated_by": 9,
+        "entry_id": "5782530e1e64c766af6845ff",
+        "evidence_summary": "Evidence: multiple speakers (Lex Fridman Podcast)",
+        "explainability": {
+          "claim_count": 4,
+          "confidence": 0.99,
+          "corroborated_by": 9,
+          "evidence_type": "timestamped_transcript_citations",
+          "historical_context": [],
+          "importance": "very_high",
+          "importance_score": 0.797,
+          "matched": "East Roman Empire Western",
+          "novelty": "new",
+          "novelty_score": 0.806
+        },
+        "importance_band": "very_high",
+        "intelligence_item_id": "832054cabdb769314154f7ea",
+        "profile_id": "ai",
+        "profile_name": "AI",
+        "star_rating": 4,
+        "title": "Roman Empire",
+        "what_changed": "1 independent source (multiple monitored voices) are converging on Roman Empire. The core signal: And we'll talk about because those ideals become even more concretized and explicit, I think, through the East Roman Empire, because one of the things you talk about Why it matters: Independent corroboration (9 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+        "why_surfaced": "Matched: Roman Empire. Matched: western, empire, roman, talk, east, East Roman Empire, This, Constantine. Evolution: new \u2014 'East Roman Empire Western' is a newly emerging theme with 4 supporting claims.",
+        "why_you_care": "Importance very high (0.88): novelty=1.00, relevance=0.65, corroboration=0.75, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 9 additional independent source(s)."
+      }
+    }
+  ]
+}

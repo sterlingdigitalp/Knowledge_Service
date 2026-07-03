@@ -66,6 +66,8 @@ _run "production tests" _pytest production "$ROOT/tests/production"
 
 _run "intelligence tests" _pytest intelligence "$ROOT/tests/intelligence"
 
+_run "runtime3 tests" _pytest runtime3 "$ROOT/tests/runtime3"
+
 _run "integration tests" _pytest integration "$ROOT/integration_tests"
 
 _run "runtime inspector" "$PYTHON" -c "

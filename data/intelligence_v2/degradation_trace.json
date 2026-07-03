@@ -1,0 +1,760 @@
+[
+  {
+    "date": "2026-07-02",
+    "item_id": "80addad09e28a1518e132934",
+    "published_title": "Visit Mercury",
+    "il2_accepted": false,
+    "il2_rejection": "Sponsor CTA detected in evidence",
+    "theme_id": "49cc7f26eaa339fd84cd3300",
+    "theme_label": "Visit Mercury",
+    "theme_keywords": [],
+    "theme_entities": [],
+    "item_title": "Visit Mercury",
+    "sources": [
+      "Dwarkesh Podcast"
+    ],
+    "speakers": [],
+    "claim_count": 2,
+    "claims": [
+      {
+        "claim_id": "e983b076d6bf2a48ac6e80ce",
+        "claim_text": "If you want to learn more, go to mercury.com.",
+        "evidence": "If you want to learn more, go to mercury.com.",
+        "entities": [],
+        "topic": "general",
+        "podcast": "Dwarkesh Podcast",
+        "timestamp": "00:11:30"
+      },
+      {
+        "claim_id": "3db891a9f688d6d4cec8737d",
+        "claim_text": "Visit Mercury.com slash Command to learn more.",
+        "evidence": "Visit Mercury.com slash Command to learn more.",
+        "entities": [
+          "Visit Mercury",
+          "Command"
+        ],
+        "topic": "Visit Mercury",
+        "podcast": "Dwarkesh Podcast",
+        "timestamp": "00:08:25"
+      }
+    ],
+    "evidence_excerpts": [
+      "If you want to learn more, go to mercury.com.",
+      "Visit Mercury.com slash Command to learn more."
+    ],
+    "resolution": {
+      "canonical_title": "UNRESOLVED",
+      "resolved_from": "sponsor_cta",
+      "publishable": false,
+      "confidence": 0.0,
+      "failure_modes": [
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_sponsor_cta"
+      ]
+    },
+    "gate": {
+      "accepted": false,
+      "reason": "Sponsor CTA detected in evidence",
+      "failure_modes": [
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_sponsor_cta",
+        "fm_title_evidence_mismatch"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "item_id": "15f3ae53a124677484f5136e",
+    "published_title": "Figure Where",
+    "il2_accepted": false,
+    "il2_rejection": "Could not resolve a publishable title from evidence",
+    "theme_id": "edf930aa6386d2854ef17a4e",
+    "theme_label": "If you want to help me out and help me figure out where next",
+    "theme_keywords": [],
+    "theme_entities": [],
+    "item_title": "If you want to help me out and help me figure out where next",
+    "sources": [
+      "Hard Fork",
+      "Lex Fridman Podcast"
+    ],
+    "speakers": [],
+    "claim_count": 2,
+    "claims": [
+      {
+        "claim_id": "016eb3d640cdff03faf5d398",
+        "claim_text": "If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now",
+        "evidence": "If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now",
+        "entities": [],
+        "topic": "general",
+        "podcast": "Lex Fridman Podcast",
+        "timestamp": "00:01:14"
+      },
+      {
+        "claim_id": "7150b42d691173ee97fd2202",
+        "claim_text": "In those moments where she struggles to recall a word, she now has something next to her that can help.",
+        "evidence": "In those moments where she struggles to recall a word, she now has something next to her that can help.",
+        "entities": [],
+        "topic": "general",
+        "podcast": "Hard Fork",
+        "timestamp": "00:16:00"
+      }
+    ],
+    "evidence_excerpts": [
+      "If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now",
+      "In those moments where she struggles to recall a word, she now has something next to her that can help."
+    ],
+    "resolution": {
+      "canonical_title": "UNRESOLVED",
+      "resolved_from": "insufficient_evidence",
+      "publishable": false,
+      "confidence": 0.0,
+      "failure_modes": [
+        "fm_low_information",
+        "fm_pattern_overmatch",
+        "fm_speech_fragment"
+      ]
+    },
+    "gate": {
+      "accepted": false,
+      "reason": "Could not resolve a publishable title from evidence",
+      "failure_modes": [
+        "fm_low_information",
+        "fm_pattern_overmatch",
+        "fm_speech_fragment"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "item_id": "0b5a7767d71465dcc740f1a4",
+    "published_title": "Enterprise AI Agents",
+    "il2_accepted": true,
+    "il2_rejection": null,
+    "theme_id": "18fa3185e58e7c6874859f0c",
+    "theme_label": "Agents Better",
+    "theme_keywords": [
+      "better",
+      "getting",
+      "look",
+      "agents",
+      "code",
+      "rlvr"
+    ],
+    "theme_entities": [
+      "Like",
+      "This",
+      "Rather"
+    ],
+    "item_title": "Agents Better",
+    "sources": [
+      "Dwarkesh Podcast"
+    ],
+    "speakers": [],
+    "claim_count": 5,
+    "claims": [
+      {
+        "claim_id": "4b2001423bc1ffbed5e597b0",
+        "claim_text": "Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job.",
+        "evidence": "Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job.",
+        "entities": [
+          "Rather"
+        ],
+        "topic": "Rather",
+        "podcast": "Dwarkesh Podcast",
+        "timestamp": "00:14:14"
+      },
+      {
+        "claim_id": "50a94c35ea09327660ac98bb",
+        "claim_text": "Like if you look at coding agents, they're getting better and better at like writing clean code and refactoring code and stuff like that.",
+        "evidence": "Like if you look at coding agents, they're getting better and better at like writing clean code and refactoring code and stuff like that.",
+        "entities": [
+          "Like"
+        ],
+        "topic": "Coding",
+        "podcast": "Dwarkesh Podcast",
+        "timestamp": "01:02:55"
+      },
+      {
+        "claim_id": "80a63d0a291ae06adf080ad6",
+        "claim_text": "This is better than RLVR for two reasons.",
+        "evidence": "This is better than RLVR for two reasons.",
+        "entities": [
+          "This"
+        ],
+        "topic": "This",
+        "podcast": "Dwarkesh Podcast",
+        "timestamp": "00:13:05"
+      },
+      {
+        "claim_id": "68797bc83d5394d66b67e2bf",
+        "claim_text": "But if you just look at, why are they getting better at being autonomous agents?",
+        "evidence": "But if you just look at, why are they getting better at being autonomous agents?",
+        "entities": [],
+        "topic": "Agents",
+        "podcast": "Dwarkesh Podcast",
+        "timestamp": "00:44:28"
+      }
+    ],
+    "evidence_excerpts": [
+      "Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job.",
+      "Like if you look at coding agents, they're getting better and better at like writing clean code and refactoring code and stuff like that.",
+      "This is better than RLVR for two reasons."
+    ],
+    "resolution": {
+      "canonical_title": "Workplace Knowledge Consolidation",
+      "resolved_from": "evidence_pattern",
+      "publishable": true,
+      "confidence": 0.898,
+      "failure_modes": [
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_low_information",
+        "fm_speech_fragment"
+      ]
+    },
+    "gate": {
+      "accepted": true,
+      "reason": null,
+      "failure_modes": [
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_title_evidence_mismatch"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "item_id": "b4e474ba87c9c8d6d5a43228",
+    "published_title": "Welcome Developments",
+    "il2_accepted": false,
+    "il2_rejection": "Could not resolve a publishable title from evidence",
+    "theme_id": "ec1eb067e13da3248ac51905",
+    "theme_label": "Welcome",
+    "theme_keywords": [],
+    "theme_entities": [],
+    "item_title": "Welcome",
+    "sources": [
+      "All-In Podcast",
+      "The Peter Attia Drive"
+    ],
+    "speakers": [],
+    "claim_count": 2,
+    "claims": [
+      {
+        "claim_id": "bf39aea557753b3d12447749",
+        "claim_text": "Welcome back to the number one podcast in the world, the All In Podcast, episode 278.",
+        "evidence": "Welcome back to the number one podcast in the world, the All In Podcast, episode 278.",
+        "entities": [
+          "Welcome",
+          "All In Podcast"
+        ],
+        "topic": "Welcome",
+        "podcast": "All-In Podcast",
+        "timestamp": "00:00:00"
+      },
+      {
+        "claim_id": "edd4815ea75051715e5f2d1c",
+        "claim_text": "Fourth, access to our private podcast feed that provides you with access to every episode, including AMA's Sons the Spiel you're listening to now, and in your regular podcast feed.",
+        "evidence": "Fourth, access to our private podcast feed that provides you with access to every episode, including AMA's Sons the Spiel you're listening to now, and in your regular podcast feed.",
+        "entities": [
+          "Fourth",
+          "Sons",
+          "Spiel"
+        ],
+        "topic": "Fourth",
+        "podcast": "The Peter Attia Drive",
+        "timestamp": "00:07:41"
+      }
+    ],
+    "evidence_excerpts": [
+      "Welcome back to the number one podcast in the world, the All In Podcast, episode 278.",
+      "Fourth, access to our private podcast feed that provides you with access to every episode, including AMA's Sons the Spiel you're listening to now, and in your regular podcast feed."
+    ],
+    "resolution": {
+      "canonical_title": "UNRESOLVED",
+      "resolved_from": "intro_filler",
+      "publishable": false,
+      "confidence": 0.0,
+      "failure_modes": [
+        "fm_generic_topic",
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_intro_filler"
+      ]
+    },
+    "gate": {
+      "accepted": false,
+      "reason": "Could not resolve a publishable title from evidence",
+      "failure_modes": [
+        "fm_generic_topic",
+        "fm_intro_filler",
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_title_evidence_mismatch"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "item_id": "832054cabdb769314154f7ea",
+    "published_title": "Roman Empire",
+    "il2_accepted": true,
+    "il2_rejection": null,
+    "theme_id": "a0ffd257fcc5a42a3026e378",
+    "theme_label": "East Roman Empire Western",
+    "theme_keywords": [
+      "western",
+      "empire",
+      "roman",
+      "talk",
+      "east",
+      "we'll"
+    ],
+    "theme_entities": [
+      "East Roman Empire",
+      "This",
+      "Constantine",
+      "Milvia Bridge"
+    ],
+    "item_title": "East Roman Empire Western",
+    "sources": [
+      "Lex Fridman Podcast"
+    ],
+    "speakers": [],
+    "claim_count": 4,
+    "claims": [
+      {
+        "claim_id": "a14b3a80a8fb509edc098251",
+        "claim_text": "And we'll talk about because those ideals become even more concretized and explicit, I think, through the East Roman Empire, because one of the things you talk about",
+        "evidence": "And we'll talk about because those ideals become even more concretized and explicit, I think, through the East Roman Empire, because one of the things you talk about",
+        "entities": [
+          "East Roman Empire"
+        ],
+        "topic": "East Roman Empire",
+        "podcast": "Lex Fridman Podcast",
+        "timestamp": "00:23:13"
+      },
+      {
+        "claim_id": "61f07bb361b15b5833c94b4e",
+        "claim_text": "And the East Roman Empire is, there's a signal there that's fascinating.",
+        "evidence": "And the East Roman Empire is, there's a signal there that's fascinating.",
+        "entities": [
+          "East Roman Empire"
+        ],
+        "topic": "East Roman Empire",
+        "podcast": "Lex Fridman Podcast",
+        "timestamp": "02:36:56"
+      },
+      {
+        "claim_id": "0a5ecadd08376474aff65857",
+        "claim_text": "And in 476 AD, the last Western Emperor is deposed mark in the end of the Western Roman Empire.",
+        "evidence": "And in 476 AD, the last Western Emperor is deposed mark in the end of the Western Roman Empire.",
+        "entities": [
+          "Western Emperor",
+          "Western Roman Empire"
+        ],
+        "topic": "Western Emperor",
+        "podcast": "Lex Fridman Podcast",
+        "timestamp": "02:03:11"
+      },
+      {
+        "claim_id": "f66eb48f162ea24326de266a",
+        "claim_text": "This perception of the way, and we'll talk about this, the persona that's presented by the state. 312 AD, Constantine defeats McSentius at the Milvia Bridge to become the sole ruler of the western hal",
+        "evidence": "This perception of the way, and we'll talk about this, the persona that's presented by the state. 312 AD, Constantine defeats McSentius at the Milvia Bridge to become the sole ruler of the western hal",
+        "entities": [
+          "This",
+          "Constantine",
+          "Milvia Bridge",
+          "Constantinople",
+          "East",
+          "West"
+        ],
+        "topic": "This",
+        "podcast": "Lex Fridman Podcast",
+        "timestamp": "00:15:38"
+      }
+    ],
+    "evidence_excerpts": [
+      "And we'll talk about because those ideals become even more concretized and explicit, I think, through the East Roman Empire, because one of the things you talk about",
+      "And the East Roman Empire is, there's a signal there that's fascinating.",
+      "And in 476 AD, the last Western Emperor is deposed mark in the end of the Western Roman Empire."
+    ],
+    "resolution": {
+      "canonical_title": "Byzantine Empire Historical Analysis",
+      "resolved_from": "evidence_pattern",
+      "publishable": true,
+      "confidence": 0.95,
+      "failure_modes": [
+        "fm_speech_fragment",
+        "fm_speech_fragment"
+      ]
+    },
+    "gate": {
+      "accepted": true,
+      "reason": null,
+      "failure_modes": [
+        "fm_speech_fragment"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "item_id": "4543e7f4534659cf96a257f8",
+    "published_title": "Swalwell Developments",
+    "il2_accepted": true,
+    "il2_rejection": null,
+    "theme_id": "dc48aeea048e8a544a2f9f78",
+    "theme_label": "Eric Swalwell",
+    "theme_keywords": [],
+    "theme_entities": [],
+    "item_title": "Eric Swalwell",
+    "sources": [
+      "All-In Podcast",
+      "Dwarkesh Podcast"
+    ],
+    "speakers": [],
+    "claim_count": 2,
+    "claims": [
+      {
+        "claim_id": "7a791f4696e6871ec89fb988",
+        "claim_text": "it wasn't clear for a while it looked like Eric Swalwell was gonna win and then Katie Porter and then and then you know Bcerra finally emerges",
+        "evidence": "it wasn't clear for a while it looked like Eric Swalwell was gonna win and then Katie Porter and then and then you know Bcerra finally emerges",
+        "entities": [
+          "Eric Swalwell",
+          "Katie Porter",
+          "Bcerra"
+        ],
+        "topic": "Eric Swalwell",
+        "podcast": "All-In Podcast",
+        "timestamp": "00:11:48"
+      },
+      {
+        "claim_id": "d81c489f1c52895d37fd5877",
+        "claim_text": "He wasn't giving like a clear thought of like what the theory actually was.",
+        "evidence": "He wasn't giving like a clear thought of like what the theory actually was.",
+        "entities": [],
+        "topic": "general",
+        "podcast": "Dwarkesh Podcast",
+        "timestamp": "00:18:52"
+      }
+    ],
+    "evidence_excerpts": [
+      "it wasn't clear for a while it looked like Eric Swalwell was gonna win and then Katie Porter and then and then you know Bcerra finally emerges",
+      "He wasn't giving like a clear thought of like what the theory actually was."
+    ],
+    "resolution": {
+      "canonical_title": "California AG Race Dynamics",
+      "resolved_from": "evidence_pattern",
+      "publishable": true,
+      "confidence": 0.873,
+      "failure_modes": [
+        "fm_speech_fragment",
+        "fm_speech_fragment"
+      ]
+    },
+    "gate": {
+      "accepted": true,
+      "reason": null,
+      "failure_modes": [
+        "fm_speech_fragment"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "item_id": "a007d5473b217ea8831ad0b7",
+    "published_title": "Ai Developments",
+    "il2_accepted": false,
+    "il2_rejection": "Could not resolve a publishable title from evidence",
+    "theme_id": "707e6d033f9a165ac5e59d3c",
+    "theme_label": "AI I'D",
+    "theme_keywords": [
+      "i'd",
+      "curious",
+      "billions",
+      "they're",
+      "technical",
+      "level"
+    ],
+    "theme_entities": [
+      "They"
+    ],
+    "item_title": "AI I'D",
+    "sources": [
+      "Dwarkesh Podcast"
+    ],
+    "speakers": [],
+    "claim_count": 3,
+    "claims": [
+      {
+        "claim_id": "8a99044194e937912ba2e108",
+        "claim_text": "And I'd be curious about your predictions of even if they're not as smart as your mathematicians, the fact that they are just, you know, billions of, because for PR reasons that the AI companies They'",
+        "evidence": "And I'd be curious about your predictions of even if they're not as smart as your mathematicians, the fact that they are just, you know, billions of, because for PR reasons that the AI companies They'",
+        "entities": [
+          "They"
+        ],
+        "topic": "AI",
+        "podcast": "Dwarkesh Podcast",
+        "timestamp": "00:46:23"
+      },
+      {
+        "claim_id": "2cfe29617d4ef2f6e828c25c",
+        "claim_text": "And the way I was learning it is like I'd have on one third of the screen,",
+        "evidence": "And the way I was learning it is like I'd have on one third of the screen,",
+        "entities": [],
+        "topic": "general",
+        "podcast": "Dwarkesh Podcast",
+        "timestamp": "01:20:09"
+      },
+      {
+        "claim_id": "f54a978e5a075b7ff5d78fa5",
+        "claim_text": "And what I'd be curious, like, I would be curious to know at a technical level what causes the unlock there.",
+        "evidence": "And what I'd be curious, like, I would be curious to know at a technical level what causes the unlock there.",
+        "entities": [],
+        "topic": "general",
+        "podcast": "Dwarkesh Podcast",
+        "timestamp": "00:41:30"
+      }
+    ],
+    "evidence_excerpts": [
+      "And I'd be curious about your predictions of even if they're not as smart as your mathematicians, the fact that they are just, you know, billions of, because for PR reasons that the AI companies They'",
+      "And the way I was learning it is like I'd have on one third of the screen,",
+      "And what I'd be curious, like, I would be curious to know at a technical level what causes the unlock there."
+    ],
+    "resolution": {
+      "canonical_title": "UNRESOLVED",
+      "resolved_from": "insufficient_evidence",
+      "publishable": false,
+      "confidence": 0.0,
+      "failure_modes": [
+        "fm_low_information",
+        "fm_speech_fragment"
+      ]
+    },
+    "gate": {
+      "accepted": false,
+      "reason": "Could not resolve a publishable title from evidence",
+      "failure_modes": [
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_title_evidence_mismatch"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "item_id": "b47d212eacad23340e305ed0",
+    "published_title": "Emerging Intelligence Signal",
+    "il2_accepted": false,
+    "il2_rejection": "Could not resolve a publishable title from evidence",
+    "theme_id": "6e68583604c3277cbe215787",
+    "theme_label": "AI",
+    "theme_keywords": [],
+    "theme_entities": [],
+    "item_title": "AI",
+    "sources": [
+      "All-In Podcast",
+      "Dwarkesh Podcast"
+    ],
+    "speakers": [],
+    "claim_count": 2,
+    "claims": [
+      {
+        "claim_id": "f38d3f21f25c7efd6f0165f9",
+        "claim_text": "We will have you back on when we do our live election coverage, for sure, if you're available.",
+        "evidence": "We will have you back on when we do our live election coverage, for sure, if you're available.",
+        "entities": [],
+        "topic": "AI",
+        "podcast": "All-In Podcast",
+        "timestamp": "00:59:18"
+      },
+      {
+        "claim_id": "a5c5a7c3eda68059c58c652f",
+        "claim_text": "And make sure that you're like sufficiently applying sufficient breadth to exploring that.",
+        "evidence": "And make sure that you're like sufficiently applying sufficient breadth to exploring that.",
+        "entities": [],
+        "topic": "general",
+        "podcast": "Dwarkesh Podcast",
+        "timestamp": "00:52:34"
+      }
+    ],
+    "evidence_excerpts": [
+      "We will have you back on when we do our live election coverage, for sure, if you're available.",
+      "And make sure that you're like sufficiently applying sufficient breadth to exploring that."
+    ],
+    "resolution": {
+      "canonical_title": "UNRESOLVED",
+      "resolved_from": "insufficient_evidence",
+      "publishable": false,
+      "confidence": 0.0,
+      "failure_modes": [
+        "fm_generic_topic",
+        "fm_low_information",
+        "fm_speech_fragment"
+      ]
+    },
+    "gate": {
+      "accepted": false,
+      "reason": "Could not resolve a publishable title from evidence",
+      "failure_modes": [
+        "fm_generic_topic",
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_title_evidence_mismatch"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "item_id": "021627bc0414b5d8d92a6416",
+    "published_title": "AI Infrastructure Supply",
+    "il2_accepted": true,
+    "il2_rejection": null,
+    "theme_id": "6751d8ef33d3eac7fa4a6095",
+    "theme_label": "However",
+    "theme_keywords": [],
+    "theme_entities": [],
+    "item_title": "However",
+    "sources": [
+      "All-In Podcast",
+      "Lex Fridman Podcast"
+    ],
+    "speakers": [],
+    "claim_count": 2,
+    "claims": [
+      {
+        "claim_id": "00ed2ec54799224caf3d0cbf",
+        "claim_text": "Oh, you know, the problem is that way of looking for dark matter is hard, because there are other ways of making, for instance, gamma rays like neutron stars and stuff.",
+        "evidence": "Oh, you know, the problem is that way of looking for dark matter is hard, because there are other ways of making, for instance, gamma rays like neutron stars and stuff.",
+        "entities": [],
+        "topic": "general",
+        "podcast": "Lex Fridman Podcast",
+        "timestamp": "02:44:20"
+      },
+      {
+        "claim_id": "d86a659e62eeddc678d7e62d",
+        "claim_text": "And now Z.a.i, they are saying that the GLM5 family was trained entirely on clusters of Huawei Ascend 910B chips.",
+        "evidence": "And now Z.a.i, they are saying that the GLM5 family was trained entirely on clusters of Huawei Ascend 910B chips.",
+        "entities": [
+          "Huawei Ascend"
+        ],
+        "topic": "AI",
+        "podcast": "All-In Podcast",
+        "timestamp": "00:58:31"
+      }
+    ],
+    "evidence_excerpts": [
+      "Oh, you know, the problem is that way of looking for dark matter is hard, because there are other ways of making, for instance, gamma rays like neutron stars and stuff.",
+      "And now Z.a.i, they are saying that the GLM5 family was trained entirely on clusters of Huawei Ascend 910B chips."
+    ],
+    "resolution": {
+      "canonical_title": "Dark Matter Detection Debate",
+      "resolved_from": "evidence_pattern",
+      "publishable": true,
+      "confidence": 0.949,
+      "failure_modes": [
+        "fm_generic_topic",
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_generic_topic",
+        "fm_low_information",
+        "fm_speech_fragment"
+      ]
+    },
+    "gate": {
+      "accepted": true,
+      "reason": null,
+      "failure_modes": [
+        "fm_generic_topic",
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_title_evidence_mismatch"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "item_id": "d5d54336c8be9f6b2f426ef4",
+    "published_title": "There There'S",
+    "il2_accepted": false,
+    "il2_rejection": "Could not resolve a publishable title from evidence",
+    "theme_id": "c9bb97ac424ff0fe51a705fd",
+    "theme_label": "There There'S",
+    "theme_keywords": [
+      "there's",
+      "why",
+      "interesting",
+      "thing",
+      "first",
+      "place"
+    ],
+    "theme_entities": [
+      "There"
+    ],
+    "item_title": "There There'S",
+    "sources": [
+      "Dwarkesh Podcast"
+    ],
+    "speakers": [],
+    "claim_count": 3,
+    "claims": [
+      {
+        "claim_id": "66df537336cb7e4e00574d30",
+        "claim_text": "There's like a hundred-year verification loop of why is this a productive concept in the first place.",
+        "evidence": "There's like a hundred-year verification loop of why is this a productive concept in the first place.",
+        "entities": [
+          "There"
+        ],
+        "topic": "There",
+        "podcast": "Dwarkesh Podcast",
+        "timestamp": "00:13:24"
+      },
+      {
+        "claim_id": "57c56c98b1b01f1503e56b3a",
+        "claim_text": "And so, like, figuring out that there's, why do we think this is an interesting thing to study in the first place?",
+        "evidence": "And so, like, figuring out that there's, why do we think this is an interesting thing to study in the first place?",
+        "entities": [],
+        "topic": "general",
+        "podcast": "Dwarkesh Podcast",
+        "timestamp": "00:08:09"
+      },
+      {
+        "claim_id": "64e2246d7f8e775497afb1bb",
+        "claim_text": "There's some like intrinsically interesting thing.",
+        "evidence": "There's some like intrinsically interesting thing.",
+        "entities": [
+          "There"
+        ],
+        "topic": "There",
+        "podcast": "Dwarkesh Podcast",
+        "timestamp": "00:18:18"
+      }
+    ],
+    "evidence_excerpts": [
+      "There's like a hundred-year verification loop of why is this a productive concept in the first place.",
+      "And so, like, figuring out that there's, why do we think this is an interesting thing to study in the first place?",
+      "There's some like intrinsically interesting thing."
+    ],
+    "resolution": {
+      "canonical_title": "UNRESOLVED",
+      "resolved_from": "insufficient_evidence",
+      "publishable": false,
+      "confidence": 0.0,
+      "failure_modes": [
+        "fm_low_information",
+        "fm_speech_fragment"
+      ]
+    },
+    "gate": {
+      "accepted": false,
+      "reason": "Could not resolve a publishable title from evidence",
+      "failure_modes": [
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_title_evidence_mismatch"
+      ]
+    }
+  }
+]

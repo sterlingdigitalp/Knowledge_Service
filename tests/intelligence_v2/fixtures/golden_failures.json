@@ -1,0 +1,58 @@
+[
+  {
+    "sample_id": "failure-visit-mercury",
+    "title": "Visit Mercury",
+    "summary": "1 independent source are converging on Visit Mercury.",
+    "what_changed": "If you want to learn more, go to mercury.com.",
+    "evidence_excerpt": "If you want to learn more, go to mercury.com.",
+    "corroborated_by": 4,
+    "importance_score": 0.864,
+    "profile_id": "ai",
+    "profile_name": "AI",
+    "matched": "Visit Mercury",
+    "expected_canonical_title": "Mercury Startup Banking Platform",
+    "should_reject": true
+  },
+  {
+    "sample_id": "failure-figure-where",
+    "title": "Figure Where",
+    "summary": "2 independent sources are converging on Figure Where.",
+    "what_changed": "If you want to help me out and help me figure out where next that should go in the world.",
+    "evidence_excerpt": "If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now",
+    "corroborated_by": 6,
+    "importance_score": 0.816,
+    "profile_id": "ai",
+    "profile_name": "AI",
+    "matched": "If you want to help me out and help me figure out where next",
+    "expected_canonical_title": "AI Founder Career Positioning",
+    "should_reject": true
+  },
+  {
+    "sample_id": "failure-welcome-developments",
+    "title": "Welcome Developments",
+    "summary": "2 independent sources are converging on Welcome Developments.",
+    "what_changed": "Welcome back to the number one podcast in the world, the All In Podcast, episode 278.",
+    "evidence_excerpt": "Welcome back to the number one podcast in the world, the All In Podcast, episode 278.",
+    "corroborated_by": 5,
+    "importance_score": 0.799,
+    "profile_id": "investing",
+    "profile_name": "Investing",
+    "matched": "Welcome",
+    "expected_canonical_title": "All-In Podcast Episode Signals",
+    "should_reject": true
+  },
+  {
+    "sample_id": "failure-enterprise-agents",
+    "title": "Enterprise AI Agents",
+    "summary": "1 independent source are converging on Enterprise AI Agents.",
+    "what_changed": "Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job.",
+    "evidence_excerpt": "Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job.",
+    "corroborated_by": 3,
+    "importance_score": 0.804,
+    "profile_id": "ai",
+    "profile_name": "AI",
+    "matched": "Agents Better",
+    "expected_canonical_title": "Enterprise AI Agent Adoption",
+    "should_reject": true
+  }
+]

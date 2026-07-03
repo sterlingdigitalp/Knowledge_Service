@@ -1,0 +1,496 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-07-03T01:59:55Z",
+  "records": [
+    {
+      "persistent_story_id": "70c915e786d4d7d37bcf15e1",
+      "headline": "Translate: Release",
+      "story_type": "technology",
+      "entity_signature": [
+        "translate",
+        "gemini",
+        "live",
+        "live translate",
+        "google"
+      ],
+      "event_signature": [
+        "release"
+      ],
+      "first_seen_date": "2026-07-01",
+      "last_seen_date": "2026-07-02",
+      "evolution_state": "stable",
+      "confidence": 0.99,
+      "importance": 0.782,
+      "claim_count": 8,
+      "source_count": 2,
+      "episode_ids": [
+        "b8dfb9c55203e3176e28f2d9"
+      ],
+      "daily_story_ids": {
+        "2026-07-01": "1fe8530a567ed40bc2d53d51",
+        "2026-07-02": "1fe8530a567ed40bc2d53d51"
+      },
+      "evolution_history": [
+        {
+          "state": "first_seen",
+          "explanation": "Story first seen on 2026-07-01.",
+          "prior_confidence": 0.0,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:50Z"
+        },
+        {
+          "state": "stable",
+          "explanation": "Story extended on 2026-07-01 with additional evidence.",
+          "prior_confidence": 0.99,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:50Z"
+        },
+        {
+          "state": "stable",
+          "explanation": "Story extended on 2026-07-02 with additional evidence.",
+          "prior_confidence": 0.99,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:55Z"
+        },
+        {
+          "state": "stable",
+          "explanation": "Story extended on 2026-07-02 with additional evidence.",
+          "prior_confidence": 0.99,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:55Z"
+        }
+      ]
+    },
+    {
+      "persistent_story_id": "dab3a91031959b57e8cb125a",
+      "headline": "Election and Polling Developments",
+      "story_type": "policy",
+      "entity_signature": [
+        "democratic party",
+        "democratic"
+      ],
+      "event_signature": [
+        "election",
+        "debate"
+      ],
+      "first_seen_date": "2026-07-01",
+      "last_seen_date": "2026-07-02",
+      "evolution_state": "stable",
+      "confidence": 0.99,
+      "importance": 0.78,
+      "claim_count": 49,
+      "source_count": 2,
+      "episode_ids": [
+        "5239d85ef7f8e3f1fd6b12c6"
+      ],
+      "daily_story_ids": {
+        "2026-07-01": "1c922f0099ab04dffd75e58b",
+        "2026-07-02": "1c922f0099ab04dffd75e58b"
+      },
+      "evolution_history": [
+        {
+          "state": "first_seen",
+          "explanation": "Story first seen on 2026-07-01.",
+          "prior_confidence": 0.0,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:50Z"
+        },
+        {
+          "state": "stable",
+          "explanation": "Story extended on 2026-07-02 with additional evidence.",
+          "prior_confidence": 0.99,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:55Z"
+        }
+      ]
+    },
+    {
+      "persistent_story_id": "130b989a2c92583b0bee3713",
+      "headline": "Nix and Cup and",
+      "story_type": "profile",
+      "entity_signature": [
+        "nix",
+        "cup and",
+        "world cup",
+        "world",
+        "god"
+      ],
+      "event_signature": [],
+      "first_seen_date": "2026-07-01",
+      "last_seen_date": "2026-07-01",
+      "evolution_state": "weakened",
+      "confidence": 0.91,
+      "importance": 0.732,
+      "claim_count": 2,
+      "source_count": 1,
+      "episode_ids": [
+        "5239d85ef7f8e3f1fd6b12c6"
+      ],
+      "daily_story_ids": {
+        "2026-07-01": "0a834438c5d04f993f3d7de8"
+      },
+      "evolution_history": [
+        {
+          "state": "first_seen",
+          "explanation": "Story first seen on 2026-07-01.",
+          "prior_confidence": 0.0,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:50Z"
+        },
+        {
+          "state": "weakened",
+          "explanation": "No new evidence on 2026-07-02.",
+          "prior_confidence": 0.99,
+          "new_confidence": 0.91,
+          "recorded_at": "2026-07-03T01:59:55Z"
+        }
+      ]
+    },
+    {
+      "persistent_story_id": "aba5b866a768183273ad5c42",
+      "headline": "Byzantine Empire Historical Analysis",
+      "story_type": "culture",
+      "entity_signature": [
+        "byzantine empire",
+        "east roman empire",
+        "roman empire",
+        "greece"
+      ],
+      "event_signature": [],
+      "first_seen_date": "2026-07-01",
+      "last_seen_date": "2026-07-02",
+      "evolution_state": "stable",
+      "confidence": 0.99,
+      "importance": 0.726,
+      "claim_count": 4,
+      "source_count": 2,
+      "episode_ids": [
+        "8f0a5547c1385ed092ac1991"
+      ],
+      "daily_story_ids": {
+        "2026-07-01": "349bb9f1fcbbfb2ff30498de",
+        "2026-07-02": "349bb9f1fcbbfb2ff30498de"
+      },
+      "evolution_history": [
+        {
+          "state": "first_seen",
+          "explanation": "Story first seen on 2026-07-01.",
+          "prior_confidence": 0.0,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:50Z"
+        },
+        {
+          "state": "stable",
+          "explanation": "Story extended on 2026-07-02 with additional evidence.",
+          "prior_confidence": 0.99,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:55Z"
+        }
+      ]
+    },
+    {
+      "persistent_story_id": "c54199e47ff9a4fc34d32419",
+      "headline": "New York Times and Yeah",
+      "story_type": "profile",
+      "entity_signature": [
+        "new york times",
+        "yeah",
+        "york and",
+        "june"
+      ],
+      "event_signature": [],
+      "first_seen_date": "2026-07-01",
+      "last_seen_date": "2026-07-02",
+      "evolution_state": "stable",
+      "confidence": 0.99,
+      "importance": 0.712,
+      "claim_count": 4,
+      "source_count": 2,
+      "episode_ids": [
+        "5239d85ef7f8e3f1fd6b12c6"
+      ],
+      "daily_story_ids": {
+        "2026-07-01": "e19a2788b357be8ef9d65583",
+        "2026-07-02": "e19a2788b357be8ef9d65583"
+      },
+      "evolution_history": [
+        {
+          "state": "first_seen",
+          "explanation": "Story first seen on 2026-07-01.",
+          "prior_confidence": 0.0,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:50Z"
+        },
+        {
+          "state": "stable",
+          "explanation": "Story extended on 2026-07-02 with additional evidence.",
+          "prior_confidence": 0.99,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:55Z"
+        }
+      ]
+    },
+    {
+      "persistent_story_id": "044e925e1206aa14bce53c01",
+      "headline": "Trump and Republican Party",
+      "story_type": "general",
+      "entity_signature": [
+        "trump",
+        "republican party",
+        "white house"
+      ],
+      "event_signature": [],
+      "first_seen_date": "2026-07-01",
+      "last_seen_date": "2026-07-01",
+      "evolution_state": "weakened",
+      "confidence": 0.91,
+      "importance": 0.705,
+      "claim_count": 2,
+      "source_count": 1,
+      "episode_ids": [
+        "5239d85ef7f8e3f1fd6b12c6"
+      ],
+      "daily_story_ids": {
+        "2026-07-01": "46caabd667196ab6b314a4eb"
+      },
+      "evolution_history": [
+        {
+          "state": "first_seen",
+          "explanation": "Story first seen on 2026-07-01.",
+          "prior_confidence": 0.0,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:50Z"
+        },
+        {
+          "state": "weakened",
+          "explanation": "No new evidence on 2026-07-02.",
+          "prior_confidence": 0.99,
+          "new_confidence": 0.91,
+          "recorded_at": "2026-07-03T01:59:55Z"
+        }
+      ]
+    },
+    {
+      "persistent_story_id": "1692027ce3b017cfc4804131",
+      "headline": "American and Chevalier",
+      "story_type": "general",
+      "entity_signature": [
+        "american",
+        "chevalier"
+      ],
+      "event_signature": [],
+      "first_seen_date": "2026-07-01",
+      "last_seen_date": "2026-07-02",
+      "evolution_state": "stable",
+      "confidence": 0.99,
+      "importance": 0.698,
+      "claim_count": 4,
+      "source_count": 2,
+      "episode_ids": [
+        "4b5c35ef6667188f169b8ce7"
+      ],
+      "daily_story_ids": {
+        "2026-07-01": "504252631ada1f0f42a9c439",
+        "2026-07-02": "504252631ada1f0f42a9c439"
+      },
+      "evolution_history": [
+        {
+          "state": "first_seen",
+          "explanation": "Story first seen on 2026-07-01.",
+          "prior_confidence": 0.0,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:50Z"
+        },
+        {
+          "state": "stable",
+          "explanation": "Story extended on 2026-07-02 with additional evidence.",
+          "prior_confidence": 0.99,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:55Z"
+        }
+      ]
+    },
+    {
+      "persistent_story_id": "05a44707cb3a4f0541d5722d",
+      "headline": "East Roman Empire and Aurelius",
+      "story_type": "culture",
+      "entity_signature": [
+        "east roman empire",
+        "aurelius"
+      ],
+      "event_signature": [],
+      "first_seen_date": "2026-07-01",
+      "last_seen_date": "2026-07-02",
+      "evolution_state": "stable",
+      "confidence": 0.99,
+      "importance": 0.692,
+      "claim_count": 4,
+      "source_count": 2,
+      "episode_ids": [
+        "8f0a5547c1385ed092ac1991"
+      ],
+      "daily_story_ids": {
+        "2026-07-01": "f946e825bb43cf5f8e3164e2",
+        "2026-07-02": "f946e825bb43cf5f8e3164e2"
+      },
+      "evolution_history": [
+        {
+          "state": "first_seen",
+          "explanation": "Story first seen on 2026-07-01.",
+          "prior_confidence": 0.0,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:50Z"
+        },
+        {
+          "state": "stable",
+          "explanation": "Story extended on 2026-07-02 with additional evidence.",
+          "prior_confidence": 0.99,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:55Z"
+        }
+      ]
+    },
+    {
+      "persistent_story_id": "09ec900af8dc456427865a11",
+      "headline": "Christian Developments",
+      "story_type": "general",
+      "entity_signature": [
+        "christian"
+      ],
+      "event_signature": [],
+      "first_seen_date": "2026-07-01",
+      "last_seen_date": "2026-07-02",
+      "evolution_state": "stable",
+      "confidence": 0.99,
+      "importance": 0.678,
+      "claim_count": 4,
+      "source_count": 2,
+      "episode_ids": [
+        "8f0a5547c1385ed092ac1991"
+      ],
+      "daily_story_ids": {
+        "2026-07-01": "700827a6754ceb4c2f6b4427",
+        "2026-07-02": "700827a6754ceb4c2f6b4427"
+      },
+      "evolution_history": [
+        {
+          "state": "first_seen",
+          "explanation": "Story first seen on 2026-07-01.",
+          "prior_confidence": 0.0,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:50Z"
+        },
+        {
+          "state": "stable",
+          "explanation": "Story extended on 2026-07-02 with additional evidence.",
+          "prior_confidence": 0.99,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:55Z"
+        }
+      ]
+    },
+    {
+      "persistent_story_id": "db36ecee947463c20f54fbb1",
+      "headline": "New York Times Developments",
+      "story_type": "general",
+      "entity_signature": [
+        "new york times"
+      ],
+      "event_signature": [],
+      "first_seen_date": "2026-07-01",
+      "last_seen_date": "2026-07-02",
+      "evolution_state": "stable",
+      "confidence": 0.99,
+      "importance": 0.674,
+      "claim_count": 4,
+      "source_count": 2,
+      "episode_ids": [
+        "4b5c35ef6667188f169b8ce7"
+      ],
+      "daily_story_ids": {
+        "2026-07-01": "30ca4903920a15803b918084",
+        "2026-07-02": "30ca4903920a15803b918084"
+      },
+      "evolution_history": [
+        {
+          "state": "first_seen",
+          "explanation": "Story first seen on 2026-07-01.",
+          "prior_confidence": 0.0,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:50Z"
+        },
+        {
+          "state": "stable",
+          "explanation": "Story extended on 2026-07-02 with additional evidence.",
+          "prior_confidence": 0.99,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:55Z"
+        }
+      ]
+    },
+    {
+      "persistent_story_id": "b76791286a5d95ea63d9f014",
+      "headline": "Daniel and Siyos",
+      "story_type": "general",
+      "entity_signature": [
+        "daniel",
+        "siyos"
+      ],
+      "event_signature": [],
+      "first_seen_date": "2026-07-02",
+      "last_seen_date": "2026-07-02",
+      "evolution_state": "first_seen",
+      "confidence": 0.99,
+      "importance": 0.698,
+      "claim_count": 2,
+      "source_count": 1,
+      "episode_ids": [
+        "d27351d160902127485f4498"
+      ],
+      "daily_story_ids": {
+        "2026-07-02": "2f289bcca785e8161a65b22d"
+      },
+      "evolution_history": [
+        {
+          "state": "first_seen",
+          "explanation": "Story first seen on 2026-07-02.",
+          "prior_confidence": 0.0,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:55Z"
+        }
+      ]
+    },
+    {
+      "persistent_story_id": "bd8003f911f31997e9afc288",
+      "headline": "Justin Developments",
+      "story_type": "general",
+      "entity_signature": [
+        "justin"
+      ],
+      "event_signature": [],
+      "first_seen_date": "2026-07-02",
+      "last_seen_date": "2026-07-02",
+      "evolution_state": "first_seen",
+      "confidence": 0.99,
+      "importance": 0.672,
+      "claim_count": 2,
+      "source_count": 1,
+      "episode_ids": [
+        "8f0a5547c1385ed092ac1991"
+      ],
+      "daily_story_ids": {
+        "2026-07-02": "7a2cc8b581ef2f47f5fe2cbf"
+      },
+      "evolution_history": [
+        {
+          "state": "first_seen",
+          "explanation": "Story first seen on 2026-07-02.",
+          "prior_confidence": 0.0,
+          "new_confidence": 0.99,
+          "recorded_at": "2026-07-03T01:59:55Z"
+        }
+      ]
+    }
+  ],
+  "record_count": 12
+}

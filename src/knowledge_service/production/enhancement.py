@@ -25,6 +25,24 @@ from .personalization.store import PersonalizationStore
 from .store import ProductionStore
 from .trends.acceleration import TrendAccelerationEngine
 
+try:
+    from ..intelligence_v2 import apply_intelligence_layer_v2, is_il2_enabled
+except ImportError:  # pragma: no cover
+    def is_il2_enabled() -> bool:
+        return False
+
+    def apply_intelligence_layer_v2(items, **kwargs):
+        return list(items), type("IL2Result", (), {"to_dict": lambda self: {"enabled": False}})()
+
+try:
+    from ..runtime3 import apply_runtime3_layer, is_runtime3_enabled
+except ImportError:  # pragma: no cover
+    def is_runtime3_enabled() -> bool:
+        return False
+
+    def apply_runtime3_layer(**kwargs):
+        return type("R3Result", (), {"to_dict": lambda self: {"enabled": False}, "stories": []})(), None, []
+
 
 @dataclass
 class ProductionResult:
@@ -37,6 +55,8 @@ class ProductionResult:
     llm_provider: str = "analyst_heuristic"
     llm_budget: Dict[str, Any] = field(default_factory=dict)
     latency_seconds: Dict[str, float] = field(default_factory=dict)
+    intelligence_v2: Dict[str, Any] = field(default_factory=dict)
+    runtime3: Dict[str, Any] = field(default_factory=dict)
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -49,6 +69,8 @@ class ProductionResult:
             "llm_provider": self.llm_provider,
             "llm_budget": dict(self.llm_budget),
             "latency_seconds": dict(self.latency_seconds),
+            "intelligence_v2": dict(self.intelligence_v2),
+            "runtime3": dict(self.runtime3),
         }
 
 
@@ -94,6 +116,21 @@ class ProductionEnhancementLayer:
         else:
             ranked_items = list(ranked_items)
         result.latency_seconds["personalized_ranking"] = round(time.perf_counter() - rank_started, 3)
+
+        if is_il2_enabled():
+            il2_started = time.perf_counter()
+            ranked_items, il2_result = apply_intelligence_layer_v2(ranked_items)
+            result.intelligence_v2 = il2_result.to_dict() if hasattr(il2_result, "to_dict") else dict(il2_result)
+            self.synthesis_store.save_items(list(ranked_items))
+            result.latency_seconds["intelligence_v2"] = round(time.perf_counter() - il2_started, 3)
+
+        if is_runtime3_enabled():
+            r3_started = time.perf_counter()
+            r3_result, r3_brief, _r3_items = apply_runtime3_layer(state_dir=str(self.state.root))
+            result.runtime3 = r3_result.to_dict() if hasattr(r3_result, "to_dict") else {}
+            if r3_brief is not None:
+                result.runtime3["brief"] = r3_brief.to_dict()
+            result.latency_seconds["runtime3"] = round(time.perf_counter() - r3_started, 3)
 
         themes = self.synthesis_store.load_themes()
         result.themes_renamed = len(themes)

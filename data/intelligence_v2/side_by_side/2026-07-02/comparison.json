@@ -1,0 +1,79 @@
+{
+  "published_brief_id": "89282bc2a0911765b8f4a649",
+  "runtime1_brief_id": "c1f1d614afa15efa35fde800",
+  "il2_brief_id": "c1f1d614afa15efa35fde800",
+  "il2_metadata": {
+    "accepted_count": 2,
+    "rejected_count": 3,
+    "titles_resolved": 5,
+    "latency_ms": 0.79
+  },
+  "entries": [
+    {
+      "item_id": "80addad09e28a1518e132934",
+      "published_title": "Visit Mercury",
+      "runtime1_title": "Visit Mercury",
+      "il2_title": "(filtered out)",
+      "il2_accepted": false,
+      "il2_rejection_reason": "Sponsor CTA detected in evidence",
+      "failure_modes": [
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_sponsor_cta",
+        "fm_title_evidence_mismatch"
+      ]
+    },
+    {
+      "item_id": "15f3ae53a124677484f5136e",
+      "published_title": "Figure Where",
+      "runtime1_title": "If you want to help me out and help me figure out where next",
+      "il2_title": "(filtered out)",
+      "il2_accepted": false,
+      "il2_rejection_reason": "Could not resolve a publishable title from evidence",
+      "failure_modes": [
+        "fm_low_information",
+        "fm_pattern_overmatch",
+        "fm_speech_fragment"
+      ]
+    },
+    {
+      "item_id": "0b5a7767d71465dcc740f1a4",
+      "published_title": "Enterprise AI Agents",
+      "runtime1_title": "Agents Better",
+      "il2_title": "Workplace Knowledge Consolidation",
+      "il2_accepted": true,
+      "il2_rejection_reason": null,
+      "failure_modes": [
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_title_evidence_mismatch"
+      ]
+    },
+    {
+      "item_id": "b4e474ba87c9c8d6d5a43228",
+      "published_title": "Welcome Developments",
+      "runtime1_title": "Welcome",
+      "il2_title": "(filtered out)",
+      "il2_accepted": false,
+      "il2_rejection_reason": "Could not resolve a publishable title from evidence",
+      "failure_modes": [
+        "fm_generic_topic",
+        "fm_intro_filler",
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_title_evidence_mismatch"
+      ]
+    },
+    {
+      "item_id": "832054cabdb769314154f7ea",
+      "published_title": "Roman Empire",
+      "runtime1_title": "East Roman Empire Western",
+      "il2_title": "Byzantine Empire Historical Analysis",
+      "il2_accepted": true,
+      "il2_rejection_reason": null,
+      "failure_modes": [
+        "fm_speech_fragment"
+      ]
+    }
+  ]
+}

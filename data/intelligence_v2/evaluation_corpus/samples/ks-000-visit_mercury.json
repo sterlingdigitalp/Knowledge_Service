@@ -1,0 +1,39 @@
+{
+  "sample_id": "ks-000-visit_mercury",
+  "source": "knowledge_service_frontend",
+  "captured_at": "2026-07-02T11:35:46Z",
+  "title": "Visit Mercury",
+  "summary": "1 independent source (multiple monitored voices) are converging on Visit Mercury. The core signal: If you want to learn more, go to mercury.com. Why it matters: Independent corroboration (4 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+  "evidence_excerpt": "1 independent source (multiple monitored voices) are converging on Visit Mercury. The core signal: If you want to learn more, go to mercury.com. Why it matters: Independent corroboration (4 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not st",
+  "quality_label": "bad",
+  "failure_modes": [
+    "fm_sponsor_cta",
+    "fm_speech_fragment"
+  ],
+  "metadata": {
+    "corroborated_by": 4,
+    "entry_id": "ca2f08cde090ae802d3ed1e8",
+    "evidence_summary": "Evidence: multiple speakers (Dwarkesh Podcast)",
+    "explainability": {
+      "claim_count": 2,
+      "confidence": 0.99,
+      "corroborated_by": 4,
+      "evidence_type": "timestamped_transcript_citations",
+      "historical_context": [],
+      "importance": "very_high",
+      "importance_score": 0.864,
+      "matched": "Visit Mercury",
+      "novelty": "new",
+      "novelty_score": 1.0
+    },
+    "importance_band": "very_high",
+    "intelligence_item_id": "80addad09e28a1518e132934",
+    "profile_id": "ai",
+    "profile_name": "AI",
+    "star_rating": 5,
+    "title": "Visit Mercury",
+    "what_changed": "1 independent source (multiple monitored voices) are converging on Visit Mercury. The core signal: If you want to learn more, go to mercury.com. Why it matters: Independent corroboration (4 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+    "why_surfaced": "Matched: Visit Mercury. Matched: Visit Mercury",
+    "why_you_care": "Importance very high (0.88): novelty=1.00, relevance=0.65, corroboration=1.00, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 4 additional independent source(s)."
+  }
+}

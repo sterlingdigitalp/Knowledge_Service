@@ -1,0 +1,78 @@
+{
+  "published_brief_id": "c314341e636d67ca7da8fd56",
+  "runtime1_brief_id": "c1f1d614afa15efa35fde800",
+  "il2_brief_id": "c1f1d614afa15efa35fde800",
+  "il2_metadata": {
+    "accepted_count": 2,
+    "rejected_count": 3,
+    "titles_resolved": 5,
+    "latency_ms": 1.13
+  },
+  "entries": [
+    {
+      "item_id": "4543e7f4534659cf96a257f8",
+      "published_title": "Swalwell Developments",
+      "runtime1_title": "Eric Swalwell",
+      "il2_title": "California AG Race Dynamics",
+      "il2_accepted": true,
+      "il2_rejection_reason": null,
+      "failure_modes": [
+        "fm_speech_fragment"
+      ]
+    },
+    {
+      "item_id": "a007d5473b217ea8831ad0b7",
+      "published_title": "Ai Developments",
+      "runtime1_title": "AI I'D",
+      "il2_title": "(filtered out)",
+      "il2_accepted": false,
+      "il2_rejection_reason": "Could not resolve a publishable title from evidence",
+      "failure_modes": [
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_title_evidence_mismatch"
+      ]
+    },
+    {
+      "item_id": "b47d212eacad23340e305ed0",
+      "published_title": "Emerging Intelligence Signal",
+      "runtime1_title": "AI",
+      "il2_title": "(filtered out)",
+      "il2_accepted": false,
+      "il2_rejection_reason": "Could not resolve a publishable title from evidence",
+      "failure_modes": [
+        "fm_generic_topic",
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_title_evidence_mismatch"
+      ]
+    },
+    {
+      "item_id": "021627bc0414b5d8d92a6416",
+      "published_title": "AI Infrastructure Supply",
+      "runtime1_title": "However",
+      "il2_title": "Dark Matter Detection Debate",
+      "il2_accepted": true,
+      "il2_rejection_reason": null,
+      "failure_modes": [
+        "fm_generic_topic",
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_title_evidence_mismatch"
+      ]
+    },
+    {
+      "item_id": "d5d54336c8be9f6b2f426ef4",
+      "published_title": "There There'S",
+      "runtime1_title": "There There'S",
+      "il2_title": "(filtered out)",
+      "il2_accepted": false,
+      "il2_rejection_reason": "Could not resolve a publishable title from evidence",
+      "failure_modes": [
+        "fm_low_information",
+        "fm_speech_fragment",
+        "fm_title_evidence_mismatch"
+      ]
+    }
+  ]
+}

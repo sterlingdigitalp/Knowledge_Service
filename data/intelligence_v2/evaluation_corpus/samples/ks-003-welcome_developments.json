@@ -1,0 +1,41 @@
+{
+  "sample_id": "ks-003-welcome_developments",
+  "source": "knowledge_service_frontend",
+  "captured_at": "2026-07-02T11:35:46Z",
+  "title": "Welcome Developments",
+  "summary": "2 independent sources (multiple monitored voices) are converging on Welcome Developments. The core signal: Welcome back to the number one podcast in the world, the All In Podcast, episode 278. Why it matters: Independent corroboration (5 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+  "evidence_excerpt": "2 independent sources (multiple monitored voices) are converging on Welcome Developments. The core signal: Welcome back to the number one podcast in the world, the All In Podcast, episode 278. Why it matters: Independent corroboration (5 sources) raises confidence this is a real shift, not noise. Wh",
+  "quality_label": "bad",
+  "failure_modes": [
+    "fm_speech_fragment",
+    "fm_intro_filler",
+    "fm_developments_suffix",
+    "fm_generic_topic"
+  ],
+  "metadata": {
+    "corroborated_by": 5,
+    "entry_id": "70517b157f34138e14261c29",
+    "evidence_summary": "Evidence: multiple speakers (All-In Podcast, The Peter Attia Drive)",
+    "explainability": {
+      "claim_count": 2,
+      "confidence": 0.99,
+      "corroborated_by": 5,
+      "evidence_type": "timestamped_transcript_citations",
+      "historical_context": [],
+      "importance": "very_high",
+      "importance_score": 0.799,
+      "matched": "Welcome",
+      "novelty": "new",
+      "novelty_score": 1.0
+    },
+    "importance_band": "very_high",
+    "intelligence_item_id": "b4e474ba87c9c8d6d5a43228",
+    "profile_id": "investing",
+    "profile_name": "Investing",
+    "star_rating": 4,
+    "title": "Welcome Developments",
+    "what_changed": "2 independent sources (multiple monitored voices) are converging on Welcome Developments. The core signal: Welcome back to the number one podcast in the world, the All In Podcast, episode 278. Why it matters: Independent corroboration (5 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+    "why_surfaced": "Matched: Welcome Developments. Matched: Welcome",
+    "why_you_care": "Importance very high (0.90): novelty=1.00, relevance=0.59, corroboration=1.00, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 5 additional independent source(s)."
+  }
+}

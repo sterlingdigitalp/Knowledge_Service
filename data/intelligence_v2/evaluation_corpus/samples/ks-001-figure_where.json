@@ -1,0 +1,38 @@
+{
+  "sample_id": "ks-001-figure_where",
+  "source": "knowledge_service_frontend",
+  "captured_at": "2026-07-02T11:35:46Z",
+  "title": "Figure Where",
+  "summary": "2 independent sources (multiple monitored voices) are converging on Figure Where. The core signal: If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now Why it matters: Independent corroboration (6 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+  "evidence_excerpt": "2 independent sources (multiple monitored voices) are converging on Figure Where. The core signal: If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now Why it matters: Independent corroboration (6 sourc",
+  "quality_label": "bad",
+  "failure_modes": [
+    "fm_speech_fragment"
+  ],
+  "metadata": {
+    "corroborated_by": 6,
+    "entry_id": "e633a82c5284ab8858957ccc",
+    "evidence_summary": "Evidence: multiple speakers (Hard Fork, Lex Fridman Podcast)",
+    "explainability": {
+      "claim_count": 2,
+      "confidence": 0.99,
+      "corroborated_by": 6,
+      "evidence_type": "timestamped_transcript_citations",
+      "historical_context": [],
+      "importance": "very_high",
+      "importance_score": 0.816,
+      "matched": "If you want to help me out and help me figure out where next",
+      "novelty": "new",
+      "novelty_score": 1.0
+    },
+    "importance_band": "very_high",
+    "intelligence_item_id": "15f3ae53a124677484f5136e",
+    "profile_id": "ai",
+    "profile_name": "AI",
+    "star_rating": 4,
+    "title": "Figure Where",
+    "what_changed": "2 independent sources (multiple monitored voices) are converging on Figure Where. The core signal: If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now Why it matters: Independent corroboration (6 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+    "why_surfaced": "Matched: Figure Where. Matched: If you want to help me out and help me figure out where next",
+    "why_you_care": "Importance very high (0.82): novelty=1.00, relevance=0.30, corroboration=0.95, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 6 additional independent source(s)."
+  }
+}

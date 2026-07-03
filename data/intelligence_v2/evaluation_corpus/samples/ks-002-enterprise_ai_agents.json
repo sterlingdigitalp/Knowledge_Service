@@ -1,0 +1,38 @@
+{
+  "sample_id": "ks-002-enterprise_ai_agents",
+  "source": "knowledge_service_frontend",
+  "captured_at": "2026-07-02T11:35:46Z",
+  "title": "Enterprise AI Agents",
+  "summary": "1 independent source (multiple monitored voices) are converging on Enterprise AI Agents. The core signal: Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job. Why it matters: Independent corroboration (3 sources) raises confidence this is a real shift, not noise. Why now: 'Agents Better' is a newly emerging theme with 5 supporting claims. What to watch next: Watch for a third independent source to confirm consensus formation.",
+  "evidence_excerpt": "1 independent source (multiple monitored voices) are converging on Enterprise AI Agents. The core signal: Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job. Why it matters: Independent corroboration (3 sources) ",
+  "quality_label": "bad",
+  "failure_modes": [
+    "fm_pattern_overmatch"
+  ],
+  "metadata": {
+    "corroborated_by": 3,
+    "entry_id": "152ae7e750c9e6c350843661",
+    "evidence_summary": "Evidence: multiple speakers (Dwarkesh Podcast)",
+    "explainability": {
+      "claim_count": 5,
+      "confidence": 0.931,
+      "corroborated_by": 3,
+      "evidence_type": "timestamped_transcript_citations",
+      "historical_context": [],
+      "importance": "very_high",
+      "importance_score": 0.804,
+      "matched": "Agents Better",
+      "novelty": "refinement",
+      "novelty_score": 0.832
+    },
+    "importance_band": "very_high",
+    "intelligence_item_id": "0b5a7767d71465dcc740f1a4",
+    "profile_id": "ai",
+    "profile_name": "AI",
+    "star_rating": 4,
+    "title": "Enterprise AI Agents",
+    "what_changed": "1 independent source (multiple monitored voices) are converging on Enterprise AI Agents. The core signal: Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job. Why it matters: Independent corroboration (3 sources) raises confidence this is a real shift, not noise. Why now: 'Agents Better' is a newly emerging theme with 5 supporting claims. What to watch next: Watch for a third independent source to confirm consensus formation.",
+    "why_surfaced": "Matched: Enterprise AI Agents. Matched: better, getting, look, agents, code, Like, This, Rather. Evolution: new \u2014 'Agents Better' is a newly emerging theme with 5 supporting claims.",
+    "why_you_care": "Importance very high (0.89): novelty=0.72, relevance=0.95, corroboration=0.95, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 3 additional independent source(s)."
+  }
+}

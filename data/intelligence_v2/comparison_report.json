@@ -1,0 +1,81 @@
+{
+  "entries": [
+    {
+      "sample_id": "ks-000-visit_mercury",
+      "old_title": "Visit Mercury",
+      "new_title": "Mercury Startup Banking Platform",
+      "old_summary": "1 independent source (multiple monitored voices) are converging on Visit Mercury. The core signal: If you want to learn more, go to mercury.com. Why it matters: Independent corroboration (4 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not st",
+      "new_summary": "Mercury Startup Banking Platform: 1 source (monitored speakers) surfaced 2 related claims. Lead evidence: 1 independent source (multiple monitored voices) are converging on Visit Mercury. The core signal: If you wa Why it matters: Importance band high (0.80) flags strategic relevance to monitored pr",
+      "old_score": 0.544,
+      "new_score": 0.708,
+      "delta": 0.164,
+      "accepted": false,
+      "failure_modes": [
+        "fm_speech_fragment",
+        "fm_sponsor_cta"
+      ]
+    },
+    {
+      "sample_id": "ks-001-figure_where",
+      "old_title": "Figure Where",
+      "new_title": "AI Founder Career Positioning",
+      "old_summary": "2 independent sources (multiple monitored voices) are converging on Figure Where. The core signal: If you want to help me out and help me figure out where next that should go in the world, and also help me figure out where I'm in the world right now Why it matters: Independent corroboration (6 sourc",
+      "new_summary": "AI Founder Career Positioning: 1 source (monitored speakers) surfaced 2 related claims. Lead evidence: 2 independent sources (multiple monitored voices) are converging on Figure Where. The core signal: If you wa Why it matters: Importance band high (0.80) flags strategic relevance to monitored profi",
+      "old_score": 0.562,
+      "new_score": 0.74,
+      "delta": 0.178,
+      "accepted": false,
+      "failure_modes": [
+        "fm_speech_fragment"
+      ]
+    },
+    {
+      "sample_id": "ks-002-enterprise_ai_agents",
+      "old_title": "Enterprise AI Agents",
+      "new_title": "Enterprise AI Agent Adoption",
+      "old_summary": "1 independent source (multiple monitored voices) are converging on Enterprise AI Agents. The core signal: Rather, it's by consolidating the handful of insights and pieces of knowledge that are actually relevant to you getting better at your job. Why it matters: Independent corroboration (3 sources) ",
+      "new_summary": "Enterprise AI Agent Adoption: 1 source (monitored speakers) surfaced 2 related claims. Lead evidence: 1 independent source (multiple monitored voices) are converging on Enterprise AI Agents. The core signal: Ra Why it matters: Importance band high (0.80) flags strategic relevance to monitored profil",
+      "old_score": 0.562,
+      "new_score": 0.74,
+      "delta": 0.178,
+      "accepted": false,
+      "failure_modes": [
+        "fm_pattern_overmatch"
+      ]
+    },
+    {
+      "sample_id": "ks-003-welcome_developments",
+      "old_title": "Welcome Developments",
+      "new_title": "All-In Podcast Episode Coverage",
+      "old_summary": "2 independent sources (multiple monitored voices) are converging on Welcome Developments. The core signal: Welcome back to the number one podcast in the world, the All In Podcast, episode 278. Why it matters: Independent corroboration (5 sources) raises confidence this is a real shift, not noise. Wh",
+      "new_summary": "All-In Podcast Episode Coverage: 1 source (monitored speakers) surfaced 2 related claims. Lead evidence: 2 independent sources (multiple monitored voices) are converging on Welcome Developments. The core signal: W Why it matters: Importance band high (0.80) flags strategic relevance to monitored pro",
+      "old_score": 0.506,
+      "new_score": 0.727,
+      "delta": 0.221,
+      "accepted": false,
+      "failure_modes": [
+        "fm_developments_suffix",
+        "fm_generic_topic",
+        "fm_intro_filler",
+        "fm_speech_fragment"
+      ]
+    },
+    {
+      "sample_id": "ks-004-roman_empire",
+      "old_title": "Roman Empire",
+      "new_title": "Byzantine Empire Historical Analysis",
+      "old_summary": "1 independent source (multiple monitored voices) are converging on Roman Empire. The core signal: And we'll talk about because those ideals become even more concretized and explicit, I think, through the East Roman Empire, because one of the things you talk about Why it matters: Independent corrobor",
+      "new_summary": "Byzantine Empire Historical Analysis: 1 source (monitored speakers) surfaced 2 related claims. Lead evidence: 1 independent source (multiple monitored voices) are converging on Roman Empire. The core signal: And we'll  Why it matters: Importance band high (0.80) flags strategic relevance to monitore",
+      "old_score": 0.581,
+      "new_score": 0.758,
+      "delta": 0.177,
+      "accepted": false,
+      "failure_modes": []
+    }
+  ],
+  "average_old_score": 0.551,
+  "average_new_score": 0.735,
+  "average_delta": 0.184,
+  "improved_count": 5,
+  "rejected_count": 5
+}

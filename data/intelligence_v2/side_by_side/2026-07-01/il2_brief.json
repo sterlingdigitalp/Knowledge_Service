@@ -1,0 +1,462 @@
+{
+  "brief": {
+    "brief_id": "c1f1d614afa15efa35fde800",
+    "generated_at": "2026-07-03T00:35:59Z",
+    "reading_time_seconds": 45,
+    "total_items": 2,
+    "items": [
+      {
+        "entry_id": "3d6f7ca6d4dd3ec0ea4cdf41",
+        "intelligence_item_id": "4543e7f4534659cf96a257f8",
+        "profile_id": "investing",
+        "profile_name": "Investing",
+        "title": "California AG Race Dynamics",
+        "what_changed": "California AG Race Dynamics: multiple voices on All-In Podcast, Dwarkesh Podcast discussed: it wasn't clear for a while it looked like Eric Swalwell was gonna win and then Katie Porter and then and then you know Bcerra finally emerges Several monitored sources raised the same theme. Relevant to Investing monitoring.",
+        "why_you_care": "Several monitored sources raised the same theme. Relevant to Investing monitoring.",
+        "why_surfaced": "IL2: california_ag_race_dynamics. multiple voices on All-In Podcast, Dwarkesh Podcast discussed: it wasn't clear for a while it looked like Eric Swalwell was gonna win and then Katie Porter and ",
+        "evidence_summary": "Evidence: multiple speakers (All-In Podcast, Dwarkesh Podcast)",
+        "star_rating": 5,
+        "importance_band": "very_high",
+        "corroborated_by": 3,
+        "explainability": {
+          "matched": "california_ag_race_dynamics",
+          "novelty": "update",
+          "novelty_score": 0.85,
+          "importance": "very_high",
+          "importance_score": 0.861,
+          "corroborated_by": 3,
+          "confidence": 0.99,
+          "claim_count": 2,
+          "historical_context": [],
+          "evidence_type": "timestamped_transcript_citations"
+        }
+      },
+      {
+        "entry_id": "8a173f32b460e72fb06da82b",
+        "intelligence_item_id": "021627bc0414b5d8d92a6416",
+        "profile_id": "ai",
+        "profile_name": "AI",
+        "title": "Dark Matter Detection Debate",
+        "what_changed": "Dark Matter Detection Debate: multiple voices on All-In Podcast, Lex Fridman Podcast discussed: Oh, you know, the problem is that way of looking for dark matter is hard, because there are other ways of making, for instance, gamma rays like neutron stars and stuff. Several monitored sources raised the same theme. Relevant to AI monitoring.",
+        "why_you_care": "Several monitored sources raised the same theme. Relevant to AI monitoring.",
+        "why_surfaced": "IL2: dark_matter_detection_debate. multiple voices on All-In Podcast, Lex Fridman Podcast discussed: Oh, you know, the problem is that way of looking for dark matter is hard, because there are ot",
+        "evidence_summary": "Evidence: multiple speakers (All-In Podcast, Lex Fridman Podcast)",
+        "star_rating": 4,
+        "importance_band": "very_high",
+        "corroborated_by": 3,
+        "explainability": {
+          "matched": "dark_matter_detection_debate",
+          "novelty": "new",
+          "novelty_score": 0.859,
+          "importance": "very_high",
+          "importance_score": 0.837,
+          "corroborated_by": 3,
+          "confidence": 0.99,
+          "claim_count": 2,
+          "historical_context": [],
+          "evidence_type": "timestamped_transcript_citations"
+        }
+      }
+    ],
+    "compression_ratio": 4575.0,
+    "claims_synthesized": 9150,
+    "quality_score": 0.0,
+    "version": "3.0",
+    "pipeline_run_id": "4ebe9142ad33c78cf10e9b1c",
+    "narrative_flow": [
+      "Lead: California AG Race Dynamics",
+      "Also watch: Dark Matter Detection Debate"
+    ],
+    "brief_polish_applied": false
+  },
+  "items": [
+    {
+      "item_id": "4543e7f4534659cf96a257f8",
+      "title": "California AG Race Dynamics",
+      "executive_summary": "California AG Race Dynamics: multiple voices on All-In Podcast, Dwarkesh Podcast discussed: it wasn't clear for a while it looked like Eric Swalwell was gonna win and then Katie Porter and then and then you know Bcerra finally emerges Several monitored sources raised the same theme. Relevant to Investing monitoring.",
+      "why_surfaced": "IL2: california_ag_race_dynamics. multiple voices on All-In Podcast, Dwarkesh Podcast discussed: it wasn't clear for a while it looked like Eric Swalwell was gonna win and then Katie Porter and ",
+      "why_it_matters": "Several monitored sources raised the same theme. Relevant to Investing monitoring.",
+      "novelty_score": 0.85,
+      "novelty_classification": "update",
+      "importance_score": 0.861,
+      "importance_band": "very_high",
+      "confidence": 0.99,
+      "corroboration_count": 3,
+      "contradiction_count": 0,
+      "theme_id": "dc48aeea048e8a544a2f9f78",
+      "theme_label": "california_ag_race_dynamics",
+      "profile_ids": [
+        "investing",
+        "ai"
+      ],
+      "profile_names": [
+        "Investing",
+        "AI"
+      ],
+      "supporting_claim_ids": [
+        "7a791f4696e6871ec89fb988",
+        "d81c489f1c52895d37fd5877"
+      ],
+      "supporting_evidence": [
+        {
+          "claim_id": "7a791f4696e6871ec89fb988",
+          "excerpt": "it wasn't clear for a while it looked like Eric Swalwell was gonna win and then Katie Porter and then and then you know Bcerra finally emerges",
+          "source": "All-In Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:11:48"
+        },
+        {
+          "claim_id": "d81c489f1c52895d37fd5877",
+          "excerpt": "He wasn't giving like a clear thought of like what the theory actually was.",
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:18:52"
+        }
+      ],
+      "timestamped_citations": [
+        {
+          "source": "All-In Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:11:48",
+          "url": "https://podscripts.co/podcasts/all-in-with-chamath-jason-sacks-friedberg/nate-silver-predicts-democrats-take-the-house-newsom-is-fading-aoc-might-win-it-all-in-2028#t=708"
+        },
+        {
+          "source": "Dwarkesh Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:18:52",
+          "url": "https://podscripts.co/podcasts/dwarkesh-podcast/grant-sanderson-ai-and-the-future-of-math#t=1132"
+        }
+      ],
+      "speakers": [],
+      "sources": [
+        "All-In Podcast",
+        "Dwarkesh Podcast"
+      ],
+      "contradictions": [],
+      "historical_developments": [],
+      "theme_evolution": null,
+      "cluster_id": "e0bdbe88cfac27491b42ffc8",
+      "star_rating": 5,
+      "claim_count": 2,
+      "created_at": "2026-07-01T11:33:59Z"
+    },
+    {
+      "item_id": "021627bc0414b5d8d92a6416",
+      "title": "Dark Matter Detection Debate",
+      "executive_summary": "Dark Matter Detection Debate: multiple voices on All-In Podcast, Lex Fridman Podcast discussed: Oh, you know, the problem is that way of looking for dark matter is hard, because there are other ways of making, for instance, gamma rays like neutron stars and stuff. Several monitored sources raised the same theme. Relevant to AI monitoring.",
+      "why_surfaced": "IL2: dark_matter_detection_debate. multiple voices on All-In Podcast, Lex Fridman Podcast discussed: Oh, you know, the problem is that way of looking for dark matter is hard, because there are ot",
+      "why_it_matters": "Several monitored sources raised the same theme. Relevant to AI monitoring.",
+      "novelty_score": 0.859,
+      "novelty_classification": "new",
+      "importance_score": 0.837,
+      "importance_band": "very_high",
+      "confidence": 0.99,
+      "corroboration_count": 3,
+      "contradiction_count": 0,
+      "theme_id": "6751d8ef33d3eac7fa4a6095",
+      "theme_label": "dark_matter_detection_debate",
+      "profile_ids": [
+        "ai",
+        "investing"
+      ],
+      "profile_names": [
+        "AI",
+        "Investing"
+      ],
+      "supporting_claim_ids": [
+        "00ed2ec54799224caf3d0cbf",
+        "d86a659e62eeddc678d7e62d"
+      ],
+      "supporting_evidence": [
+        {
+          "claim_id": "00ed2ec54799224caf3d0cbf",
+          "excerpt": "Oh, you know, the problem is that way of looking for dark matter is hard, because there are other ways of making, for instance, gamma rays like neutron stars and stuff.",
+          "source": "Lex Fridman Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "02:44:20"
+        },
+        {
+          "claim_id": "d86a659e62eeddc678d7e62d",
+          "excerpt": "And now Z.a.i, they are saying that the GLM5 family was trained entirely on clusters of Huawei Ascend 910B chips.",
+          "source": "All-In Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:58:31"
+        }
+      ],
+      "timestamped_citations": [
+        {
+          "source": "Lex Fridman Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "02:44:20",
+          "url": "https://podscripts.co/podcasts/lex-fridman-podcast/497-biggest-mysteries-in-physics-antimatter-dark-energy-toe-don-lincoln#t=9860"
+        },
+        {
+          "source": "All-In Podcast",
+          "speaker": "unknown",
+          "timestamp_label": "00:58:31",
+          "url": "https://podscripts.co/podcasts/all-in-with-chamath-jason-sacks-friedberg/socialists-sweep-nyc-china-catches-up-in-coding-ai-memory-crunch-microns-blowout-quarter#t=3511"
+        }
+      ],
+      "speakers": [],
+      "sources": [
+        "All-In Podcast",
+        "Lex Fridman Podcast"
+      ],
+      "contradictions": [],
+      "historical_developments": [],
+      "theme_evolution": null,
+      "cluster_id": "c435e7aa1502fe17bfcb98f7",
+      "star_rating": 4,
+      "claim_count": 2,
+      "created_at": "2026-07-01T11:33:59Z"
+    }
+  ],
+  "generated_at": "2026-07-03T00:35:59Z",
+  "empty_signal": false,
+  "intelligence_v2": {
+    "cards": [
+      {
+        "title": "California AG Race Dynamics",
+        "executive_summary": "California AG Race Dynamics: multiple voices on All-In Podcast, Dwarkesh Podcast discussed: it wasn't clear for a while it looked like Eric Swalwell was gonna win and then Katie Porter and then and then you know Bcerra finally emerges Several monitored sources raised the same theme. Relevant to Investing monitoring.",
+        "what_happened": "multiple voices on All-In Podcast, Dwarkesh Podcast discussed: it wasn't clear for a while it looked like Eric Swalwell was gonna win and then Katie Porter and then and then you know Bcerra finally emerges",
+        "why_it_matters": "Several monitored sources raised the same theme. Relevant to Investing monitoring.",
+        "evidence": [
+          {
+            "claim_id": "7a791f4696e6871ec89fb988",
+            "excerpt": "it wasn't clear for a while it looked like Eric Swalwell was gonna win and then Katie Porter and then and then you know Bcerra finally emerges",
+            "source": "All-In Podcast",
+            "speaker": "unknown",
+            "timestamp_label": "00:11:48"
+          },
+          {
+            "claim_id": "d81c489f1c52895d37fd5877",
+            "excerpt": "He wasn't giving like a clear thought of like what the theory actually was.",
+            "source": "Dwarkesh Podcast",
+            "speaker": "unknown",
+            "timestamp_label": "00:18:52"
+          }
+        ],
+        "confidence": 0.873,
+        "confidence_explanation": "Based on 2 claims across 2 source(s).",
+        "contradictions": [],
+        "what_to_watch": "Watch for policy, product, or funding follow-through.",
+        "suggested_action": "Add california_ag_race_dynamics to this week's Investing review queue.",
+        "supporting_sources": [
+          "All-In Podcast",
+          "Dwarkesh Podcast"
+        ],
+        "canonical_topic": "california_ag_race_dynamics",
+        "original_title": "Eric Swalwell",
+        "cluster_id": "e0bdbe88cfac27491b42ffc8",
+        "quality_score": 0.838,
+        "accepted": true,
+        "rejection_reason": null,
+        "failure_modes": [
+          "fm_speech_fragment"
+        ],
+        "item_id": "4543e7f4534659cf96a257f8"
+      },
+      {
+        "title": "UNRESOLVED",
+        "executive_summary": "multiple voices on Dwarkesh Podcast discussed: And I'd be curious about your predictions of even if they're not as smart as your mathematicians, the fact that they are just, you know, billions of, because for PR reasons that the AI companies They'",
+        "what_happened": "multiple voices on Dwarkesh Podcast discussed: And I'd be curious about your predictions of even if they're not as smart as your mathematicians, the fact that they are just, you know, billions of, because for PR reasons that the AI companies They'",
+        "why_it_matters": "Competing viewpoints surfaced \u2014 compare sources before acting. Relevant to AI monitoring.",
+        "evidence": [
+          {
+            "claim_id": "8a99044194e937912ba2e108",
+            "excerpt": "And I'd be curious about your predictions of even if they're not as smart as your mathematicians, the fact that they are just, you know, billions of, because for PR reasons that the AI companies They'",
+            "source": "Dwarkesh Podcast",
+            "speaker": "unknown",
+            "timestamp_label": "00:46:23"
+          },
+          {
+            "claim_id": "2cfe29617d4ef2f6e828c25c",
+            "excerpt": "And the way I was learning it is like I'd have on one third of the screen,",
+            "source": "Dwarkesh Podcast",
+            "speaker": "unknown",
+            "timestamp_label": "01:20:09"
+          },
+          {
+            "claim_id": "f54a978e5a075b7ff5d78fa5",
+            "excerpt": "And what I'd be curious, like, I would be curious to know at a technical level what causes the unlock there.",
+            "source": "Dwarkesh Podcast",
+            "speaker": "unknown",
+            "timestamp_label": "00:41:30"
+          }
+        ],
+        "confidence": 0.945,
+        "confidence_explanation": "Based on 3 claims across 1 source(s).",
+        "contradictions": [
+          {
+            "claim_id": "8a99044194e937912ba2e108",
+            "claim_text": "And I'd be curious about your predictions of even if they're not as smart as your mathematicians, the fact that they are just, you know, billions of, because for PR reasons that the AI companies They're just dumping billions and billions of dollars at this,",
+            "explanation": "unknown (Dwarkesh Podcast) appears to contradict prior statement by unknown (The Peter Attia Drive).",
+            "prior_claim_id": "0a374af9fef4a5c4d8d782c0",
+            "prior_claim_text": "So we were using Dexa scans, but obviously you could even clinically just look at people and see that something wasn't right with this form of weight loss.",
+            "similarity": 0.6226
+          }
+        ],
+        "what_to_watch": "Watch whether leading voices reconcile or harden opposing positions.",
+        "suggested_action": "Compare primary sources on unresolved before updating AI assumptions.",
+        "supporting_sources": [
+          "Dwarkesh Podcast"
+        ],
+        "canonical_topic": "unresolved",
+        "original_title": "AI I'D",
+        "cluster_id": "62e6ad215315881097d4e664",
+        "quality_score": 0.0,
+        "accepted": false,
+        "rejection_reason": "Could not resolve a publishable title from evidence",
+        "failure_modes": [
+          "fm_low_information",
+          "fm_speech_fragment",
+          "fm_title_evidence_mismatch"
+        ],
+        "item_id": "a007d5473b217ea8831ad0b7"
+      },
+      {
+        "title": "UNRESOLVED",
+        "executive_summary": "multiple voices on All-In Podcast, Dwarkesh Podcast discussed: We will have you back on when we do our live election coverage, for sure, if you're available.",
+        "what_happened": "multiple voices on All-In Podcast, Dwarkesh Podcast discussed: We will have you back on when we do our live election coverage, for sure, if you're available.",
+        "why_it_matters": "Several monitored sources raised the same theme. Relevant to Investing monitoring.",
+        "evidence": [
+          {
+            "claim_id": "f38d3f21f25c7efd6f0165f9",
+            "excerpt": "We will have you back on when we do our live election coverage, for sure, if you're available.",
+            "source": "All-In Podcast",
+            "speaker": "unknown",
+            "timestamp_label": "00:59:18"
+          },
+          {
+            "claim_id": "a5c5a7c3eda68059c58c652f",
+            "excerpt": "And make sure that you're like sufficiently applying sufficient breadth to exploring that.",
+            "source": "Dwarkesh Podcast",
+            "speaker": "unknown",
+            "timestamp_label": "00:52:34"
+          }
+        ],
+        "confidence": 0.914,
+        "confidence_explanation": "Based on 2 claims across 2 source(s).",
+        "contradictions": [],
+        "what_to_watch": "Watch for policy, product, or funding follow-through.",
+        "suggested_action": "Add unresolved to this week's Investing review queue.",
+        "supporting_sources": [
+          "All-In Podcast",
+          "Dwarkesh Podcast"
+        ],
+        "canonical_topic": "unresolved",
+        "original_title": "AI",
+        "cluster_id": "1bbde0d1ed6baa005f601718",
+        "quality_score": 0.0,
+        "accepted": false,
+        "rejection_reason": "Could not resolve a publishable title from evidence",
+        "failure_modes": [
+          "fm_generic_topic",
+          "fm_low_information",
+          "fm_speech_fragment",
+          "fm_title_evidence_mismatch"
+        ],
+        "item_id": "b47d212eacad23340e305ed0"
+      },
+      {
+        "title": "Dark Matter Detection Debate",
+        "executive_summary": "Dark Matter Detection Debate: multiple voices on All-In Podcast, Lex Fridman Podcast discussed: Oh, you know, the problem is that way of looking for dark matter is hard, because there are other ways of making, for instance, gamma rays like neutron stars and stuff. Several monitored sources raised the same theme. Relevant to AI monitoring.",
+        "what_happened": "multiple voices on All-In Podcast, Lex Fridman Podcast discussed: Oh, you know, the problem is that way of looking for dark matter is hard, because there are other ways of making, for instance, gamma rays like neutron stars and stuff.",
+        "why_it_matters": "Several monitored sources raised the same theme. Relevant to AI monitoring.",
+        "evidence": [
+          {
+            "claim_id": "00ed2ec54799224caf3d0cbf",
+            "excerpt": "Oh, you know, the problem is that way of looking for dark matter is hard, because there are other ways of making, for instance, gamma rays like neutron stars and stuff.",
+            "source": "Lex Fridman Podcast",
+            "speaker": "unknown",
+            "timestamp_label": "02:44:20"
+          },
+          {
+            "claim_id": "d86a659e62eeddc678d7e62d",
+            "excerpt": "And now Z.a.i, they are saying that the GLM5 family was trained entirely on clusters of Huawei Ascend 910B chips.",
+            "source": "All-In Podcast",
+            "speaker": "unknown",
+            "timestamp_label": "00:58:31"
+          }
+        ],
+        "confidence": 0.949,
+        "confidence_explanation": "Based on 2 claims across 2 source(s).",
+        "contradictions": [],
+        "what_to_watch": "Watch for policy, product, or funding follow-through.",
+        "suggested_action": "Add dark_matter_detection_debate to this week's AI review queue.",
+        "supporting_sources": [
+          "All-In Podcast",
+          "Lex Fridman Podcast"
+        ],
+        "canonical_topic": "dark_matter_detection_debate",
+        "original_title": "However",
+        "cluster_id": "c435e7aa1502fe17bfcb98f7",
+        "quality_score": 0.899,
+        "accepted": true,
+        "rejection_reason": null,
+        "failure_modes": [
+          "fm_generic_topic",
+          "fm_low_information",
+          "fm_speech_fragment",
+          "fm_title_evidence_mismatch"
+        ],
+        "item_id": "021627bc0414b5d8d92a6416"
+      },
+      {
+        "title": "UNRESOLVED",
+        "executive_summary": "multiple voices on Dwarkesh Podcast discussed: There's like a hundred-year verification loop of why is this a productive concept in the first place.",
+        "what_happened": "multiple voices on Dwarkesh Podcast discussed: There's like a hundred-year verification loop of why is this a productive concept in the first place.",
+        "why_it_matters": "Several monitored sources raised the same theme. Relevant to AI monitoring.",
+        "evidence": [
+          {
+            "claim_id": "66df537336cb7e4e00574d30",
+            "excerpt": "There's like a hundred-year verification loop of why is this a productive concept in the first place.",
+            "source": "Dwarkesh Podcast",
+            "speaker": "unknown",
+            "timestamp_label": "00:13:24"
+          },
+          {
+            "claim_id": "57c56c98b1b01f1503e56b3a",
+            "excerpt": "And so, like, figuring out that there's, why do we think this is an interesting thing to study in the first place?",
+            "source": "Dwarkesh Podcast",
+            "speaker": "unknown",
+            "timestamp_label": "00:08:09"
+          },
+          {
+            "claim_id": "64e2246d7f8e775497afb1bb",
+            "excerpt": "There's some like intrinsically interesting thing.",
+            "source": "Dwarkesh Podcast",
+            "speaker": "unknown",
+            "timestamp_label": "00:18:18"
+          }
+        ],
+        "confidence": 0.853,
+        "confidence_explanation": "Based on 3 claims across 1 source(s).",
+        "contradictions": [],
+        "what_to_watch": "Watch for policy, product, or funding follow-through.",
+        "suggested_action": "Add unresolved to this week's AI review queue.",
+        "supporting_sources": [
+          "Dwarkesh Podcast"
+        ],
+        "canonical_topic": "unresolved",
+        "original_title": "There There'S",
+        "cluster_id": "e4bc21ca3a23075948144bfd",
+        "quality_score": 0.0,
+        "accepted": false,
+        "rejection_reason": "Could not resolve a publishable title from evidence",
+        "failure_modes": [
+          "fm_low_information",
+          "fm_speech_fragment",
+          "fm_title_evidence_mismatch"
+        ],
+        "item_id": "d5d54336c8be9f6b2f426ef4"
+      }
+    ],
+    "accepted_count": 2,
+    "rejected_count": 3,
+    "clusters_formed": 5,
+    "titles_resolved": 5,
+    "latency_ms": 1.13,
+    "enabled": true
+  }
+}

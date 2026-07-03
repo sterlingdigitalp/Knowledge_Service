@@ -1,0 +1,36 @@
+{
+  "sample_id": "ks-004-roman_empire",
+  "source": "knowledge_service_frontend",
+  "captured_at": "2026-07-02T11:35:46Z",
+  "title": "Roman Empire",
+  "summary": "1 independent source (multiple monitored voices) are converging on Roman Empire. The core signal: And we'll talk about because those ideals become even more concretized and explicit, I think, through the East Roman Empire, because one of the things you talk about Why it matters: Independent corroboration (9 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+  "evidence_excerpt": "1 independent source (multiple monitored voices) are converging on Roman Empire. The core signal: And we'll talk about because those ideals become even more concretized and explicit, I think, through the East Roman Empire, because one of the things you talk about Why it matters: Independent corrobor",
+  "quality_label": "good",
+  "failure_modes": [],
+  "metadata": {
+    "corroborated_by": 9,
+    "entry_id": "5782530e1e64c766af6845ff",
+    "evidence_summary": "Evidence: multiple speakers (Lex Fridman Podcast)",
+    "explainability": {
+      "claim_count": 4,
+      "confidence": 0.99,
+      "corroborated_by": 9,
+      "evidence_type": "timestamped_transcript_citations",
+      "historical_context": [],
+      "importance": "very_high",
+      "importance_score": 0.797,
+      "matched": "East Roman Empire Western",
+      "novelty": "new",
+      "novelty_score": 0.806
+    },
+    "importance_band": "very_high",
+    "intelligence_item_id": "832054cabdb769314154f7ea",
+    "profile_id": "ai",
+    "profile_name": "AI",
+    "star_rating": 4,
+    "title": "Roman Empire",
+    "what_changed": "1 independent source (multiple monitored voices) are converging on Roman Empire. The core signal: And we'll talk about because those ideals become even more concretized and explicit, I think, through the East Roman Empire, because one of the things you talk about Why it matters: Independent corroboration (9 sources) raises confidence this is a real shift, not noise. Why now: Novelty is new, suggesting this is not stale repetition. What to watch next: Watch for a third independent source to confirm consensus formation.",
+    "why_surfaced": "Matched: Roman Empire. Matched: western, empire, roman, talk, east, East Roman Empire, This, Constantine. Evolution: new \u2014 'East Roman Empire Western' is a newly emerging theme with 4 supporting claims.",
+    "why_you_care": "Importance very high (0.88): novelty=1.00, relevance=0.65, corroboration=0.75, credibility=0.96, freshness=1.00, evidence=1.00. Corroborated by 9 additional independent source(s)."
+  }
+}
